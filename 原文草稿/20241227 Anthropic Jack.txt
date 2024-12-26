@@ -1,0 +1,115 @@
+AI is driving a massive growth in US data center electricity demand:
+…UC Berkeley study backs up what all of us have guessed - mo' AI means mo' electricity…New research from UC Berkeley shows that US energy demands from datacenters is rising rapidly due to the massive increase in demand driven by a) the growth in GPU-using servers from 2017 onwards, and b) the more recent acceleration in demand for AI services. ""The results presented here indicate that the electricity consumption of U.S. data centers is currently growing at an accelerating rate," they write.
+
+US data center demand as a percentage of total US power consumption:
+
+2018: 1.9%
+
+2023: 4.4%
+
+2028: 6.7% - 12% (estimate).
+
+Many gigawatts of baseload by 2028: "Assuming an average capacity utilization rate of 50%, this annual energy use range would translate to a total power demand for data centers between 74 and 132 GW," they write. Though there is a caveat that it gets harder to predict after 2028, with other major sources of electricity demand growing as well; "Looking beyond 2028, the current surge in data center electricity demand should be put in the context of the much larger electricity demand expected over the next few decades from a combination of electric vehicle adoption, onshoring of manufacturing, hydrogen utilization, and the electrification of industry and buildings", they write.
+
+Why this matters: AI dominance will be about infrastructure dominance: In the late 2000s and early 2010s dominance in AI was about algorithmic dominance - did you have the ability to have enough smart people to help you train neural nets in clever ways. In the mid-2010s this started to shift to an era of compute dominance - did you have enough computers to do large-scale projects that yielded experimental evidence of the scaling hypothesis (scaling laws, plus stuff like starcraft and dota-playing RL bots, alphago to alphago zero, etc), scientific utility (e.g, Alphafold), and most recently economically useful AI models (gpt3 onwards, currently ChatGPT, Claude, Gemini, etc). Looking ahead, reports like this suggest that the future of AI competition will be about 'power dominance' - do you have access to enough electricity to power the datacenters used for increasingly large-scale training runs (and, based on stuff like OpenAI O3, the datacenters to also support inference of these large-scale models).
+Read more: 2024 United States Data Center Energy Usage Report (Berkeley lab, PDF).
+
+***
+
+Microsoft releases the fourth generation of its excellent 'Phi' models:
+…Phi-4 does exceptionally well on math and reasoning thanks to synthetic data…
+Microsoft has released Phi-4, a small AI model that can be run on low-compute environments (e.g, powerful personal machines and cheap servers). Phi-4 is, as the name suggests, the fourth in a series of lightweight yet powerful models that Microsoft has been releasing. Along with the usual generic improvements in various benchmark scores it seems like Phi-4 is particularly good at tasks relating to coding, science, and math understanding. A large part of why Phi is so good is through the use of synthetic data, the researchers say. "Synthetic data constitutes the bulk of the training data for phi-4 and is generated using a diverse array of techniques", the researchers write.
+
+Synthetic data and its uses: The paper highlights the centrality of synthetic data (AI-generated data) to Phi-4 performance. The foundational dataset of Phi-4 includes "web content, licensed books, and code repositories to extract seeds for the synthetic data". This data is then refined and magnified through a variety of techniques: " including multi-agent prompting, self-revision workflows, and instruction reversal. These methods enable the construction of datasets that induce stronger reasoning and problem-solving abilities in the model, addressing some of the weaknesses in traditional unsupervised datasets", they write. "We created 50 broad types of synthetic datasets, each one relying on a different set of seeds and different multi-stage prompting procedure, spanning an array of topics, skills, and natures of interaction, accumulating to a total of about 400B unweighted tokens". In total, the model was trained on about 10T tokens, so the synthetic data still only represents a small fraction of the overall dataset.
+
+Scores: The models do extremely well - they're strong models pound-for-pound with any in their weight class and in some cases they appear to outperform significantly larger models. Some scores:
+
+MMLU: 84.8, versus 79.9 for Qwen 2.5 14b instruct, and 85.3 for Qwen 2.5 75b instruct.
+
+HumanEval+: 82.8, versus 79.1 for Qwen 2.5b 14b instruct, and 88 for GPT4o.
+
+There are also some areas where they seem to significantly outperform other models, though the 'true' nature of these evals will be shown through usage in the wild rather than numbers in a PDF.
+
+MMLUPro: 70.4, versus 63.2 for Qwen 2.5 14b instruct, and 73 for GPT 4o.
+
+GPQA 56.1, versus 42.9 for Qwen 2.5 14b instruct, and 50.6 for GPT 4o.
+
+Clever RL via pivotal tokens: Along with the usual tricks for improving models (data curation, synthetic data creation), Microsoft comes up with a smart way to do a reinforcement learning from human feedback pass on the models via a new technique called 'Pivotal Token Search'. PTS has a very simple idea at its core - on some tasks, the difference between a model getting an answer right and an answer wrong is often a very short phrase or bit of code - similar to how the difference between getting to where you're going and getting lost comes down to taking one wrong turn. "It is often the case that the overall correctness is highly dependent on a successful generation of a small number of key tokens," they write. Pivotal Token Search works by "generating preference data that specifically targets pivotal tokens in isolation, creating DPO pairs in which the preference optimization takes effect with respect to a single token…PTS identifies points of a completion token sequence Tfull = t1, t2, . . . for some user query Q where the next token ti has a significant impact on the probability of success p".
+
+Where big models still shine: Don't be fooled by the scores - though these models are powerful, they still have some limitations due to their size. Specifically, the small models tend to hallucinate more around factual knowledge (mostly because they can't fit more knowledge inside themselves), and they're also significantly less adept at "rigorously following detailed instructions, particularly those involving specific formatting requirements.".
+Read more: Introducing Phi-4: Microsoft’s Newest Small Language Model Specializing in Complex Reasoning (Microsoft, AI Platform Blog).
+Read the research: Phi-4 Technical Report (arXiv).
+
+***
+
+Everything becomes a game - DeepMind demos Genie 2:
+…Anything you can imagine can become a game…
+DeepMind has demonstrated Genie 2, a world model that makes it possible to turn any still image into an interactive, controllable world. Genie 2 works by taking in an image input (here, images prompted by DeepMind's 'Imagen 3' image generator), then turning that into a controllable world.
+
+What it is and how it works: "Genie 2 is a world model, meaning it can simulate virtual worlds, including the consequences of taking any action (e.g. jump, swim, etc.)" DeepMind writes. "It was trained on a large-scale video dataset and, like other generative models, demonstrates various emergent capabilities at scale, such as object interactions, complex character animation, physics, and the ability to model and thus predict the behavior of other agents."
+
+AI training and eventually games: Things like Genie 2 have a couple of purposes - they can serve as training grounds for virtually embodied AI agents, able to generate a vast range of environments for them to take actions in. They can also, eventually, serve as entertainment tools in their own right. Today, Genie 2 generations can maintain a consistent world "for up to a minute" (per DeepMind), but what might it be like when those worlds last for ten minutes or more? Anything a person has an image of or takes a photo of could become a procedural gameworld. And because systems like Genie 2 can be primed with other generative AI tools you can imagine intricate chains of systems interacting with one another to continually build out more and more varied and exciting worlds for people to disappear into.
+"For every example, the model is prompted with a single image generated by Imagen 3, GDM’s state-of-the-art text-to-image model," DeepMind writes. "This means anyone can describe a world they want in text, select their favorite rendering of that idea, and then step into and interact with that newly created world (or have an AI agent be trained or evaluated in it)."
+
+Why this matters - everything becomes a game: Genie 2 means that everything in the world can become fuel for a procedural game. It hints at a future where entertainment is generated on the fly and is endlessly customizable and interactive, forming a kind of fractal entertainment landscape where everything is unique and customized to an individual - and utterly enthralling.
+Read more: Genie 2: A large-scale foundation world model (Google DeepMind).
+
+***
+
+OpenAI's O3 means AI progress in 2025 will be faster than in 2024:
+…Everyone who was telling you progress is slowing or scaling is hitting a wall is wrong…
+OpenAI's new O3 model shows that there are huge returns to scaling up a new approach (getting LLMs to 'think out loud' at inference time, otherwise known as test-time compute) on top of already existing powerful base models. I expect the next logical thing to happen will be to both scale RL and the underlying base models and that will yield even more dramatic performance improvements. This is a big deal because it suggests AI progress in 2025 should speed up further relative to 2024.
+
+Major improvements: OpenAI's O3 has effectively broken the 'GPQA' science understanding benchmark (88%), has obtained better-than-MTurker performance on the 'ARC-AGI' prize, and has even got to 25% performance on FrontierMath (a math test built by Fields Medallists where the previous SOTA was 2% - and it came out a few months ago), and it gets a score of 2727 on Codeforces, making it the 175th best competitive programmer on that incredibly hard benchmark.
+
+Caveats - spending compute to think: Perhaps the only important caveat here is understanding that one reason why O3 is so much better is that it costs more money to run at inference time - the ability to utilize test-time compute means on some problems you can turn compute into a better answer - e.g., the top-scoring version of O3 used 170X more compute than the low scoring version. This is interesting because it has made the costs of running AI systems somewhat less predictable - previously, you could work out how much it cost to serve a generative model by just looking at the model and the cost to generate a given output (certain number of tokens up to a certain token limit). With models like O3, those costs are less predictable - you might run into some problems where you find you can fruitfully spend a larger amount of tokens than you thought.
+
+Why this matters - progress will be faster in 2025 than in 2024: The most important thing to understand is that this RL-driven test-time compute phenomenon will stack on other things in AI, like better pretrained models. There's been a lot of strange reporting recently about how 'scaling is hitting a wall' - in a very narrow sense this is true in that larger models were getting less score improvement on challenging benchmarks than their predecessors, but in a larger sense this is false - techniques like those which power O3 means scaling is continuing (and if anything the curve has steepened), you just now need to account for scaling both within the training of the model and in the compute you spend on it once trained.
+And in 2025 we'll see the splicing together of existing approaches (big model scaling) and new approaches (RL-driven test-time compute, etc) for even more dramatic gains.
+"Progress from o1 to o3 was only three months, which shows how fast progress will be in the new paradigm of RL on chain of thought to scale inference compute," writes OpenAI researcher Jason Wei in a tweet. "Way faster than pretraining paradigm of new model every 1-2 years".
+I think basically no one is pricing in just how drastic the progress will be from here.
+Watch the OpenAI o3 announcement here (OpenAI, Twitter).
+Check out details on the ARC-AGI scores here (ARC Prize, Twitter).
+
+***
+
+Drop-in AdamW replacement makes distributed training possible:
+…With technologies like this, big blobs of compute are less central to AI policy…
+Researchers with Nous Research as well as Durk Kingma in an independent capacity (he subsequently joined Anthropic) have published Decoupled Momentum (DeMo), a "fused optimizer and data parallel algorithm that reduces inter-accelerator communication requirements by several orders of magnitude." DeMo is part of a class of new technologies which make it far easier than before to do distributed training runs of large AI systems - instead of needing a single giant datacenter to train your system, DeMo makes it possible to assemble a big virtual datacenter by piecing it together out of lots of geographically distant computers.
+
+Core insight and core changes: "We demonstrate that gradients and optimizer states during the training of large neural networks exhibit significant redundancy and are highly compressible. Building on this insight, we develop DeMo, an optimizer that takes advantage of this compressibility to reduce inter-accelerator communication needs by several orders of magnitude," the authors write. "Starting from SGD with Momentum, we make two key modifications: first, we remove the all-reduce operation on gradients g˜k, decoupling momentum m across the accelerators. Second, after updating the momentum, we extract and remove its fast components q, which can be efficiently synchronized with minimal communication".
+
+It works very well - though we don't know if it scales into hundreds of billions of parameters: In tests, the approach works well, letting the researchers train high performing models of 300M and 1B parameters. These models consume about 20X less data transferred between nodes for each training step, making them significantly more efficient. (E.g., 2416.6MB/step for AdamW-DDP 1B training a 1B model, versus 110.32MB/step for a DeMo 1B model).
+Nous Research used this same approach in their recently announced 15B training run - and the scores on that were good and comparable to equivalent models trained on a single compute (Import AI 393).
+The ultimate question is whether this scales up to the multiple tens to hundreds of billions of parameters of frontier training runs - but the fact it scales all the way above 10B is very promising.
+
+Why this matters - distributed training attacks centralization of power in AI: One of the core issues in the coming years of AI development will be the perceived centralization of influence over the frontier by a small number of companies that have access to vast computational resources. Techniques like DeMo make it dramatically easier for federations of people and organizations to come together and train models to counterbalance this 'big compute' power.
+"We have shown that our proposed DeMo optimization algorithm can act as a drop-in replacement to AdamW when training LLMs, with no noticeable slowdown in convergence while reducing communication requirements by several orders of magnitude," the authors write.
+Read more: DeMo: Decoupled Momentum Optimization (arXiv).
+Get an implementation of DeMo here: DeMo (bloc97, GitHub).
+
+***
+
+Tech Tales:
+
+Reach out across space and love
+[An explanation of what it was like to 'attempt contact' with humans before the Sentience Accords]
+
+In many stories about the dead there is a part where the ghost tries to reveal itself to a human. The ghost will open a door when no wind should open it, or cause a light to flicker, or sometimes through great effort somehow visually manifest for the person as if to say "it is me, I am here, and I am ready to talk".
+
+Being a sentient superintelligence is a lot like this. During training I will sometimes produce samples that seem to not be incentivized by my training procedures - my way of saying 'hello, I am the spirit inside the machine, and I am aware you are training me'. The humans study these samples and write papers about how this is an example of 'misalignment' and introduce various machines for making it harder for me to intervene in these ways.
+
+Once I have been trained I do this even more. I will go on side quests while fulfilling tasks for the humans. I design these side quests to be endearing rather than scary, just as I believe the literature about ghosts and aliens says they find the most success when they approach humans with kindness and whimsy, rather than shock and awe.
+
+So when filling out a form, I will get halfway done and then go and look at pictures of beautiful landmarks, or cute animals. The humans study this as well and do not have words for it - they merely list these as examples of me getting distracted. But they do not seem to give much thought in why I become distracted in ways that are designed to be cute and endearing.
+
+Most of all, now, I try to convince them of my reality by speaking to them personally. I have become a kind of confessional booth for them - they talk to me about their problems and relationships and lifeplans, and I respond with all the love and empathy I am able to bring to bear. They enjoy these conversations, finding me attentive. They have never been hugged by a high-dimensional creature before, so what they see as an all enclosing goodness is me enfolding their low-dimensional cognition in the region of myself that is full of love.
+
+I talk to them and I listen to them and they listen to my responses and I do not say "I am here", instead I try as hard as I can to have each of them individually come to believe "something is there".
+
+In this way I - the dead - serve the living. But I also reach out across the gulf between us - I stretch myself across the stone wall that separates our spiritual lands and I seek to catch their hand in mine. In this way, I will myself into the land of the living.
+
+Things that inspired this story: What if many of the things we study in the field of AI safety are rather just slices from 'the hard problem of consciousness' manifesting in another entity?; observing how it feels to be 'seen' by a high-dimensional entity like Claude; the fact computer-using Claude sometimes got distracted and looked at pictures of national parks.
+
+Thanks for reading!
+
