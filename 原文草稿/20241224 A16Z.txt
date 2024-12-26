@@ -1,0 +1,426 @@
+
+When Shopify was founded in 2006, it was just a year prior to the launch of the iPhone.
+Needless to say, smartphones were a far cry from the ubiquitous accessory that now billions carry around.
+And fast forward to today, nearly 20 years later, where Shopify merchants can accept cryptocurrency, create immersive shopping experiences with augmented reality, and even use AI to generate product descriptions.
+So how does a nearly $100 billion company stay ahead of these trends?
+And what will shopping look like in the generations to come?
+Plus, why would A16Z never have invested in Shopify in its early day?
+And why has the CEO of this company chosen to continue writing code?
+These are just some of the questions covered in today's episode, a conversation with Shopify co-founder and CEO Tobias Luecke and A16Z co-founder Ben Horowitz.
+This episode was also originally published on our sister podcast, Web3 with A16Z.
+So if you are excited about the next generation of the internet, find Web3 with A16Z wherever you get your podcasts.
+All right, let's get started.
+Welcome to Web3 with A16Z, a show about building the next generation of the internet from the team at A16Z Crypto.
+Today's episode features Tobias Luecke, CEO and co-founder of the e-commerce platform Shopify, speaking with A16Z co-founder Ben Horowitz at our second annual Founders Summit in November.
+They discuss what it takes to build a breakout startup in a crowded category, the changing face of retail, how to affect change in the workplace, and how to handle individual emotions and corporate culture, including dealing with calls for activism, as well as the value of embracing negativity.
+They also touch on the moral imperative behind creating quality software, the symbiosis between AI and crypto, and more.
+As a reminder, none of the following should be taken as business, legal, tax, or investment advice.
+Please see A16Z.com slash disclosures for more important information, including a link to a list of our investments.
+Alright, so for those of you who don't know Toby, which you probably should know Toby, you can look him up as well, but he started a snowboarding company in 2004 called Snowdevil, and he parlayed that into Shopify, which now serves millions of merchants in 175 countries around the world.
+How many countries are there, like in total?
+I think that's most of them.
+There's 200.
+200, yeah.
+200 changes.
+Around the margins.
+You'll get them all at some point.
+And then he was also interesting for this crowd.
+He was one of the first adopters of Coinbase Commerce.
+So Toby's been kind of big on crypto for a while now.
+But let's get started.
+So you started as a snowboarding company, and I always find that funny because of all the CEOs that I know, you're probably the least snowboard kickback, like let's hit the powder dude.
+So how did that happen?
+Why did you start out that way?
+You know, when you talk to governments, they're always, you know, Shopify's doing a lot about entrepreneurship, which I was, you know, I love entrepreneurship, and it's such a brilliant institution.
+Everyone here is a card-carrying member of Entrepreneurship is Good Club.
+But politicians usually, they're sort of vague on it, but they say, like, they want to pass government programs and policies to cause more entrepreneurship, which I always think is exactly the wrong way around.
+But there's actually, so the funny story is that, so I was in Canada at this point, I came from Germany, living in Canada, 2004, 3, 4, and I found out I cannot actually get a job.
+I was trying to be hired as a computer programmer locally, but I found out I did not have a work permit.
+I didn't know what a work permit was.
+So it turns out that you are in Canada allowed to start a company even without a work permit.
+So there's one government program that actually has led to more companies being created.
+Well, that's like the best government program ever, just like the payoff on Shopify paid for itself a million times.
+And it turns out Canada is very cold, so I was doing snowboarding, so I knew something about it, and I started an online store for snowboarding, so it's kind of a pretty simple story like this.
+That's amazing.
+So basically, the key to your whole career was not being able to work.
+Yes.
+In fact, you know, what was in my mind too is like, I was sort of disillusioned with programming at this time.
+It was like sort of the Java world was kind of very oppressive, and I wanted to reclaim it as a hobby.
+So I was like, cool, if I sell snowboards online, I can make money while snowboarding, and I get to do more fun stuff.
+And it's been extremely unsuccessful as a strategy.
+I basically never had time to snowboard again after I started.
+The end of your snowboarding career was the start of your snowboarding business.
+That's pretty remarkable.
+I would project more back at this point if things would have gone in a counterfactual way.
+Yeah.
+Now, the other thing that really strikes me about Shopify is that, you know, and I hate to say this as a venture capitalist who some people think is a smart person, but we probably would have never invested in Shopify when you started it because it was probably the most over-competed category in the world.
+Everybody had some kind of e-commerce platform.
+I mean, there was just so, so many of them, Magento, this hat, the other.
+So did you go, oh, no, no, no, like I'm going to build this thing.
+It's going to dominate everything, then I'm going to have a network effect, and I'm going to build, you know, like one of the biggest things that anybody's ever seen.
+How did you get all the way to where you are?
+What was that path?
+Yeah.
+No, there's no plan like this.
+Just like, I think for every entrepreneur, it's a useful thing to think about what is your energy source, right, like what is actually driving you.
+Sometimes it's greed, envy, you know, like the negative emotions channeled into building are actually the most powerful energy sources.
+I had this, you're right, like, I mean, Netscape, IPO, but like you have to explain every platform in terms of an old platform, and, you know, online hosted CS catalog with five buttons was like kind of the way you and Mark described even what the internet would be useful, right.
+So e-commerce was like right there from the beginning.
+I thought there would be lots of software that I could use, and I didn't find anything.
+I was actually really upset with the quality of the software, and so like I channeled that into building something, and that was my energy source, and I just loved the building.
+That's actually, by the way, one of the best entrepreneurial ideas there is, which is this stuff sucks so bad, I'm so mad about having to use it that I'm going to build my own.
+Totally.
+Honestly, it fuels me to do it to this day.
+I still think it's ridiculous what people are subjected to in terms of quality of software.
+It's like, oh, it's weird.
+I probably did some neurological rearrangement there, but to me, this is almost a moral issue.
+When people are confused with software, and they think about themselves as being inadequate, it's like, how dare software make humans feel that way, right?
+Like it's just not okay.
+So you want to make it more approachable, but I think the thing that people might have missed in e-commerce, or it's not that I had a great insight, I just sort of organically got there, is that yes, there was a lot of e-commerce software, but it was all built for already rich retailers who needed to move online, and that was the phrase people used.
+And there was no one started software for starting the entrepreneurial process online.
+Like actually, the digital native, what we call it now, if you like that term, because there's a totally different set of requirements for people who are just starting out, and so that's what we did.
+So this is the thing, right?
+It's like when you talk, that's like, I don't know, 60 words per minute or something, and you type fast, it's like twice that.
+But if you can do customer consultation in your own brain, the brain runs at like terabytes per second bandwidth, right?
+So if you know the use case, if you're building for yourself, or your past experience, or some kind of, if you have a really good model of your customers, or use cases in your mind, you can do customer development at high bandwidth with low latency, and you can just build something that you know needs to exist.
+Yeah.
+Yeah, no, that's incredible.
+So one of the things, you know, you're also kind of been a special kind of, or a different kind of CEO than some of the ones that people read about such as Adele or Bob Iger, in that you have a reputation for being extremely hands-on, including writing code.
+You still have the fury that started the company.
+How do you think about that in terms of, you know, you're not kind of paying attention to all parts of the company equally, you're clearly doing certain things and not others.
+How do you think about that as an effective kind of management style?
+Yeah.
+I mean, I imagine the people in my company would disagree with your assessment about that as an effective management style.
+So well, it's worked pretty well, it's working, but that's like, it certainly doesn't proxy to what people sort of, like it's not a CEO job out of central casting that I'm trying to perform, right?
+Yeah.
+I tried that on and it didn't work for me at all.
+I actually find, I value being in all the details and I ask it from all the people around me and report to me, like almost everyone, especially after COVID, I turned over everyone but one of my executives during those first 10 months of COVID.
+And now almost everyone reports to me, it's actually a ex-founder, maybe someone we acquired or someone who started a company before coming to Shopify.
+Because there's like this, I just want, I find it actually really inefficient not understanding the details of what we're doing, right?
+Because then.
+Well, then you're guessing.
+Then you're guessing, right?
+And you're like, well, when something goes wrong, now you not only need to fix it, you actually have to first cram for, you have to learn like three months before you can actually do a fix.
+If you understand what's going on or what ought to be existing, it's much faster.
+And you want to train people on the company mission, right?
+Because there's a thing that you want to exist, like even if you don't know exactly what it is, you know which direction you want people to go, right?
+And getting everyone aligned to go in this direction is only possible if you can paint a picture of how does this area actually sum together our way to helping the mission overall.
+And so, and this is sort of a unique thing about our times right now, it's like the infrastructure keeps changing.
+Like here's crypto, here's AI, here's, I mean, I started again almost like next year, 20 years ago, right?
+So there was no mobile phone of the quality that we have now.
+Right, that's right.
+You started before the mobile phone, right?
+So it's like, that was one of the things that just sort of happened.
+And you know, SaaS software was new at this time.
+And so, you know, the platform's capabilities change, and you want to adopt them, like your mission to what is now possible.
+And so you have to be able to understand, well, ideally in your head, in the world where, I take a very long-term view, and my biggest fear that I have is that Shopify winds up being a fantastic solution to a problem that people no longer have, or no longer solve this way.
+So we're trying to like need to keep it current and being able to run the counterfactual about this is not possible, this is what we're trying to accomplish.
+But if this would have been possible from the beginning, we would have built this entirely different thing.
+So now our job is to get from here to there, because again, we want to keep it current and ideal.
+Right, you know, that's such a great insight, because I think that, you know, when I work with CEOs, and you think about the job, so much of the job is making high-quality decisions and setting the direction of the company.
+And in some respects, neither feels like work, you know, because you're working on something else, like how does AI work, what's possible in order to make decisions and set the direction.
+But what you're doing seems actually removed from anything that the company needs to do right now.
+And I think so many people kind of neglect that kind of thing for that reason.
+The other thing that I always find is, at any given point in time, some things in the company are very important and very high leverage, and some things are just not important for you to put your time into.
+And people often get lost in that, and they, you know, they think, oh, I've got to talk to this person, and then that person, and then the other person, and so forth.
+And it's like, no, no, you don't.
+You got to make good decisions, you have to set the direction, and if you don't do that, nobody's doing that, and then the company is going to fail.
+So that's such an amazing way that you've gone about that.
+If you're in a small team, like for a new thing that your company needs to do, and you're in a small team of people who are like, figure out the shape of it early, if it's actually as important, it will itself have a gravity to change the way a company thinks about quality of software shipping, the way the architect thinks.
+And it's also, after this comes up as a new thing, you then have ability to, like, a type of legitimacy.
+As a founder, you have a huge amount of legitimacy in a company already, but like, if you also are there with a new project that's important, that needs to be resourced, and say, this is what we'll do, you don't have to have all these conversations.
+People love clarity of, like, this is what we do.
+It has a gravity all to itself that's unlike anything you can accomplish by one-on-one consultation, trying to talk everyone through the entire decision matrix.
+And so, it's like, what is Toby doing over there?
+That must be important.
+Yeah, that's exactly right.
+We're doing, like, Entropify Cyclic now, and then I don't have to figure out, like, yes, there's like 15 teams that are already doing AI stuff, and they ought to be in some kind of constellation.
+But now, this AI assistant thing is going to run through, and the company, everyone wants to be a part of it, and there's just, like, all these problems kind of disappear.
+It's like, it's maybe not the most effective.
+It's like a magic trick.
+Yeah, yeah, yeah.
+Yeah.
+Actually, I think, and by the way, like, everyone in this, like, everyone here has clearly read your books, and if you haven't, then do that.
+Like I think.
+Thank you.
+The best books on leadership, honestly, like, thank you so much for sharing all this.
+I think, and it's something that you described, but there's only very few things, ways to do change management.
+One way of doing it is to do something super, super, super surprising, and then explain everyone why you did it.
+It's the fastest way to get a large company, and we shop first up to about 10,000 people.
+Yeah.
+Much, much, much faster way to do change management than hand-to-hand combat.
+It's like shock therapy.
+It's like, what the, what's that?
+Oh, well, this was it, that was, oh, okay, got it.
+Very, very, very high retention on that.
+So let's talk about, you know, one of the things that has come up, you know, a lot over the years that you had probably, you know, maybe the best statement on, I thought, is politics, you know, politics, activism, how that's kind of come into companies has taken over a lot of the activity of companies, and how do you, I guess, how do you think about that?
+And then why'd you say what you said, and then how's that going, and then how are you able to sustain it, particularly as things get even hotter now with, you know, what's going on in the Middle East and so forth?
+You know, it's gotten even more intense than it was, you know, amazingly in 2020.
+That's a, like, it's a complex topic.
+I can, here's the, I mean, there's a lot of conflicting ideas about what people want companies to be.
+And, you know, I think, especially 2010, and maybe now again, a lot of people would like companies to play the role of some kind of phantom limb of what, I think, the whole left over by the stories that people are surrounded with, like, maybe with governments or, like, and so on.
+Suddenly people want, like, I have gotten tons and tons of petitions for Shopify to take stances on issues, and I think everyone's feeling the same thing.
+This was weird to me, but, like, initially, but, like, I found myself generally agreeing with what people identify as the problems, then this happens.
+But I found myself very rarely, if ever, really agreeing with the proposed solutions to those problems.
+And I think it's kind of important to say, like, hey, unless we are all aligned on this, we're probably not doing this.
+Because, you know, at the end of the day, like, companies ought to be thought of as a bit of a simpler thing.
+It's, you know, we love entrepreneurship.
+It's, you know, liberal values kind of institution of, you know, like, reaching for independence, reaching for, like, to better yourself, like, building something, like, enlightened ideas of enlightened self-interest.
+There is a bit of a political coding in this.
+People at least think so.
+And someone else might take a totally different opinion about all these kind of things, so that's cool.
+But the whole thing is companies themselves, explorations into a set of ideas, sometimes encoded in a mission, sometimes by their founders.
+And if we make every company the same, then we lose that.
+That's actually, like, a weird form of diversity itself, if you think about it.
+So anyway, I went ahead and just, like, said, like, look, we cause more entrepreneurship to exist.
+And sometimes there are social causes that are aligned with this, and then maybe we become active because of our mission.
+But outside of that, you know, everyone makes money and you can do whatever you want in your after hours.
+And that's just a simpler way of thinking about the business.
+Of course, that's not universally loved, but, like, after being very, very clear about it and explaining it, explaining, you know, we give everyone, when we hire people, a letter of, like, here are the reasons, like, before you sign, here's the reason why you might not want to work for Shopify, because, like, here's a set of ideas you disagree with.
+And again, that clarity is wonderful.
+We keep everything so nebulous.
+I think the world of marketing and PR has just done a number on us all to be so non-committal to everything.
+Yeah.
+And the problem is, if you're non-committal, you leave a lot of vacuum.
+And that vacuum is going to be filled by someone.
+And it's usually the people who, like, want to fill it with bad faith takes, who fill it.
+If you have a clear idea about it, it works.
+Sometimes, like, this is something I might get into hot water with, but, like, sometimes it's actually good to heighten the misalignment with the kind of people that you don't think should be working in a company.
+Like, hey, we work hard, and it's kind of, you know, we have poor work-life balance.
+Yeah, yeah.
+Sorry.
+That's a good thing.
+You are free to work elsewhere.
+If it's true, put it up, like, light it up on a sign.
+Because otherwise, you're going to end up with the weirdest divisiveness in a company because of, basically, false advertising.
+So I think it's better to just be clear.
+So I mean, what is it like?
+There's a lot that goes into this.
+Like, again, culture is unstable.
+We know from the internet that every community that anyone likes, Reddit, like, Hacker News, if anyone actually likes this page, you know, like, it's a product of unbelievably dedicated moderators who are keeping this discourse well.
+I think that's an idea that I think companies have started adopting, too.
+Like, once you're a couple of thousand people, your Slack channel is the internet, basically, and you need to apply similar rules.
+You need to be able to take people to a site and saying, hey, here's the thing you're causing.
+When you're sending a message to a channel with 3,000 people in it, that is basically the same as you spending a day typing individual text messages to every person in the channel.
+And would you do that?
+If no, probably don't put in, you know, this kind of stuff.
+Yeah.
+Yeah.
+That's really, yeah.
+Such a great insight that you had that.
+If you're like me, you're probably always looking for ways to improve your morning routine, whether that's waking up early, which is certainly a battle, eating a good breakfast, or listening to a quick and informative podcast, just like the Morning Brew Daily.
+Every weekday on the Morning Brew Daily, Neil Freiman and Toby Howell break down the biggest news in business, the economy, and just about everything else, all in 30 minutes or less.
+So, why not add it to your routine and listening queue?
+Follow Morning Brew Daily on Apple Podcasts, Spotify, or wherever you get your podcasts.
+Hey, I actually kind of agree with the intentions that people have on most of this, just not with the ideas on how to achieve those intentions, because that's where politics gets really dangerous in a company.
+And I have a funny story about this.
+So, my great uncle Harold, my grandmother, didn't speak for 20 years, brother and sister.
+And I asked my father, you know, a few years ago, I said, like, what happened there?
+Why didn't they speak?
+And he was like, oh, well, because your great uncle Harold was a Trotskyist.
+And I was like, well, what was grandma?
+She was a Stalinist.
+They're two slightly different kinds of communists.
+And they didn't speak for 20 years.
+And that's kind of what happens inside a company.
+You know, it's not like you're a good person, you're a bad person, this is a moral issue.
+It's like, well, yeah, we all want way fewer people to get killed in this current conflict.
+But how you achieve that, that gets very complicated very fast.
+And so, if you let people attack each other, shut down conversations, intimidate each other inside your company around that, you know, it's just all bad.
+Yeah, but fighting gets the fiercest when the stakes are the lowest.
+Yeah.
+You know, like when people almost agree, then they become mortal enemies.
+Right.
+It's a very funny effect.
+I mean, you can… Right, in a way, the closer they are, the… The closer they are, the more… Yeah, yeah, exactly.
+It's not the way you would think.
+I think at the end of the day, basically, what you have to avoid is divisiveness.
+See, we have a no-asshole rule in a company, like most companies, I think, or many companies choose.
+I think it's actually a valid opinion to choose the opposite and, like, say, we are perfectly fine with brilliant jerks.
+That's actually a stable equilibrium you can choose as well, but like, you have to be all in on that.
+I think it's actually useful to reframe, like, active divisiveness as, like, othering a part of the same company as an actor of an asshole.
+And I think that just, that actually kind of transcends a lot of these conversations because it gets away from the issue.
+It's never about the issue, it's actually about the behavior by people around the issue that is a problem in a company, right?
+So just say, if you manage to make it a norm to say, this is just simply not what happens on company-funded internet services, everything gets simpler.
+Take that outside, outside the virtual building as well.
+Maybe one last point.
+One book that really, really had me figuring it out was Thomas Sowell's Conflict of Visions, which is an underappreciated book, I think.
+It's phenomenal.
+Very, very good.
+And when you read the first three chapters, suddenly you realize why everyone's actually kind of right, except it comes from a different sort of philosophical prior.
+Yeah, yeah, no question.
+Actually, so let's, you know, you were into crypto very, very early on.
+And why?
+And then, you know, how do you think, you know, given kind of how things have unfolded, how the technology's developed, how the kind of regulatory uncertainty has played, like how are you thinking about it now, kind of in the context of Shopify in the world?
+Yeah, a couple of angles to that.
+First of all, I make a habit, like so growing up in a very small town in Germany, not being, like I didn't know anyone was into computers the way I was, like until late in my teens when I moved away, basically.
+I think I built some skills around like outside observation, just sort of monitor, like I tried to figure out everything that's going on in, you know, Silicon Valley, then I figured out what that was, but like I downloaded like the Linux kernel source code and mailing lists back and forth, they used net, like so I could study it all.
+So I'm like, it's weird because I'm clearly an insider now, but like I've sort of lived and built skills around outside observation.
+So I make it a habit to like find the areas where there's the most passion and most, yeah, highest stakes and the most talent and where people are just having a brainstorm about what the future's like.
+I find that, this is to me like watching television, like it's so great, like so crypto is such a wellspring of brilliant insight into, like just like, you know, amazing technologies and so on.
+And because of that, I studied, I find like consumer internet, like mobile apps in China around 2010, 2015, so times like there's these pockets.
+So that was sort of my angle.
+I did make a Ruby implementation in 2012 of a blockchain paper, of Satoshi's paper.
+So like it's been on my mind and just because I also love decentralization of, I mean, just like giving people power, but on vendorships, Shopify, it's just like give people.
+It's actually the true power to the people is decentralization.
+Exactly.
+The false one is communism, by the way.
+So there's hundreds of different ways that draw me into this, which are my personal ones.
+What I was hoping for is like something more practical because my favorite thing is if people that I, things that I find super interesting end up like coming sort of in the vicinity of commerce, at which point I get to play with, like I can do it from workday rather than in the evening.
+So, you know, I love from a technology perspective, I love it from a sort of philosophical perspective.
+You know, obviously at some point people like want to use it for clearing, like buying products and so on.
+We've supported this in any way we could for as long as we could have.
+The demand has been low for using it for physical products because, you know, there's a common person's perspective.
+There's some advantage of credit cards.
+But like it is crazy to me that at this point the internet just doesn't have native currency.
+We will get there.
+I think people in this room hopefully will play a leading role in this.
+I, you know, again, from a personal philosophical perspective, I was on the internet in the 90s and of course used Netscape and it came along with Mosaic actually before that.
+It's just this incredible experience of like in the future, like everyone will be able to contribute and this is going to distribute power in a way that is like unanticipated and not understood.
+Shopify itself is a little bit like stuck in this sort of 90s view of the internet.
+Like I know it's hosted software so it doesn't conform directly to everyone has their own server.
+But like you have your own website.
+It's like something you can own.
+Like you can own a domain, you can own, you know, the design of your system.
+You can retrain the pets.
+That's important.
+And then I think this is like people have like my one criticism to the previous sort of wave of crypto has been that this idea of decentralization is too technical.
+It's like I know people in the community care, but like no one else cares about that definition.
+Like what we need to figure out, like crypto needs friends and the best angle to find friends is to find the fellow travelers who are trying to move power to individuals again so that people can just like are not relying on like a central marketplace, for instance.
+So somewhere which just has its own gatekeeper rules or where the fees move to exactly what your margin is and eradicate your ability to actually have a sustainable business.
+And so that's really, really attractive to it.
+Yeah.
+So you it almost needs a campaign like kick the ass of the tech overlords like we're going to give the power.
+We're going to give the technology back to the people.
+We're going to take it from.
+Well, yeah.
+Intel and Meta and Amazon and et cetera.
+Yeah.
+Yeah.
+I think what started with everyone start your own web server, everyone write your own HTML, is actually alive and well if you just change the framing away from the exact technical implementation.
+Right.
+And so that's a better, I think, larger group.
+You can build a movement around that.
+You can't build a movement around it must be using the yagmi.js.
+It's like that's not how you start a movement.
+Excellent point.
+One last question and then we'll go to audience questions.
+So you've been doing a lot of kind of experimentation now with AI.
+And then interestingly, you know, kind of as with crypto, there's this huge push to regulate AI.
+What do you think that means for kind of the industry and the world?
+And is it a good idea, a bad idea?
+I think regulating AI at this point is a bad idea.
+I think regulation on crypto might not be quite so, like, I think a regulatory clarity is what you should want.
+Right.
+I don't think you can get that by having no regulation because it's just a regulated field.
+But it should be extremely permissive and for experimentation.
+I think we found out some of the things that the financial system had are things that are deeply desirable in crypto as well.
+One way or another.
+I'm sure everyone can take a different position on this, but that's there.
+In an AI case, man, you can regulate institutions or ground rules for markets.
+But regulating technology, that seems like a crazy position to take.
+Floating points are like illegal after you do too many of them.
+It is so weird.
+You know, I had a conversation with a policymaker and I was like, so if this was nuclear, you want to regulate nukes, you'd regulate physics?
+That's your idea?
+Like physics is now illegal.
+Yeah.
+Throw away those textbooks immediately, please.
+So again, I think maybe even some of the things that people have identified as potential problems in the future, I guess we could agree with.
+But again, the proposed solutions to this are crazy.
+Because we get into these insane places where like, cool, maybe analog computing is actually better for training neural nets.
+So that is not floating point operations anymore.
+We're doing that now because of regulations instead of because of pragmatism or, you know, it just, I don't know.
+It just seems too early.
+And I think that it's a very, very bad idea right now for any governments to set ceilings and rules that are especially onerous for startups.
+Because I think all you're going to get out of that is just, you're going to get the place where it's going to be all behind for pay APIs that are going to be all controlled by the few.
+I mean, that's strictly better than it doesn't exist, granted.
+But like, clearly we need open source.
+Look at everything that happened just now after, you know, AI became available first and then thanks to Meta and releasing amazing Lama models, we know so much more about what neurons do.
+We know so much more about how to accelerate this.
+You need to rescue these things sometimes from the ivory towers and you have to give them to the tinkerers and the people who remember how to memory align things and what, you know, how to get the most out of a hardware.
+Like that's a different crowd than the people who are writing Python neural topologies.
+And it's, we need everyone on this.
+And then we're going to get the best outcome because it is foundational for our future.
+So we need to figure out how to make crypto closer aligned with AI because it's a natural way for how to pay for micropayments and tokens and so on.
+And this is really, really important now.
+Well, and solve so many, I mean, it's interesting.
+Crypto solves so many AI problems and AI solves so many crypto problems.
+These should be symbiotic and just the sign ways of excitement of these two areas just happen to be dissonant right now and we need to make them harmonious.
+Partly because of the bad big companies.
+Sorry.
+Well, that's great.
+So we are ready to take questions.
+Any questions you may have?
+Yes, sir.
+Back there.
+If crypto plays out in exactly the same way, what does it look like?
+It's like, I think very naturally the browser will just like be able to move value around and you will want your value in a way that can be addressed by the browser.
+You can get pretty close to that, but you would have to squint and you have to deal with like poor UX and you have to deal with hard on ramps.
+I don't think anything kind of magical happens other than that people will need more utilitarian ability to like use money.
+Again, I think if you run the counterfactual and say open AI just for whatever reason couldn't work for Stripe and just decided to use some level two blockchain and to pay for tokens as an initial MVP, people would now move incredible amounts of money around and build startups that might have these kind of ideas that Sam talked about on stage about people sharing value of creating GPTs and like all of the blockchain.
+If you look at the open AI dev days, especially the last 20 minutes, and you open at the same time VS code to an Ethereum contract, you can basically write it out while he's talking.
+It's like, so we have this incredible infrastructure, but we can't use it partly because of fees, partly because of speed, because like you got to solve the infrastructure problems, which I know we are doing.
+Like this is people are building through this particular winter in a way that is like seems utterly ideal from my perspective.
+So that's great.
+We need to bring killer use cases, we need to have people want to use this.
+Unfortunately there is like the progress on these kind of things, especially once you need culture and social things is annoyingly not linear.
+And that's really trips everyone up.
+It's like, it's nothing, nothing, nothing, nothing, everything.
+And we have to get, we have to like toil in obscurity to build up the infrastructure until it can support the kind of way that people want to use it.
+And then we need to catch lightning in a bottle.
+Yes.
+Thanks, Debbie.
+I had a question.
+So Shopify works with a lot of merchants and brands that might not be as tech savvy or might not understand everything that's going on in like AI or crypto.
+How does Shopify think about messaging to those merchants and saying, hey, this is the future, these are the things that you should be using?
+Yeah, I think people actually hire us for having them be ideal for whatever the internet is and for however they buy us.
+They want to continue buying.
+Like again, we start before mobile phones and so like just making sure that everyone's store is available to some mobile phones back in those days, responsive, whatever.
+It helped tremendously because their colleagues who didn't have that like just like started doing poor and poor as money moved to the small form factors.
+And they started out competing their peers in the industry.
+So like this is a super old and probably dumb example.
+But like what I'm saying is like the demand has to come up like the merchants offering like you can't solve this problem just simply by bringing the supply side up, the demand side needs to go up.
+And the buyers should want to spend on the blockchain.
+Now that is the huge beauty.
+You have 3% to work with here, like the credit card fees are high, right?
+Like there's a lot of interesting incentive systems that you can do.
+But what I found was the most amazing thing about sort of when I came back to crypto, paid more attention to smart contracts, Ethereum, is that I actually think even the practitioners in the crypto space are under-appreciating this as a talent, is there's never been a field of such applied, widely distributed, and high-quality thought applied game theory, right?
+Like it's the amount of constructions and the incentive systems that are being built in this community are like tremendous, like the artists that have done really, really well for NFTs, like such a good example.
+This is the first – and now this is like – man, this was the first business model of the arts that we've gotten since patronage times, right?
+Like this is a huge breakthrough and we'll make a comeback.
+This thought, this quality of thought has to be applied I think to all sorts of other areas and in different ways and we can use the infrastructure that's been built to do something way better than cashback credit cards, like with those extra 3%.
+Now it needs to also meet the world where it is, we require some kind of escrow systems for chargeback, there is real distribution, there needs to be – like not everything has to be trustless, we should bring trust brokers into the systems, like it's quite a wallet, which I think is a good name, but in my wallet – I don't think I have cash in my wallet – it's all cards, it's like licenses, it's like driver license and so on, right?
+Like it's attestations that I'm – who I say I am and bringing in trust brokers into the system through the primitives we have now and saying, yeah, that person is who they say they are, yes, that person can be shipped to, like if you write this thing on a package destination, FedEx knows how to uncloak this into an actual destination address.
+We have to build this with the industry and then at some point, like we're going to just have a much better environment for commerce and much – like it's not slightly better than using credit, it can actually be 10 times better, people move around more since COVID, right?
+Like how often have you gotten a package to some other address that you're no longer there, like it would be wonderful to make addresses pointers that can be updated in the background and so on, so on, so on.
+So like work with the actual infrastructure of the world and modernize it on these new systems and so that all that want is accrue to people who want to take up – like who actually live in a real world and not just like the hindsight synonymous, you know, abstraction.
+I think that's absolutely doable but man, do we have to get fees down and all this is it's never going to happen if we go back to $50 a transaction.
+We've got time for one more question.
+Yes, right in the front row, since I saw you first.
+So Shopify has a really successful partner program where engineers are building themes and plugins and apps.
+Could you talk a bit more about some of the challenges starting that system up and then also as you see more and more people speak the language of NFTs and the EVM, how that can evolve as we get more interoperability?
+This is definitely, like you're sort of hinting at how cool would it have been to have these pieces of infrastructure primitives and we could have governed the entire partner system on a token economy, right?
+Like that's totally true.
+It would have been, I think this is, I really hope someone is going to explore how to build systems like the Shopify ecosystem because there's a lot of like sharing and a lot of, you know, multi-wallet transactions which we are all doing with ledgers in the background.
+Putting up any two-sided marketplace is tricky.
+You have to overcome a chicken egg problem.
+It's tricky, but if you manage to do it, it's also really, really self-sustaining afterwards.
+We have, you know, one of the greatest things is like we have about five different customers with merchants who start on Shopify who are now IPO'd in our public companies.
+We now have one who has built an app, like on the Shopify app with their own private company Klaviyo.
+Sorry, public company Klaviyo is now and they're very, very successful, which is awesome.
+Again, this is a wonderful thing of what you can do, like companies are estimated to produce about six times more value than they capture, like to the world, like, you know, enlightened self-interest in all this, the constrained vision in so-called terms is real.
+And there's so many ways to build, like so many businesses lend themselves to being turned into platforms later.
+The problem is everyone tries to build a platform first and that's really, really, really hard.
+It's much better to extract a platform out of a working, like a working piece of software people are already using.
+And so that helped us, like people were already trading themes as zip files and I'd be like, okay, well, we can help with that.
+And people are already building things for themselves on the APIs for, you know, integrating their own ERP systems.
+And then building this to the point where, you know, you could list this ERP connector and build it like our SDKs made it so that it can be in so many stores.
+By default, we gave you a right, like we hinted people and helped them into the right direction.
+And all these kinds of things ended up being incredibly valuable for the community.
+And I mean, it's definitely one of the coolest aspects to build.
+But again, it's what at the end of the day, what all of this is, is you build really good software that solves real problems very, very quickly.
+And then you build a bit of a game theoretical system on top in which people being selfish about wanting to build something, accrue a huge amount of value to the, like the community, to Shopify, to the merchants and so on.
+I mean, I feel like the most sophisticated thought along most lines on Shopify is a fairly amateur sort of baby's first incentive system compared to some of the things that are built on, you know, Ethereum and like the blockchains in terms of sophistication, except everything in the world of crypto was so pointed at financialization and finances that I think people might have missed what could be done if you think more about products rather than financial products.
+And I think that's hopefully going to be next wave crypto is going to be more products and solving real problems for people.
+On that amazing insight, I would love to please join me in thanking Kobi.

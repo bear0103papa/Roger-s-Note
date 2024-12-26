@@ -1,0 +1,245 @@
+when you look at the cost of goods sold of Nvidia um their highest cost of goods sold is not tsmc which is a uh thing
+that people don't realize it's actually hbm memory uh primarily that may be a for now also but yeah so so yeah there's
+there's three memory companies out there right there's there's Samsung SK HX and Micron uh Nvidia has majority used SK HX and this is like a big shift in the
+memory Market as a whole because historically it has been a commodity right I.E it's funable whether I buy
+from Samsung or skx or Micron is the socket replaceable yeah and and even now uh Samsung is getting really really hit
+hard because um there's a Chinese Memory Maker uh cxmt and their memory is not as good as the W but it's fine and in
+low-end memory it's it's fungible and therefore the price of low-end memory has fallen a lot correct in hbm Samsung
+has almost no share right uh especially at Nvidia um and so this is like this is hitting Samsung really hard right even
+despite them being the largest Memory Maker in the world has always everyone's always like if you said memory it's like yeah Samsung's a little bit ahead in Tech and their margins are a little bit better and and they're killing it right
+but now it's not quite not the case because on the low end they're getting a little bit hit and on the high end they can't break in or they keep trying but they keep failing um on the flip side
+you have you have companies like skyx and Micron who are converting significant amounts significant amounts
+of their capacity of you know sort of commodity drram to HPM now HPM is still fungible right in that if someone hits a
+certain level of Technology they can swap out Micron to hyx right so is fungible in that sense right it's a
+commodity in that sense but because reasoning requires so much more memory and the cost of goods sold of an h100 to
+Blackwell the percentage of cost to hbm has grown faster than the percentage of
+cost to Leading Edge silicon um you've got this big shift or dynamic going on and this applies not just to um nvidia's
+gpus but it applies to the hyperscaler gpus as well right or accelerators like the TPU Amazon tranium Etc and SK has
+higher gross margins than memory companies have correct correct if you listen to Jensen at least describe it he
+you know it's not all memory is created equal right and so it's not only that the product is more differentiated today there's more software associated with
+the product today but it's also how it's integrated into the overall system right and going back to the supply chain
+question it sounds like it's all commodity it just seems to me that at least there's a question out there is structurally changing we know the
+secular curve is up and to the right I'm hearing you say maybe it may be differentiated enough to not be a commod
+it may be and I think another thing to point at is um the the funnily enough the gross margins on hbm have not been fantastic right they've been they've
+been good but they haven't been fantastic actually regular memory high-end like server memory that is not hbm is actually higher gross margin than
+hbm and the reason for this is because Nvidia is pushing the memory makers so hard right they want the faster and
+newer generation of memory f fter and faster and faster for H for hbm but not necessarily like everyone else for servers now what is this like what does
+this like meant is that hey even though Samsung May achieve level four right or level three or whatever that they had previously they can't reach what highx
+is at now what are the competitors doing right what is AMD and Amazon saying AMD explicitly has a has a better infering
+GPU because they give you more memory right they give you more memory and more memory bandwidth that's the literally the only reason amd's GPU is even
+considered better on chip um hbm memory okay which is on package right um
+specifically yeah and then when we look at Amazon their whole thing at reinvent if you really talk to them when they announced trainum 2 and our whole post
+about it and our analysis of it is like supply chain wise this is looks you you squint your eyes this looks like an
+Amazon Basics TPU right uh it's decent right but it's really cheap A and B it
+gives you the most hbm capacity per dollar and most hbm memory bandwidth per dollar of any chip on the market and
+therefore it actually makes sense for certain applications to use and so this is like a real real shift like hey we
+maybe can't design as well as Nvidia but we can put more memory on the package right now this is just only one vector of like you know there's a multiv vector problem here they don't have the
+networking nearly as good they don't have the software nearly as good their compute elements are not nearly as good but they've by golly they've got more
+memory bandwidth per dollar well this is where we wanted to go before we run out of time is just to talk about these
+Alternatives which which you just started doing so despite all the amazing reasons why why no one would seemingly
+want to pick a fight with with Nvidia many are trying right and I even hear people talk about trying that haven't
+tried yet like open AI is constantly talking about their own chip what H how are these other players doing like how
+would you handicap let's start with AMD just because they're a standalone company and then we'll go to some of the internal programs yeah so AMD is is
+competing well because silicon engineering wise they're amazing right um they're competitive um but yeah they kicked Intel's ass but
+that's that's like you know they started way down here over 20 year period it was pretty F amazing so
+AMD is AMD is really good but they're missing software AMD has no clue how to do software I think they've got very few
+developers on it um they won't they won't spend the money to build a GPU cluster for themselves so that they can
+develop software right which is like insane right like Nvidia you know the top 500 super computer list is not relev
+because most of the super biggest supercomputers like Elon and microsofts and so on and so forth are not on there but Nvidia has multiple supercomputers
+on the top 500 supercomputer list and they use them fully internally to develop software network software whether it be network software compute
+software inference software all these things um you know test all these changes they make um and then roll out pushes you know where where if xai is
+mad because of you know software is not working Nvidia will push it the next day or two days later like like clockwork right um because there's tons of things
+that break constantly when you're training models um AMD doesn't do that right and and I don't know why they won't spend the money on a on on a big
+cluster the other thing is they have no idea how to do system level design they've always lived in the world of I'm competing with Intel so if I make a
+better chip than Intel then I'm great because software x86 it's it's x86 I mean Nvidia doesn't keep it a
+secret that they're a systems company so presumably they read that and they yeah and so they bought this systems company
+called ZT systems um but they're you know the whole rack scale architecture
+which Google deployed in 2018 with the TPU uh V3 are there any hyperscalers
+that are um so interested in AMD being successful that they're co-developing
+with them so the hyperscalers all have their own custom silicon efforts but they also are helping AMD a lot in
+different ways right So Meta and Microsoft are helping them with software right not enough that like AMD is like caught up or anything close to it uh
+they're helping AMD a lot with what they should even do right so the other thing that people don't recog IES if I have the best engineering team in the world
+that doesn't tell me what the problem is right the problem has this this this this it's got these tradeoffs AMD doesn't know software development it doesn't know model development it
+doesn't know inference what inference economics look like and so how do they know what trade-offs to make do I push this lever on the chip a bit harder
+which then makes me have to back off on this or what exactly do I do right the hyperscalers are helping but not enough
+that AMD is on the same timelines as Nvidia how successful will AMD be in the
+next year on on AI revenue and and what kind of sockets might they succeed in yes I think they'll have um they'll have
+a lot less success with Microsoft than they did this year um and they'll have uh less success that with than they did with with meta than they did this year
+um and this is because like the regulations make it so actually amd's GPU is like quite good for China uh because the way they shaped it um but
+generally I think AMD will will do okay they'll they'll profit from the market they just won't like Go Gang Busters
+like people are hoping um and they won't be a their their share of total revenue will fall next year okay um but they
+will still do really well right billions of dollars of Revenue is not nothing to notop let's go with the Google TPU you
+you earlier stated that it's got the second most workloads It Seems like by a
+lot like it's firmly in second place yeah so so this is this is where the whole systems and infrastructure thing
+matters a lot more uh each individual TPU is not that impressive it's impressive right it's got good
+networking it's got good uh you know architecture Etc it's got okay memory right like it's it's not that impressive
+on its own but when you when you say hey if I'm spending x amount of money and then what's my system Google's TPU looks
+amazing right so Google's engineered it for things that Nvidia maybe has not focused on as much right so actually
+their interconnects between chips is arguably uh competitive if not better in certain aspects worse in other aspects than Nvidia because they've been doing
+this with broadcom you know the leader world leader and networking um you know building the chip with them um and since
+2018 they've had this scale up right Nvidia is talking about gb200 nvl 72
+tpus go to 8,000 today right um and and and while it's not a switch it's a point to point you know it's a little bit
+there's some technical nuances there um so it's not just like like that those numbers are not all you should look at but this is this is important the other
+aspect is Google's brought in water cooling for years right Nvidia only just realized they needed water cooling on
+this generation and Google's brought in um a level of reliability that Nvidia gpus don't have um you know the dirty
+secret is to go ask people what the reliability rate of gpus is in the in the cloud or in a deployment it's like oh God is not they're reliable is like
+but like especially initially you have to pull out like 5% of them why has tbu not been more commercially successful
+outside of Google I think um Google keeps a lot of their software internal when they should
+just have it be open cuz like who cares um you know like that's one aspect of it you know there's a lot of software that
+Deep Mind uses that just is not available to Google Cloud um two uh even
+their Google Cloud offering relative to AWS had that bias go way back yeah
+number two the pricing of it is sort of it's not that it's egregious uh on
+list price like list price of a GPU at Google cloud is also egregious but you
+as a person know when I go rent a GPU you know I tell Google like hey like you know blah blah blah you're like okay you can get around the first round of negotiations get both down but then
+you're like well look at this offer from Oracle or from Microsoft or from Amazon or from cor weave or one of the 80 neoc clouds that exist and Google might not
+match like many of these companies but like they'll go down because they you know and and and then you're like oh well like what's the market clearing
+price for a if I wanted an h100 for two years or a year oh yeah I could get it for like two bucks right a little bit
+over um versus like the $4 quoted right whereas a TPU it's here you don't know know that you can get here and so people
+see the list price and they're like ah do you think that'll change I don't see any reason why it would um and and so
+number three is sort of Google is better off using all of their tpus internally Microsoft rents very few gpus by the way
+right they actually get far more profit from using their gpus for internal workloads or using them for inference
+because the gross margin on selling tokens is 50 to 70% right the gross margin on selling a GPU server is lower
+than that right so while it is a good gross Mar it's like you know it's and they've said out of the 10 billion that
+they've quoted none of that's coming from external renting of gpus if if if
+if Gemini becomes hyperco competitive as an API then you indirectly will have
+third parties using the Google TPU is that accurate yeah absolutely ads uh
+search uh Gemini applications um all of these things use tpus so it's not that like you know you know that you're not
+using every YouTube video you upload is going through a TPU right like you know uh it goes through other chips as well that they've made themselves custom
+chips for YouTube but like there's so much that touches a TPU but you indirectly you directly would never rent
+it right and that's therefore like when you look at the market of renters uh there's only one Company accounts for
+over 70% of Google's revenue from tpus as far as I understand and that's apple right and I think there's there's a whole long story around why Apple hates
+Nvidia um but you know that that may be a story for another time but you just
+did a super deep piece on tranium why don't you do the Amazon version of what
+you just did with Google yeah so so funnily enough Amazon's chip is the Amazon I I call it the Amazon's Basics
+TPU right and the reason I call it that is because yes it uses more silicon yes
+it uses more memory yes the network is like somewhat comparable to tpus right
+it's a six it's a 4x4x4 Taurus um they just do it in a less efficient way in
+terms of you know hey they're spending a lot more on active cables right uh because they're working with uh Marvel
+and Al chip on their own chips versus working with broadcom the leader networking who then can use passive cables right for for uh because their series are so strong like there's other
+there's other things here their sery speed is lower um they spend more silicon area like there's all these things about the the tranium that are
+you know you could look at and be like wow this would suck if it was a merchant silicon thing but it doesn't because it's it's it's Amazon's not paying
+broadcom margins right they're paying lower margins um they're they're not paying the margins on the HPM they're paying you know they're paying lower
+margins in general right uh paying the margins to Marvel on HPM um you know there's all these different things they do to crush the price down to where
+their their Amazon Basics TPU the tranium 2 right is very very cost effective to the End customer and
+themselves in terms of hbm per dollar memory bandwidth per dollar and it has this world size of 64 now Amazon can't
+do it in one rack it actually requires them two racks to do 64 and the bandwidth between each chip is much much slower than nvidia's rack um and their
+memory per chip is lower than nvidia's and their memory bandwidth per chip is lower than Nvidia but you're not paying you know North of$ 30,000 you know
+$40,000 for this per chip for the server you're paying you know significantly less right $5,000 per chip right like you know it's like such a gulf right for
+Amazon and then they pass that on to the customer right because when you buy an Nvidia GPU so there's there is legitimate use cases um and and because
+of this right Amazon and anthropic have decided to you know make a 400 ,000 tranium server uh supercomputer right
+400,000 chips right going back to the ho scaling laws dead no they're making a 400,000 chip system because they truly
+believe in this right um and and 400,000 chips in one location is not useful for serving inference right um it's useful
+for making better models right you want your inference to be more distributed than that um so so this is this is a
+huge huge investment for them um and while technically it's not that impressive um there are some impressive
+aspects that I kind of glossed over um it is so cheap and so cost effective that I think it's a a decent play for
+Amazon maybe just wrapping this up I want to I want to shift a little bit to
+kind of what you see happening in 25 and 26 right for example over the last 30
+days right we've seen broadcom you know explode higher Nvidia trade trade off a lot I think there's about a 40%
+separation over the last 30 days you know with broadcom being this play on custom some Asic you know people
+questioning whether or not nvidia's got a lot of new competition pre-training um you know not not improving at the rate
+that it was before look into your crystal ball for 2526 what are you talking to clients
+about um uh you know in terms of what you think are kind of the things that
+are most misunderstood best ideas um you know uh in the spaces that you cover so
+I think a couple of the things are you know hey broadcom does have multiple custom Asic wins right it's not just Google here uh meta meta's ramping up
+mostly St for recommendation systems but their custom chips are going to get better um you know there's there's other
+players like uh open AI who are making a chip right um you know there's there's Apple who are not quite making the whole
+chip with uh broadcom but a small portion of it will be made with broadcom right you know there's there's a lot of
+wins they have right now these all won't hit in 25 some of them will hit in 26 um and it's you know it's a custom Asic so
+like it could it could be a fail and not be good like like microsofts and therefore never ramp or it could be really good and like like or at least
+you know good price to Performance like Amazon's and it can ramp a lot right so there are risks here um but broadcom has
+that custom Asic business one and two really importantly the networking side
+is so so important right yes Nvidia is selling a lot of networking equipment um but when people make their own Asic what
+are they going to do right yes they could go to Amazon or not but they could ALS they also need to network many of these chips together um or sorry to
+broadcom or not um they could go to Marvel or many other competitors out there like Al chip or um and G like you
+could you can you H broadcom is really well positioned to make the competitor to NV switch which many would argue is
+one of nvidia's biggest competitive advantages on a hardware basis versus everyone else and broadcom is making a
+competitor to that that they will seed to the market right multiple companies will be using that not just you know AMD will be using that competitor to NV
+switch but they're not making it themselves CU they don't have the skills right they're going to broadcom to get it made right so make a make make make a
+call for us as you think about the semis market today you know you've got arm
+broadcom you've got Nvidia you got AMD Etc does the whole Market continue to
+elevate as we head into 25 and 26 who's best position from current levels to do
+well who's most you know overestimated who's least um who's most underestimated I think
+um love broadcom long term but like in the next six months uh there is a bit of a Slowdown in Google TPU purchases because they have no data center space
+they want more they just literally have no data center space to put them so we actually like you know can can see how they like there's a bit of a pause but
+people may look past that um beyond that right it's the question is like who wins what custom Asic deals right is Marvell
+going to win future Generations is broadcom going to win future Generations how big are these generations going to be are the hyperscalers going to be able to internalize more and more of this or
+no right like it's no secret Google's trying to leave broadcom they could succeed or they could fail right um it's
+not just like broaden out Beyond broadcom I'm talking Nvidia and everybody else like you know we've had
+these two massive years right of Tail wins behind this sector is 2025 a year
+of consolidation do you think it's another year that the sector does well just kind of yeah I think I think the
+plans for hyperscalers are pretty uh firm on their they're going to spend a crapload more next year right and
+therefore the ecosystem of networking players of Asic vendors of uh systems vendors is going to do well whether it
+be Nvidia or Marvel or broadcom or AMD or you know generally you know some some better than others the real question
+that people should be looking out to is 2026 um do does the spend continue right we are not the growth rate for NVIDIA is going to be stupendous next year right
+and that's going to drag the entire component supply chain up it's going to bring so many people with them but 2026
+is like where the Reckoning comes right um but you know will will people keep spending like this and it's it's all
+points to where will the models continue to get better because if they don't continue to get better um in my opinion we'll get better faster in fact next
+year then there will be a big you know sort of clearing event right um but that's not next year right um you know the other aspect I would say is there is
+consolidation in the neocloud market right there are 80 neoc clouds that we're tracking that we talk to um that
+we see how many gpus they have right the problem is nowadays if you look at rental prices for h100s they're tanking
+right not just not just at these neoc clouds right where you can you used to have to pay you know do fouryear deals and prepaid 25% you you'd sign a venture
+round and you'd buy a cluster and that's about it right you'd rent one cluster right um nowadays you can get three month six month deals at way better
+pricing than even the four month or the foure threeyear deals that you used to have for Hopper right um and on top of that it's not just through the neoc
+clouds Amazon's pricing for you know on demand gpus is falling now it's still over it's like still really expensive relatively but like pricing is falling
+really fast 80 neoc clouds are not going to survive mhm maybe five to 10 will um and and and that's because five of those
+are sovereign right and then the other five are like actually like Market competitive what percentage of the industry AI revenues have come from
+those neoc clouds that may not survive yeah so so roughly you can say
+hyperscalers are 50ish per of Revenue 50 to 60% and the rest of it is Neo cloud/
+sov AI um because Enterprises purchases of GPU clusters are still quite low and it ends up being better for them to just
+like Outsource it to neoc clouds um when when they can like get through the security which they can for certain companies like like cor weave and is is
+there a scenario where in
+2026 where you see industry
+volumes actually down versus 2025 or
+Nvidia volumes actually down um meaning fle from 2025 so when you look at custom
+Asic designs that are coming as well as uh nvidia's chips that are coming the
+revenue the the content in each chip is exploding the cost to make Blackwell is
+north of 2x that of the cost to make Hopper right so Nvidia can make the same you know and obviously they're cutting margins a little bit but Nvidia can ship
+the same volumes and still grow a ton right so so so rather than unit volumes
+is there a scenario where industry revenues are down in 26 or Nvidia
+revenues are down in in in the Reckoning is is the Reckoning is do models
+continue to get much fast better and uh will hyperscalers are they okay with taking their free cash flow to zero I
+think they are by the way um I think I think meta and Microsoft may even take their free cash flows close to zero uh
+and just spend um but then that's only if models continue to get better that's a and then B are we going to have this
+huge influx of capital from people we haven't had it yet from the Middle East The Sovereign wealth funds in Singapore
+and and nordics and you know Canadian pension fund and all these folks they can throw they can write really big
+checks they haven't but they could and if if things continue to get better I I
+I truly do believe that open a and xai and anthropic um will continue to raise more and more money um and keep this
+game going of not just Hey where's the revenue for open now well it's 8 billion and it might you know double or whatever even more next year and that's their
+spend no no no like they have to raise more money to spend significantly more and that that keeps the engine rolling because once one of them spends Elon is
+forcing everyone to spend more actually right with his cluster um because and and his plans because everybody's like well we can't get outscaled by Elon we
+have to spend more right and so there's sort of a game of chicken there too like oh they're buying this we have to we have to match them or go bigger because
+it is a game of scale so so you know in sort of Pascal's wager sense right if I underspend that's just the worst scenario ever and I'm like the worst o
+ever of the most profitable business ever but if I overspend yeah shareholders will be mad but it's fine right it's you know $20 billion $50
+billion you can paint that either way though because if that becomes the reasoning for doing it you you're you're more the probability of overshooting
+goes up for sure and and every bubble ever we we overshoot now and you know to
+to me it you know you said it all hangs on models improving I would take it a
+step further you know and go back to what SA said to us last week it all
+comes down ultimately to the revenues that are generated by the people who are
+making the purchases of the gpus right like he said last week I'm going to buy
+a certain amount every single year and it's going to be related to the revenues that I'm able to generate in that year
+or the next couple years so like they're not going to spend way ahead of where those revenues are so he's looking at
+what you know he had 10 billion in Revenue this year he knows the growth rate associated with those inference revenues and they're making he and Amy
+are making some forecast as to what they can afford to spend I think Zuckerberg's doing the same thing I think Sundar is doing the same thing and so if you
+assume they're acting rationally it's not just the models improving it's also the rate of adoption of the underlying
+you know Enterprises who are using their services it's the rate of adoption of consumers and what consumers are willing
+to pay to use chat GPT or to use claw or to use these other services so you know
+if you think that infrastructure expenses are going to grow at 30% a year then I think you have to believe that
+the underlying inference revenues right both on the consumer side and the Enterprise side are going to grow somewhere in that range as well there
+there is definitely an element of spend ahead though right and it's point in time spend versus you know what do I think Revenue will be for the next five
+years for the server right so I think there is an element of that for sure but uh absolutely right models whole point
+is models getting better is what generates more Revenue right and gets deployed so I think I think that's I'm in agreement but um people are
+definitely spending ahead of what's what's what's charted fair enough well that's what makes it spicy um you know
+it's fun to have you here I mean you know a fellow analyst you guys do a lot of digging congratulations on the
+success of your business um you know I think you add a lot of important um information uh to the entire ecosystem
+you know one of the things I think about about the wall of worry bill is the fact that we're all talking about and looking for right the bubble sometimes that's
+what prevents the bubble from actually happening but you know uh you know as both an investor and an analyst um you
+know I look at this and I say there're definitely people out there who are spending who don't have commensurate
+revenues to your point spending spending way ahead on the other hand and I and and frankly you know we heard that from
+Sacha last week he said listen I've got the revenues I've said what my revenues are I haven't heard that from everybody
+else right and so it'll be interesting to he to see in 2025 who shows up with
+the revenues I think you already see some of these smaller second third tier
+models changing business model falling aside no longer engaged in the arms race
+um you know of of of investment here I think you that's part of the creative destructive process but it's been fun having you on yeah thank you so much
+Dylan really appreciate it yeah fun fun having you here in in in person Bill and uh until next year awesome thank you
+take [Music]
+care as a reminder to everybody just our opinions not investment advice

@@ -1,0 +1,581 @@
+Now you have software agents that are effectively doing what, for 65 years, have been human work.
+Is that going to increase software revenue 2x? It could potentially increase it 10x.
+It's not even on the same kind of playing field.
+All the data's here in the cloud, all the compute is in the cloud, and now you just mix them together.
+Many of these incumbents aren't going to evolve.
+Every time there's a new technology shift, we have to challenge every investment thesis that we thought was not going to work.
+And so many of them now are going to work.
+Moats still matter. And a lot of the moats in software today are the same that they've always been.
+It's both defense and offense for these companies to figure out what the hell to do.
+There's a lot of talk and investment in AI.
+But that opportunity is often framed in software terms.
+The budgets, the market caps, and the existing companies of the last era.
+But might this era be fundamentally different?
+Consider that for centuries, the biggest school of science was alchemy, to turn lead into gold.
+And today, AI enables a far more powerful transmutation, turning software into labor.
+Capital no longer just buys engineers or hardware, it buys code that replaces or augments labor, unlocking completely new markets.
+And that's exactly what we discussed in today's episode, together with three A16z general partners, Alex Rampell, Angela Strange, and David Haber.
+Together, we trace through the evolution of previous cloud eras and what those tell us about what's to come.
+Perhaps most importantly, what's really new here?
+Namely, that the $300 billion enterprise software market is just a fraction of the multi-trillion dollar white-collar labor market.
+These niche markets that weren't that interesting are now potentially very interesting.
+We'll also cover where we are in the adoption curve, wedges and defensibility for startups, and how pricing is being upended.
+If they don't do this right, they could lose all of their revenue, or most of it.
+If they do it really well, they could 10x their revenue.
+Finally, if you're building in this space, we'd love to hear from you.
+Just reach out to podpitches at a16z.com and we'll route you to the right place.
+All right, let's get started.
+As a reminder, the content here is for informational purposes only, should not be taken as legal, business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any A16Z fund.
+Please note that A16Z and its affiliates may also maintain investments in the companies discussed in this podcast.
+For more details, including a link to our investments, please see a16z.com slash disclosures.
+Alex, you wrote an article recently, Input Coffee, Output Code.
+But this idea of turning capital into labor, hasn't this always been true?
+What's new here?
+Well, it certainly has been true for a long time.
+If you watch some old movie about the Romans, you'd have all these Roman slave laborers or Roman soldiers rowing in unison on a boat.
+And then, of course, you got the steamship, and then you don't need these 50 people rowing anymore.
+So clearly, there has been this long historical arc of technology is, in some cases, augmenting labor.
+But it was always the brawn and not the brains.
+I have a bunch of people that are sewing clothes, and now I have the loom.
+Right.
+But everything that was what we would now call white collar, that hasn't happened before.
+And what I talked about was the three or four different areas of software, just storing information.
+So for the longest time, if I wanted to keep track of who was on my airplane from the Wright brothers onward, I would have a filing cabinet.
+It's like, oh, here's Pan Am flight 192, and here's who's on it.
+And I'm writing down their name, and then they might call or send a telegram back in the old days of, I don't want to be on that plane anymore.
+Then I erase it, and then I refile it.
+And one of the first examples of digitization of the filing cabinet was something called Sabre.
+And this was developed by American Airlines, I think in 1959 or 1960, in concert with IBM.
+And this was one of the first examples of taking this filing cabinet that really kept track of who's on Pan Am flight or American Airlines in this case, and putting it in a database.
+So now, instead of having filing cabinets with lots of erasers and whiteout, you replace the filing cabinet with a computer.
+And this, in turn, begot travel agents and travel agencies, because they had a thin client, a little computer, a terminal.
+I remember booking airline tickets with my mom in the 1980s.
+You'd go into the travel agent, and they had a green screen computer that connected to a mainframe in Texas, which is where Sabre was.
+So the first realm of software was really called from 1960 onwards, when computers became a thing, of take a filing cabinet.
+So it could be the HR filing cabinet.
+It could be the medical filing cabinet.
+It could be the financial filing cabinet.
+And put that in software.
+And what was that?
+It's a database with a front end to actually go enter things.
+So Quicken famously did this in the 1980s for financial statements.
+There was a company called PeopleSoft that famously did this.
+It was the first HR filing cabinet put as software.
+Sabre obviously did this for airline tickets.
+Email, I would even argue, did it for mail.
+True.
+You had files of mail, and now you just have a filing cabinet, if you will, on your computer.
+But the actions that were done on the software were really the same.
+So imagine an HR department that has 50 people working in HR.
+They might have one person that's in charge of the filing cabinets.
+And the HR person says, hey, get me David's file because I want to talk to him about something, which is very scary.
+Don't worry.
+But get me David's file.
+So the filing cabinet person, the gopher, this is what the filing cabinet person would often be called, the gopher something.
+That's what it means.
+There's the gopher that obviously Bill Murray tries to kill in Caddyshack.
+But then there's the gopher of the person who goes for something.
+If you are a gopher at a creative artist agency, you are going and getting files.
+So that person went away.
+The filing cabinet went away.
+It was more efficient from a space perspective.
+But the 50 HR people are still 50 HR people today.
+So round one of software was really take the filing cabinet and put it not as physical files, but as a database with a front end.
+Round two, which started arguably at 1998, 1999, and this is what Salesforce did.
+The idea of a customer relationship management product has been around for a long time.
+The Rolodex is an actual physical thing where you put every business card, organize them alphabetically, and you'd find the person that you want to contact that way.
+Salesforce put that not in software, but in the cloud.
+So what QuickBooks had done for a long time or something called Great Plains Software had done for a long time, NetSuite did in the cloud.
+They put financial statements in the cloud.
+Zendesk put email support in the cloud.
+So it was still software, but instead of having a giant mainframe in your office somewhere, you now had it in the cloud.
+But again, going back to the HR example.
+PeopleSoft first did this with on-premise mainframe computer HR filing cabinet now as software.
+And then Workday came along, did the exact same thing, and now it's in the cloud.
+It's just much, much easier.
+You don't have to have a dedicated IT team to go worry about your server exploding in flames if your office building burns down or something.
+So it's more secure.
+So it was kind of software 1.0, then became software 2.0, which is in the cloud.
+And that played out from call it 1998 to maybe 2010.
+And then that grew a little bit with the insertion of financial services because the way that I like to think about this is how many restaurants need and will pay tens of thousands of dollars a year for software?
+Like Pan Am needed this in 1960, but does a restaurant with one location, are they going to spend $100,000 on a server and pay for software?
+No in 1960.
+No in 2000.
+When the idea of bundling and payment processing became a thing in other financial services, now the market became big enough for restaurant software to exist.
+And this is where Toast came from.
+Toast is a $15 billion company that does this.
+Or Service Titan, again, what's the software market in 1965 for HVAC contractors?
+Zero.
+What's the cloud software market for HVAC contractors?
+Zero.
+But once you bundle on these other things, it becomes big enough.
+The point that I'm getting to is that the same 50 HR people that worked in 1960 are the same 50 HR people in 2024.
+The same email support team in 2024 was the phone support bank in 1985, was the letter writing typewriter support team in 1965.
+What's exciting about AI is that it's taking this filing cabinet and now allowing actions on the filing cabinet.
+And that's what I think is really revolutionary because you can actually ask the software filing cabinet application like Workday, hey, I want to add a dependent and now Workday will do all the work involved with that.
+And Workday can charge a premium for that.
+So why is it input coffee and output code?
+The whole idea is that you now have software engineers that can build products on top of these cloud-based filing cabinets that now do the job that the end user of that software product did in 1960, 1970, 1990, 2000, 2010, 2023, 2024.
+But 2024, 2025 onward, now you have software agents that are effectively doing what for 65 years have been human work.
+Yeah. And that sounds really important.
+So I want to underscore that you kind of went through the era as you have the non-software era.
+Then you have software.
+Then you moved into cloud.
+Then you have this financial services enabled cloud era.
+And now we're in this new era.
+Can you talk about how, as we chart through these different eras, the scale maybe in this new era is fundamentally different?
+Yeah, it's completely different because it's really comparing wages to software.
+And to take an example from a completely different field that also has no software market, there are about 4.7 million registered nurses in the U.S.
+Average wage for a nurse is a little over $120,000 a year, so it's a high-paying profession.
+And that means that the annual nurse, not software market, but wage market is over $600 billion a year, which is a lot.
+And the worldwide software market is under $600 billion, not just America.
+By the way, that nurse figure is just for the U.S.
+Of course, there are nurses in the U.K. and France and Angola, like every country on Earth, right?
+Probably Antarctica has nurses, I'm sure.
+Almost certainly.
+Almost certainly.
+They're probably even higher paid down there.
+So the labor market is enormous, but what is the dedicated software market for nurses?
+Like probably zero because nobody took the time to develop software.
+And you could try developing software, but it's just there was no budget.
+The economics didn't make sense.
+Exactly.
+If every hospital in the U.S. currently has a nursing shortage, or maybe you're in Minneapolis where there's a giant Somalian expat community and you need nurses that speak that language, how do you find them?
+And it takes three to four years to actually get trained as a nurse.
+Now you have a software product that can deliver not everything that a nurse does.
+Of course, it can't be a phlebotomist.
+It can't perform CPR.
+But it can call you the night before your colonoscopy and say, don't eat food.
+And it can say that in 45 languages and it can actually have a conversation with you.
+So that's a labor example.
+Or going back to financial services land, NetSuite is used by, I think it's 70% of companies that go public are on NetSuite.
+I'm sure I've heard a podcast ad with that exact name.
+Yeah, maybe it's higher.
+Something on that order of magnitude.
+If I'm wrong by 10 points, it doesn't belittle the point.
+But the key thing is you always have people that are paying you late.
+Like you'll look at your accounts receivable and you'll see, wow, a bunch of customers owe me millions of dollars.
+And that's what you'll see when you look at your financial statements.
+And then again, this is where humans take the operation on that information.
+I have teams that are in collections that will go call you and remind you to pay or I'm going to cut off the product.
+That's an operation that can now be done within NetSuite.
+They haven't done this yet, but I'm sure they will.
+And versus charging for the filing cabinet, now they can say, well, we know that you wanted to hire five collections people.
+We know that you pay those collections people $80,000 a year with benefits and everything else.
+We know that it takes a year to train them.
+Now our software product can do that not for $80,000 a year, but for $2,000 a year.
+And that's incredible.
+So the question is actually how will the customer think about this?
+Because once they start paying NetSuite 10 times more than they paid NetSuite last year, they're like, wow, my software budget has ballooned.
+I got to cut my software spend.
+Or will they say, wow, I'm saving so much money because as opposed to these five job openings, I was paying to pay $400,000 a year for these five collections people.
+Now I can pay $10,000 a year to NetSuite, and I'm paying more for software but less for labor.
+And that part, it's very, very new.
+But a lot of the hyper growth that we're seeing in this category of company is because they are really moving into the labor market and less the software market.
+And that nurse example is a prime example of that.
+Definitely.
+It'll be very interesting to see the appetite.
+If you think back to the App Store early days when people were so reticent to pay 99 cents for an app for arbitrary reasons, but just because it was what they were used to paying.
+So as we round out these eras of clouds, you mentioned PeopleSoft or Quicken or Zendesk and all these companies that are capturing data.
+How are we uniquely set up now because of the previous eras?
+Yeah, so I would argue that if we just went straight to AI in 1960, this just wouldn't have worked because you still needed human input to go collect the customer information.
+We have everything built out where right now this isn't an API.
+But if I want to go answer a customer question, the question's already on the internet.
+It's already in a database.
+All of these things have set this up to be the ultimate platform.
+So this is why we love investing in what I would call systems of record.
+And a system of record is just something that has every single piece of minutiae that runs a business.
+And it could be the strangest business that you can imagine.
+If I'm running a laundromat, there is actually dedicated laundromat management software.
+All of these systems of record that have popped up for all sorts of different businesses and all sorts of consumer use cases, like the fact that now the mainstream form of communication for many adults and children is texting and email.
+It's not voice.
+It's all in the cloud.
+Now you can perform these operations.
+So I would almost say there's been a 60-year period of digitization of physical things, putting them in the cloud.
+Why is the cloud part important?
+Well, again, if this were the mainframe era of the 1970s, how would you get the AI that's in some Google server somewhere?
+How would it actually have access to all the information that's in some server basement in Indiana?
+Like, that's really hard to do.
+So all the data's here in the cloud.
+All the compute is in the cloud.
+And now you just mix them together.
+So the fact that systems of record for so many different types of businesses and so many different kinds of consumer use cases are now widespread and hundreds of billions of dollars of company market cap has been created from these systems of record, either horizontal or vertical.
+And a vertical one would be something like a toast that vertically runs a restaurant.
+And a horizontal one would be like a Zendesk that just does customer support software in the cloud for every different type of company.
+Building on that, if you take the toast example, start with the cloud wave, move to the financial services wave, it was initially a hypothesis that these vertical SaaS companies would make a lot more from financial services.
+Fast forward to today, 80% of toast revenue is payments, insurance, all sorts of financial services versus software.
+And so if you're operating toast, or one of my favorite examples is MindBody, which runs fitness studio software.
+It does scheduling for employees.
+It's a CRM.
+They also make a lot of money from financial services.
+But they still need a lot of people beyond the yoga instructor.
+You've got your financial back office.
+You've got people answering the phone to answer very basic questions.
+Like all of that can start to be done with AI.
+And I think the most bullish version of that is, all right, you then don't need to hire people to do the tasks that are not human facing that AI can do better.
+Is that going to increase software revenue 2x?
+It could potentially increase it 10x depending on how the customer views it and how much they're willing to let their software budget bleed into their labor budget.
+I think part of the challenge or the potential for disruption is that the pricing model may need to change pretty significantly, right?
+You talk a bit about this in your piece, Alex, where Zendesk today is charging on a per seat basis.
+But if you're actually eating away at some of the labor, you can charge for the output of work.
+And how does that create the potential both for increased ACV but, again, creates potential disruption for a lot of these larger incumbent players given their existing pricing structure?
+Can we actually talk about that example from Zendesk?
+What is the difference between the software component and the human component?
+Well, it shows how stark the difference is.
+So most companies like Salesforce charges per seat.
+And so Zendesk, at the time that I wrote my piece, they might have changed their pricing a little bit, but it was $115 per seat per month.
+So imagine that you have 1,000 people that work in an email-based support center, and they use Zendesk.
+And Zendesk then profits as you hire more people because 1,000 is better than 100.
+So $115,000 a month is about $1.4 million a year in spend on software for Zendesk.
+And Zendesk, I think, has about $2 billion in revenue, something in that order of magnitude of annual recurring revenue from all these seats that are paying every single month.
+And, of course, they want their customers to grow seats.
+Now, if you assume that each seat, how much is that person paid?
+How much does their health care cost?
+How much does their stipend for commuting and yoga benefit and all these other things that the company throws in?
+Maybe it's $50,000 a year per person.
+So what's 50,000 times 1,000?
+Again, 1,000 seats, that's $50 million.
+So you're spending $50 million on people.
+And by the way, it's very hard to hire and train these people.
+So I think one misnomer is like, oh, AI is terrible, it's going to end all employment, and it's going to be chaos.
+I always like to point out that when the United States was founded, 97% of people in the U.S. were farmers.
+And most of them were put out of jobs by things like the tractor, but that's actually fine because they moved on to other kind of productive parts of labor.
+And by the way, the average life expectancy was a little over 30 back then.
+Things have gotten better.
+I like penicillin and all the other benefits that we've gotten, and fertilizer and all these things that have made our lives better.
+So you have $50 million a year for people, and then you have $1.4 million a year for software.
+Which one's bigger?
+And the concern is that on the intermediate basis, and Zendesk is actually very lucky because they were a public company, and they got taken private.
+So two big private equity firms bought it.
+If we make AI really good, then the customer that has 1,000 seats might cut down to 10 seats.
+Because there are two forms of AI tools.
+There's more than two, but the common example that we talk about is there's autopilot and then there's copilot.
+So copilot is a productivity enhancer.
+So I'm trying to figure out how do I answer Angela's query.
+I just got hired yesterday.
+I don't even know where the bathroom is.
+What do I do?
+And then it's like, hey, we think this is the right answer.
+So it makes Angela so much more productive in her job, and that's great.
+Autopilot is like, Angela quit yesterday, and we need somebody else to go answer emails because it's Black Friday.
+What do we do?
+What do we do?
+Okay, now we just throw the tool at the customer directly and have them answer the questions.
+And that's the big danger.
+Copilot is actually a danger for revenue as well, because why do I have 1,000 support reps?
+I can answer 10 questions a day, and I get 10,000 queries a day, so it's just basic math.
+Now with copilot, each one of my reps can answer 100 questions a day.
+I only need 100 reps.
+So now Zendesk lost 90% of its revenue.
+And then, by the way, if autopilot becomes a thing and actually works very, very well, then I need nobody, and therefore I sell no seats if I'm Zendesk.
+So it's both defense and offense for these companies to figure out what the hell to do, because if they play offense, they could maybe 10x the revenue because of the example, like it's $50 million for people or $1.4 million.
+I'd rather get $50 million if I'm Zendesk than $1.4 million.
+But they're probably not going to be able to take all $50 million, right, because ultimately the cost of delivering these services is very low.
+The moat is not that high.
+It's higher for companies that have the system of record, I would argue, because all of your past correspondence with all of your customers is in Zendesk, where if I'm Salesforce, like every single communication that I've ever had with any of my customers, my pipeline, everything, it's in Salesforce.
+It's hard to yank that stuff out because everybody's using it, and it's not like this binary thing where tomorrow we're all autopilot.
+We're going to see a lot of these copilot tools.
+They will run on the systems of record, but even as they're running on the systems of record, now I need less seats.
+That's why Salesforce, it's a $200 billion-plus public company.
+If they don't do this right, they could lose all of their revenue or most of it.
+But if they do it really well, they could 10x their revenue.
+And it's like, where is it going to go?
+As early-stage VCs, we're very excited about this.
+Yes, yes, I know.
+It's all up to us.
+This is the question, right?
+We worry more about finding the next entrepreneurs versus the eight of the incumbents.
+It's an interesting moment in time for enterprising young founders to reinvent the model and charge radically different because many of these incumbents aren't going to evolve.
+They're not going to change their perceived pricing, and they risk this.
+If you're like me, you're probably always looking for ways to improve your morning routine, whether that's waking up early, which is certainly a battle, eating a good breakfast, or listening to a quick and informative podcast, just like the Morning Brew Daily.
+Every weekday on the Morning Brew Daily, Neil Freiman and Toby Howell break down the biggest news in business, the economy, and just about everything else, all in 30 minutes or less.
+So why not add it to your routine and listening queue?
+Follow Morning Brew Daily on Apple Podcasts, Spotify, or wherever you get your podcasts.
+Corruption.
+And is that the wedge, right?
+If you're a startup and you're trying to figure out how do I enter the market, especially when you have companies like Salesforce, which have the system of record, they have all the data, they have all the customers, is that the wedge where you say I'm going to undercut and I'm going to charge a tenth of the price, even though I still have great margins because I'm entering the labor part of the equation?
+I think so, yeah.
+I wrote a piece recently that I called the messy inbox problem, which is my way of describing a wedge strategy that we're seeing across lots of different industries.
+And the idea is basically that there's a class of founders that are building software products to solve a lot of what was historically judgment-intensive work.
+In lots of different industries, there is some sort of human administrator's job.
+It is to basically extract information from a wave of unstructured information, whether it's emails, faxes, transcribing phone calls, and then put that information into one of these downstream systems of record.
+It could be an EMR, it could be an ERP, it could be a CRM system.
+And historically, that work lived upstream of any of that software, right, because it was the human's job and software couldn't do that.
+Now, we're seeing companies sort of wedge in and replace, again, that messy inbox problem with software and slowly begin to eat away at all the kind of downstream workflows.
+And over time, I think that the thesis is that while that initial wedge is highly differentiated against the human, it really is the opportunity to eat away at everything else and become the kind of new AI native system of record.
+We have a company, as an example, called Tenor, that is doing this in a healthcare context.
+So the problem that they're solving specifically is around patient referrals.
+So you go to your general practitioner, they're referring you to a specialist, could be a dermatologist or an imaging center.
+Today, they're often faxing your medical records, and it is somebody's job to go physically to the fax machine, re-enter that information into that EMR system.
+Tenor has trained a model against, I think, 4 million healthcare-specific documents, and now can basically extract all that information about the patient programmatically and effectively begin to solve this patient intake problem.
+And they're able to reduce now about 90% of the admin costs of that patient intake before the patient's actually seeing the clinician.
+So they, again, wedged in with the messy inbox problem.
+And over time, they're now eating away at things like scheduling and eligibility and benefits.
+And over time, we'll see if they become the kind of core AI native system of record.
+And something you're pointing to there is also the defensibility of it all, right?
+So you can get the wedge maybe through pricing, but how do you actually protect your customers?
+I think one place people jump to is, okay, you need your own models or you need some sort of proprietary data.
+Is that the defensibility of this future, or how do you think about that?
+It's sort of this distinction between differentiation and defensibility.
+I think AI is an incredible catalyst for differentiation, right?
+Solving the messy inbox problem with software is a thousand times better than the human doing it.
+It's not even on the same kind of playing field.
+Super differentiated way to wedge in, again, kind of own the downstream workflow.
+Is that wedge product alone defensible?
+I would argue no, right?
+Today, it feels like magic to the providers that they're working with.
+But I think that capability is going to become commoditized over time.
+They may have an advantage because they've trained a model for now, but I think that is ephemeral.
+I think the defensibility comes from, again, owning all of the downstream workflows, deeply integrating themselves into every other system that they have, effectively owning that sort of core kind of end-to-end workflow.
+And I guess the hot take would be that moats still matter.
+And a lot of the moats in software today are the same that they've always been.
+So becoming a system of record, having a network effect, becoming a platform, having virality baked into your product, deeply embedding yourself into the existing system so it's hard to rip out.
+These were all of the heuristics that we would always have looked for in software, and they're still true today.
+I agree with all of that.
+The other way to think about this is why did software start with airlines?
+Well, a lot of people traveled.
+Airplane tickets were very expensive, and this was a pittance for them, and it made so much sense versus having throngs of filing cabinets and gophers.
+It makes sense to go pay hundreds of thousands of dollars in 1960s money to go buy some giant IBM mainframe.
+And this is why I brought up that financial services example.
+Software for restaurants did not make sense.
+It just wasn't a problem to be solved, and the market wasn't big enough.
+And you made the market big enough once, to Angela's point, you threw in payment processing and insurance and all these other things that they were paying for anyway.
+So you can either try to come up with a wedge, as David mentioned, and then figure out how you expand your wedge and make it defensible and become a system of record.
+The other thing that you do is you just find things like restaurants in 1980 that have no software and needed no software, wouldn't pay for software, but their labor budgets are enormous.
+And the example that I would give here, what is the incumbent software product for compliance officers at banks and financial institutions?
+Excel? Word? Microsoft Edge browser looking for bad things?
+What does a compliance officer do?
+It's now in the news a lot because of this debanking thing.
+I found this on the Bureau of Labor Statistics.
+The fourth fastest growing job in America is compliance officer.
+There isn't an incumbent software product that they use.
+Every bank and financial services company on earth, they're all hiring for compliance officers.
+It takes a long time to train them.
+What if account openings goes down? I don't need as many.
+What if account openings go up? I need more.
+It takes, in some cases, like a month to open a business bank account at a bank because the compliance officers are backlogged.
+What if you deliver that via software?
+And there is no software.
+There is no incumbent that can now add this AI module.
+In the same way that NetSuite was an incumbent for accountants where they can add a module for AI work of collecting money.
+You find these other areas where there really isn't an incumbent or the incumbent is like Microsoft Excel.
+Sometimes these are just so bizarre.
+I wouldn't think about compliance officer until I saw this random report from the Bureau of Labor Statistics that showed manicurist is number one.
+That's a hard one to have AI do.
+Then number four is compliance officer.
+Then you talk to banks.
+What software do you use? It's Excel.
+Again, giant labor budget.
+Not enough people that are using software.
+You can not have to worry about the incumbent.
+It still is a wedge, but you could probably turn it into a system of record.
+Why were no venture-backed companies or even non-venture-backed companies built in this space?
+It's just like, well, I can't charge that much money.
+It's just not a big market.
+In the same way that there was no restaurant software market in 1980.
+It's the exact same reason, but there's enough budget there to go fill this very, very pressing need.
+I think one of the most interesting parts of our job is every time there's a new technology shift, we have to challenge every investment thesis that we thought was not going to work.
+So many of them now are going to work.
+If we come back to financial services, there's a lot of pretty terrible systems of record where smart people have tried to get them ripped and replaced, and it was just not going to happen.
+My new conclusion with AI is not that they would never do it.
+It's that the replacements were 2x better.
+They weren't 10x better.
+And so if we come back to compliance, lots in Excel, but for instance, you've probably read the $4 billion fine by TD in transaction monitoring, right?
+And so they sit on an old transaction monitoring system, MacTomize is one of them.
+They should probably get one that throws up fewer false alerts, but they were trying to clear a backlog of several tens of thousands alerts.
+They can't hire enough compliance people.
+So now an interesting wedge in is, we'll provide you with all of these agents.
+And oh, by the way, we also have a much better transaction monitoring system that is actually going to fix the problem.
+So this labor plus software bundle also helps the sales process and then helps the defensibility because you're really solving the major problem, which is better software, and also I can't hire the people.
+Yeah, and I think that's such an important point because you all have pointed out different areas where, quite frankly, the labor is not there.
+And so as we're talking about software disrupting labor, the natural question is, okay, so what happens to all these jobs?
+But maybe we can talk about both that and the flip side of what new jobs are created because the previous arcs we saw, product managers, UX designers, social media managers, those were all remnants of the previous era.
+How do we think this will shape up?
+It's always hard to prophecy these things because in 1789 or something, it would be hard to say, what will these farmers be doing post-tractor?
+Sitting in a room talking.
+Exactly, talking with these electronic microphones and this like amazing fire.
+Look at the fire in the sky here that we have in the basement.
+Our ancestors would be proud.
+Exactly. What was a nurse, right?
+It's like medicine was bloodletting, leeches, and prayer.
+So it's obviously changed a lot.
+So on the one thing that I think AI cannot do, and in fact, if you have an AI sales rep, like Salesforce, why do I need seats for salespeople if AI is doing selling?
+But AI cannot build a relationship with somebody over golf.
+So I think the in-person things that only humans can do, that skill set might go up in value tremendously.
+At the far extreme, I talked to somebody who believes that in the distant future, there will only be two jobs.
+You either tell a computer what to do, or you were told by a computer what to do.
+And there's a whole set of things where people could be a lot more productive in whatever job they're doing when you have this little coach by your side saying, do this, do that.
+But I think the human connection thing is almost the most important because if I think about every other era of a new communications tool, imagine having the first telephone.
+Alexander Graham Bell invents the telephone.
+Nobody has a telephone.
+How do you scale this network?
+You get one, and the only person that calls you is your mother saying, why don't you call me more often or something?
+So then the first telemarketer shows up and then starts taking advantage of the fact that you have a phone, and rather than go horse and buggy to your house, they can try selling you something over this old-fashioned telephone.
+That was a very advantageous place for that first telemarketer to be.
+The history of Sears Roebuck is really fascinating because even though they had the Sears Tower, they had these giant stores, it really was the first giant mail-order catalog.
+So they were the ones that kind of figured out how to use the U.S. Postal Service.
+Faxes came out.
+People started sending unsolicited faxes.
+So the reason why I bring all this up is you can imagine a world where AI is selling you everything, pushing you everything, and then right now it's a novelty and it works really well.
+But once it becomes so mainstream that everybody's doing it, it's like this Yogi Berra expression, like it's so crowded, nobody goes here anymore, you can imagine the need for actual human connectivity to go up dramatically.
+It's followed this pattern of once it gets so crowded, somebody that's doing something different, in this case the old-fashioned way, it might be more valuable.
+One of the ways we think about it is all of us have some percentage of our job that's rote tasks that could be automated with AI.
+And I think we strongly believe that at least every white-collar job is going to have a co-pilot.
+Some might be fully agentic, back to our L1 compliance reviewers.
+And so if you imagine all of us not doing any menial tasks or anyone, focusing on the human connection, the most creative parts, and having all of our days to spend on that, like what might be enabled, then that's a pretty exciting way to think about it.
+Definitely.
+And as we think about the companies that can be created in this wave, I'm so curious, because it does feel fundamentally different as you three are assessing companies, are there a new layer of metrics that you pay attention to?
+Again, using a previous wave, maybe we got social media and all of a sudden we're thinking of daily active users.
+That was a key metric that people started to pay attention to.
+Are there new metrics?
+Are there the same metrics that matter?
+Is it too early to tell?
+I think it's actually the exact same metrics.
+It's not like, ooh, it's AI, so therefore future profits don't matter.
+It's the present value of future profits.
+And that really comes down to like, how many customers do you have?
+Do you retain those customers?
+And then how much gross profit do you make per customer?
+And then how much overhead do you have?
+And I don't think any of that changes.
+So, I mean, the reason why social networks were interesting is we knew that the customers retained, right?
+But will people pay for it?
+Will it make money?
+There was this open question.
+And therefore there was this, if you will, alpha of, oh, wow.
+We call this the smile curve, which is very rare.
+Obviously 100% of people use the product on day zero because day zero is when they installed it.
+But then people stop using it on day one, day two, day three.
+And normally most products, they just have exponential decay.
+So by day 200, of the 100 people that downloaded it on day zero, zero people use it at the end.
+What's interesting is things like Uber or Facebook where, again, 100% of people use it on day zero.
+Then it drops off on day one, day two, and then it picks back up.
+And then it plateaus at maybe 50%, 70%, 90% of the original starting bunch.
+And that's so rare.
+But then the question was, will Facebook ever make money?
+No, they won't make money because it's free.
+But they figured out that advertising was very valuable.
+I think the vast majority of things that we're seeing right now just monetize via subscription.
+So it's actually very clear how they make money.
+And the DAU thing is actually just as useful today as it was before.
+But the money part is almost automatic.
+Like the thing that was unique about the internet era was it's like, oh, get big and then monetize later.
+And we're not seeing as many of those.
+But I don't think any of the fundamental isms of evaluating a business have really changed.
+The only thing that's more dangerous is since AI can now write software, it's just so much easier to spin these things up.
+Whereas to build something and scale it out, the reason why Friendster failed, like Friendster should have been the social networking winner, but their servers couldn't stay up.
+And MySpace should have been the winner, but they couldn't hire good engineers.
+There are all these different reasons that are not relevant today because the technology stack is so different.
+But again, it's present value, future profits.
+That's unchanged.
+I think one thing, and this is not a business metric, but that's changed is just potential market size.
+And we talked about how it scales in the large vertical SaaS markets.
+So there's something in the U.S.
+Called the North American Industry Classification System, the NAICS codes.
+And there's 600 of them, and they'll classify industries, how many companies are in there, what's their labor budget.
+And there's a whole host of industries, whereas if you looked at them before, you say, well, there's 1,000 potential buyers.
+Maybe they'll pay $1,000 a month for my software service.
+That's $120 million market.
+That's really not that interesting if I'm going to build a venture-backed business.
+Now, if you think you can layer an AI, replace some of the labor budgets, those markets get dramatically bigger.
+And so I think the different pockets of where software can be built, these niche markets that weren't that interesting, are now potentially very interesting.
+I think the other dimension that we're seeing pitches for is, are you selling software into the incumbent industry, or are you building the full-stack version?
+Alex wrote a bit about this in Herbarium Syndicate, which is sort of like the evolution of private equity kind of in an AI context.
+And so you think about an area like professional services, so in legal, for example, the challenge that a lot of these law firms have is that they're charging on a per-hour basis, right?
+So if AI can do what used to take three hours in three seconds, where does the revenue go?
+And so we're seeing some people pitch the full-stack kind of AI-native law firm, which might have a totally different cost structure to Kravath or one of these big firms.
+Or there are other areas within professional services that are much more aligned to benefit from that efficiency.
+So, for example, we have a company that is solving a lot of the workflow challenges in plaintiff law.
+They operate in both employment and personal injury, where in that model, unlike on a per-hour basis, they're charging on a contingency model, meaning they don't get paid unless there's an outcome or a settlement of the case.
+And in personal injury, as an example, for every hundred leads that these lawyers get, they take one case.
+And there's a ton of, again, that messy inbox problem of sifting through medical records or employment documents and having to essentially quantify the value of each case that they'll take on, because any case that they take is an investment of their labor.
+And so what this company is doing is essentially programmatically helping solve that sort of intake challenge, that messy inbox problem, to help automatically qualify the value of those cases, and then works essentially as a copilot for the lawyer to draft a medical chronology, to create a demand letter, to file a complaint, and basically walks through the entire sort of pre-litigation and litigation process that allows that lawyer to take on 3x or 4x the number of cases.
+But again, the value that software is delivering to the practice is reducing labor costs.
+So one way to do it is you just have fewer lawyers and the same amount of revenue.
+Or, in this case, I think what's going to happen is it's going to significantly grow these practices.
+And in this case, they're actually passing the cost of that software to the end client in the form of a technology expense, which they often had done historically.
+And so the value that the software is delivering to each of these firms is super aligned to the impact that it's having on the business.
+And so I think the more clients you can take on, the more people that can pay for the software.
+And so on a per-firm basis, there's a significant kind of revenue expansion opportunity.
+I think that's an interesting tension that you'll see across industries, where does the AI help by reducing cost?
+Is it better to build a full-stack version or sell the software in?
+And I think there'll be successes in both dimensions, but it's something we are seeing more of.
+Yeah, and one follow-up there.
+As you're talking about the cost being passed along to the end user or buyer, is that just net deflationary as this permeates across the system?
+I know it would take time, but eventually if you see more competition and more people creating these AI-based labor products, and then people are competing on price, and all of a sudden to take on a new case, it's no longer $5,000, it's 500.
+Is that something that you guys are thinking about?
+Or you know how you said that in the previous era, the open question was, can we make money?
+Can we monetize?
+Is that an open question that this over time just becomes deflationary and firms can't charge as much?
+I don't know.
+This legal example might be unique in the sense that the clients are also waiting for a settlement themselves.
+And so the cost of the software is essentially coming out of whatever the lawyer is able to help win for the client.
+And so they're not really feeling the cost of the technology as much as maybe other industries.
+I think technology, if it's done right, is always deflationary because you get productivity gains.
+So I think for sure, I think the defensibility point is the most relevant one that we struggle with a lot, which is, wow, it's so easy to build one of these things because the number one use case, it's almost like a recursive thing.
+It's like, which profession is using AI tools the most?
+It's probably the tech people that actually build tools.
+And that's where things like Cursor have gotten so popular.
+Companies like Stack Overflow are suffering so much because I don't need to go to Stack Overflow anymore because I just get the answer from Claude or I get the code sample from Cursor.
+It's just so much easier to do this stuff.
+And so it is fundamentally deflationary.
+But what if there are 50 companies that end up doing the exact same thing?
+That's the hard part.
+But I think I can't see a scenario where prices are more expensive than humans or where prices don't just keep going down.
+And significantly.
+Significantly.
+And that's the history of technology in a nutshell.
+Again, it's like the 100 megabyte hard drive in 1960 that weighed tons, literally tons, was probably a million dollars or something crazy.
+And now it's just comical.
+I bought some for Cyber Monday.
+I bought all these little micro SSDs for a terabyte was like $10.
+It's just incredible.
+So I think that is an inexorable process for technology cost in general.
+And then you also get new use cases where I've written about this separately, which is the everything to the right of the supply-demand curve.
+This is a really interesting use case where there just wasn't demand where there was supply.
+There's a lot of supply to do something for $2,000 an hour if I want to file a trademark with the leading trademark attorney.
+So the trademark market or the patent market, that might be very small because it costs too much.
+But now if it only costs $5, wow, maybe everybody does it.
+Or translation is one that I find fascinating where it just doesn't make sense if you're a small company to go translate your introductory video into like 45,000 different languages that have ever existed.
+Like, why would I translate it into ancient Greek?
+But you know what?
+Why not?
+It's free, right?
+So you have all these other things that just expand the market because the cost has dropped so precipitously.
+Closing things out, where do you guys want to see more builders applying themselves?
+You're obviously seeing a lot of companies, a lot of people excited.
+Also, the incumbents are clearly excited about getting in on this wave.
+Is there an area that you'd like to see more attention being put toward?
+My view is obscure is good.
+We love it when somebody walks in, has had a decade or more of like obscurity.
+They served some weird job or they were at like something that nobody's ever heard of, the farming industry, the mining industry, the whatever industry.
+And then they actually have an insight that somebody else doesn't and they actually know the potential of AI.
+Because the other thing is that it's very important to know that the technology is not ready for autopilot for a lot of these things.
+It's just like the use cases are too complicated.
+The integrating the different pipes is too complicated.
+Overshooting early, like there are going to be a lot of failures because there inevitably are in every technology revolution.
+Not because the idea is bad, but it's not good enough to be a hundred times better.
+I think it's like obscure and then finding the ones where like at least for right now, actually the technology is good enough for the obscure use case at hand.
+Yeah, I'd say also across, there's many industries of this, but financial services and insurance have a host of old systems, like 30 plus year old systems of record that now can be made 10X better, incorporating labor, redoing the amount of workflow.
+And so deep knowledge of those areas, like we have transaction monitoring in Sardine.
+We've got a mortgage loan origination system in Vesta.
+We've got servicing, got a couple in insurance.
+And so entrepreneurs that really understand those space and can bring AI thinking there, I think it's a big opportunity.
+I think we'll continue to see lots of entrepreneurs wedge in with the messy inbox problem across lots of niche vertical industries.
+We're still on the lookout for horizontal software, AI native versions selling into sales teams, marketing, product management, analytics, CFOs.
+In those categories, you often do have a large incumbent software competitor.
+And so that's sort of the tension.
+You have to understand the market structure and how likely it is for that incumbent to change their pricing model and build more AI native features.
+But I think there will be generationally defining companies built in an AI native way in horizontal software as well.
+Very exciting.
+Thanks, guys.
+Thank you.
+Thanks, moderator.
+You would have been a good farmer too, I'm sure.
+All right, that is all for today.
+If you did make it this far, first of all, thank you.
+We put a lot of thought into each of these episodes, whether it's guests, the calendar Tetris, the cycles with our amazing editor, Tommy, until the music is just right.
+So if you like what we've put together, consider dropping us a line at ratethispodcast.com slash a16z.
+And let us know what your favorite episode is.
+It'll make my day, and I'm sure Tommy's too.
+We'll catch you on the flip side.
