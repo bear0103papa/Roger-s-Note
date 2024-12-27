@@ -1,0 +1,605 @@
+welcome to Taiwan talks I'm your host weni U as Donald Trump prepares to take
+
+office the world is watching his semiconductor policies today we're
+
+joined by a special guest Dr jingu Who
+
+has many titles among them UC Berkeley
+
+Professor National metal Science and
+
+Technology recipient as well as the
+
+father of 3D transistor finet which is
+
+coined and inhaled as the Revolutionary modern technology for
+
+semiconductors today welcome Doctor Who
+
+let's start with uh tsmc where you were
+
+their first Chief technology officer many years ago um it's also become one
+
+of the most talked about companies in the world
+
+um how do you think about uh is
+
+globalized ation strategy these days uh
+
+obviously we know that it's set up two
+
+factories now in Arizona uh one in Japan
+
+the other in Germany and maybe more coming um do you think this is a good
+
+strategy for tsmc overall I think it's a good strategy it's definitely going to be good for the
+
+stockholders it's a rare opportunity that the company you know gets the
+
+cooperation of so many localities
+
+countries and governments and even
+
+financing yeah for for you to expand so
+
+um that's going to be good for the business of um of tsmc and I think for
+
+all the countries that are inviting tsmc to set up shops it's a challenge for the
+
+Taiwan government which always says they want tsmc to keep the rootes here it's
+
+going to be challenged um there was some debate in
+
+Taiwan uh when tsmc announced that it was going to set up factories in Arizona
+
+um there was this concern of hollowing
+
+out uh the most advanced uh Technologies
+
+and what's your thought just knowing the
+
+company you know tsmc is a great company so I'm sure they have thoughts through
+
+all the things they needed to do um so
+
+that they could keep the R&D uh in
+
+Taiwan and uh um but Taiwan you know it
+
+has limited resources including
+
+educational and uh honestly population
+
+resource so how can um um a huge company
+
+um gets such a limited resources to do what needs needs to do for the world and
+
+that is going to be a great challenge for the management as well as for Taiwan
+
+government but Morris Chang the founder has also said before that the success of
+
+tsmc is is you know due to this special sort of almost like an ecosystem that
+
+was created in Taiwan um and so relocating or
+
+replicating that model may not be as
+
+easy in in other Loc ations um what what
+
+do you think I agree with him I think
+
+tsmc will be wise to um keep the
+
+successful operation in Taiwan especially in R&D I think taian
+
+continues to hold some cost
+
+advantages but you know once um you have
+
+um significant um operation in countries
+
+like uh us uh there will be continued um
+
+attraction for you to bring um you know closer to closer to your most advanced
+
+technology there and clients clients some clients will want that as
+
+well yeah so there will be a lot of
+
+incentives to um um bring the US
+
+operation almost up to par with Taiwan
+
+and we will see how tsmc um can make manage what they want to do I believe
+
+they want to keep the roots in Taiwan
+
+yeah well obviously tsmc has been viewed
+
+as um silicon Shield uh for Taiwan I don't know how you personally
+
+think about this concept of silicon Shield um I don't have much thought
+
+about it but I really like the way
+
+um the um former C uh CEO mark um Lou he
+
+was the CEO of tsmc when this concept was first floated in the media media and
+
+he was more or less asked that question uh um on when he was interviewed on the
+
+60 Minutes yes yeah and I think he said that just right he said um I'm
+
+paraphrasing you know if China attacks Taiwan is it's not going to be because of
+
+tsmc if China does not attack Taiwan it's not going to because of tsmc I want
+
+to mention Morris Chang famously said Global globalization is dead um and the
+
+success of at least in the past semiconductor industry is because of
+
+this Global supply chain and almost like every company plays a very unique role
+
+and these
+
+days um because of geopolitics it may be
+
+different um do you think the cost this
+
+will drive up the cost of producing
+
+semiconductors and then therefore maybe affecting how the worlds you know the
+
+cost of all the chips and as well as Electronics cost I think it will you know
+
+semiconductor um price is has always been priced to be
+
+extremely attractive extremely affordable as a result um there are more
+
+more applications there are more uh uh demand and now you know every one of us
+
+have dozens even not hundred of chips on
+
+a person um and uh so this the reason
+
+the cost can be kept so low is because it's a large competition and there a
+
+many companies and in fact many countries
+
+pouring billions of dollars into every reg generation of Technology you know
+
+because you phrase this question more about cost and I I believe you meant of
+
+course cost to the to the users yeah
+
+customers exactly um you know before
+
+um the uh Trump started the um um trade
+
+War yeah the trade War let's say um the
+
+general concern about in the in the
+
+semiconductor industry is that wow China will start a price War it's going to
+
+totally drive down the cost of semiconductors K IND because they were
+
+investing lots of money to develop that right and if that had not been stopped
+
+by this trade War then we would not be sitting here worried about the cost so if
+
+you you know uh stop the globalization of course still will be cause associate
+
+with it the efficiency will be gone the investment will be less competition will be less yes that will favor some
+
+companies including tsmc you know otherwise tsmc would face the very
+
+Fierce competition from China as well um so yes there will be um impact on the
+
+cost no question about it and it feels like more recently especially because of
+
+AI uh which will need very Advanced
+
+trips to power AI that there's even more
+
+demand uh for advanced semiconductor
+
+chips so what is the future of this
+
+indust I mean this sector you the inventor of finfet which in my view
+
+prolonged the life of you know semiconductor chips it keeps it you know shrinking and getting smaller and
+
+smaller but how much smaller can the chips go um it can be smaller
+
+but cannot follow more so-called Mo law uh forever
+
+we know that uh um Mo law is about doubling the number of chips um every
+
+two years yeah every every two years yes
+
+and um you know it's just like um how
+
+they um human gra brain develops from the time in Theo the the brain starts
+
+with one cell and before long it's two that's four then eight but you cannot
+
+continue forever you know by the end of one year age a child's braing basically
+
+fully developed right after that it's all through learning and you increase
+
+the capability and uh his and her you know ability just cannot be predicted it
+
+can be immense right so right now it's two nanometers right is that the
+
+smallest yes so so the point is that you
+
+cannot assume that the the mor law can
+
+continue forever so um if we change what
+
+the Dr Chan said about globalization is that you could say more SL de and I'm
+
+not saying that because I think that would be mised by a lot of people I'm
+
+really saying is that it's like human brain cannot go grow forever but you
+
+also don't need to grow forever because when it's get to large enough scale you
+
+have more structure indust enough in brain then you can have other ways to
+
+develop doesn't have to be bigger to be better you can learn you can do things
+
+differently a coincident you know since the introduction of ffat because it
+
+showed that you could improve
+
+the speed so much reduce the power
+
+consumption so much that
+
+customers are willing to pay more per
+
+thing fat compared to the preener region
+
+rather than the first 50 years or 60 years of the IC industry where the
+
+customer always expected and demanded lower price
+
+per transistor than the previous generation
+
+that is why transistors keep growing on the chip but the Chip Price more or less
+
+stayed in the same order magnitude that's surprising and this is in spite
+
+the fact that each chip contains manys more transistor than decades ago but but
+
+the the ship price did not increase by more than other magnitude it's always a
+
+few dollars a chip right maybe $20 a chip but you know once F fat show C what
+
+you can do is not just through cost but through
+
+the Innovation the better technology you can improve the speed so much reduce the
+
+power consumption and heat dissipation so much that so that there are more
+
+things that can be done with the chip
+
+including ai ai exactly and therefore
+
+the market can grow without
+
+just relying on war law to cut cost and I think that will be the way to think
+
+about semiconductors you know more law definitely will not continue long the
+
+way it's phrased and now that most people like you uh who have really
+
+looked at definition understand but I think most people actually probably
+
+thinks more SL just about the industry the technology continue to improve and
+
+grow in that sense it will definitely continue because it can do so much for
+
+the world well you also mentioned the power consumption um your invention
+
+obviously helps reduce the uh Reliance
+
+on on the power um but with again with
+
+the boom of AI um and so it seems that
+
+uh the energy uh required to manufacture
+
+the chips in order to power AI uh is
+
+going up again so is that going to pose
+
+a challenge uh to the world when it comes to energy and sustainability not
+
+to the world to Taiwan yes okay um so CU you're asking about energy used to
+
+produce these chips right useful as they are but it does take energy to produce
+
+them so I think um you know many viewers probably immediately think about oh is
+
+you know chip manufacturing a problem for global warming right for the future
+
+of the world so let me just uh um you know address your question from that
+
+angle right then we talk about Taiwan
+
+right uh you know definitely um chip
+
+manufacturing is not a burden on the global warming or going to make it worse
+
+in fact is going to make much better we're going to really need more chips to deal with the challenge of global
+
+warming I
+
+just ask you to think back to the to the
+
+um um the coic crisis time right um very
+
+quickly showed even what the chips could do at that time we could already
+
+basically replaced All Automotive traffic all airplane traffic traffic and
+
+people really didn't Misfit quite really in their work in their even study it's
+
+not ideal but it's manageable right even with technology that time in fact even
+
+before the co probably most people never um even heard about Zoom but it's
+
+already there waiting for its day and uh
+
+so imagine if the global warming became much worse and we're going to really cut
+
+out carbon intensive Industries do you think they would prefer to shut down tsmc or
+
+semiconduct industry or they will want to just re replace the traffic on the uh
+
+by car and replace the airplane traffic right so so from the
+
+the future of the world from the global Waring point of view let's put this
+
+question aside no semic not a problem it's a solution all right and
+
+fortunately we have this because we're probably going to need more of it to
+
+deal with other problems global warming will bring and uh
+
+semiconductor is the most power efficient way to really increase our human ability to solve problems by
+
+another order of magnitude who knows we may need that if power if global warming
+
+really comes you know at full force and and uh you know we fail to do enough so
+
+you're basically saying that uh more avanced chips will be able to
+
+power better technologies that will be more energy
+
+efficient to the world I mean we we see
+
+we we see EVS as an example right that's
+
+the the the story of the uh um high-tech
+
+or the digital techn Tey right what about Taiwan okay so no return to your
+
+question but think it from Taiwan point of view now Taiwan is a small place very
+
+limited resources not just energy resources you know I'm very concerned about it's educational resource the
+
+population resource right but energy is but let's think about energy yes is a
+
+big absolutely true yeah you know many different ways to look at this um lot of
+
+the um people are complaining that the semiconduct industry you know led by
+
+tsmc has already bought out all the green energies in Taiwan so in other
+
+words tsmc is doing you know what it can based on the rule game now right that is
+
+you should you know invest in green energy buy them right and give them the
+
+the fund to build more so tsmc is being criticized for doing too much much but
+
+it can't afford to do it of course and that's the only thing they can do so
+
+know only the government can figure out from a national scale what's the answer
+
+to that right uh even buying out all the
+
+green Energy may not be enough to your
+
+question even for tsmc right so um you
+
+know I personally think nuclear power is unavoidable you know it's a necessary
+
+evil but it I know that's highly
+
+unpopular still and may not come to pass
+
+if not then we'll have to see right
+
+right um well given taiwan's Advantage
+
+um and Leadership on on in this industry um but we also know that many other
+
+countries are trying to compete uh for the advantage uh having
+
+that Advantage you know whether it's the government Japan even Vietnam Malaysia
+
+India you know UAE you you can name it all these
+
+countries are trying are vying for the leadership as well um do you think
+
+Taiwan can continue to lead on semiconductors I I think the you know
+
+game is for it to lose right if it plays the right they should be able to you
+
+know you have already touched down limitations I I have um um already
+
+mentioned it will be pressure for them
+
+for tsmc to you know to um um move more
+
+more of the operation
+
+overseas so so in your view it makes
+
+business sense for tsmc to expand
+
+globally um you know looking at a case of the US um I don't think tsmc even has
+
+a um um viable option right the um um you
+
+know the threat of the tariffs and all
+
+that and the uh um the request of the
+
+customers and all those makes the
+
+decision makes sense yeah yeah yeah well
+
+I I want to ask you also about um us leadership on semiconductors because uh
+
+we know that the chips Act uh during the Biden Administration was
+
+primarily trying to onshore uh or Reon Shure um us
+
+capabilities in in this
+
+industry um and uh the biss use uh
+
+subsidies as the tool to do that um it's a rumor that Trump Administration may
+
+use may not use subsidies and they will use tax incentives maybe as a way and
+
+then maybe tariff do you think the US can reclaim the leadership on semiconductors I mean we we see the case
+
+of I mentioned that because Intel's development recently um has
+
+gotten a lot of people's attention my question is how much can the government
+
+do to help private
+
+companies um be a leader in
+
+semiconductors I think incentives um you know probably would be um um a very
+
+effective way to do
+
+that and that probably is the um um
+
+least hurtful or so at least the the target company um uh get some
+
+benefit incentives okay and uh can can
+
+we just also ask a question about um Nvidia and you know the Taiwanese gang
+
+so I was at a recent uh talk that Jensen
+
+Hong um gave in Washington DC and he said when he was a teenager his dream
+
+was to become a semiconductor engineer what is this thing about Taiwanese and
+
+semiconductor Engineers is this yeah is this like a
+
+Taiwanese thing or
+
+something definitely not right I I think
+
+it's a in a matter of U um um time you
+
+know we're all about the age [Music]
+
+um such that after we graduate from the University in the case for Jensen he
+
+actually attend the University in the US but it's still um and he's much younger like you know the generation that your
+
+generation was kind of the first generation that started this yeah yeah
+
+and but but um you know
+
+so when we finished the University at um um in the in the US it was the booming
+
+time for Semiconductor yes you you you are right that I'm kind of a head of the pack of
+
+this that generation right so I was very lucky when I um when I entered the
+
+University of California it was just a
+
+year after Intel Intel's fing
+
+mhm and uh 196 9 so when uh Jensen and
+
+um ISU graduated you know semiconduct
+
+was a fast growing industry um if you talk about the rate
+
+of annual growth that was the time when the industry Grows by 20% a year right
+
+but the base of course is low you know very well how that's different today although the rate is small but the
+
+amount of the bill hundreds billion doar a year grows much bigger than that time
+
+but that was the the growing period and you know being immigrant we have no
+
+baggage you know no family uh business
+
+to consider um so the choice quite
+
+simple um it's the um semiconductor it's not like there are so that many uh
+
+choices and if I may expand on that theme a little bit you know that
+
+actually I think explain a little bit of the success of Taiwan semiconductor
+
+Foundry industry the fact is you know um
+
+in Taiwan um companies are not like the
+
+um us or even the Japanese companies that are conglomerate
+
+conglobate conglomerates yes they could invest the same billion dollars into
+
+manufacturing semiconductor or into their banking division yeah no Intel
+
+does not have a banking division but you you see what I'm saying but G did and G was in semiconductor people don't even
+
+remember that right and uh and semiconductor business has is very
+
+cyclic so yes in good years you you you you you you you grow well that's why we
+
+have this annual growth rate is very high but in the down year that's so
+
+painful so after a CEO has suffered that one at most two cycle he wants to get
+
+out of it so in some sense and and T semiconduct
+
+semiconductor not only because Dr Chan said we want dedicated to this but in
+
+fact if you want the company to do something else it probably cannot do it
+
+doesn't have doesn't have the uh expertise and doesn't not have the
+
+structure to do that and in some sense I
+
+think the generation of the Taiwanese students or immigrants in uh the US
+
+somewhat like that yeah right so we don't have any choices and this is the
+
+growing field so exciting so we want to do it the opportunity and yes we also
+
+work hard and uh you know we are good at
+
+science and we studied hard in school so
+
+we got the um you know right um um knowledge right and we got that uh
+
+single-mindedness mhm so that's what it is thank you so much for um coming to
+
+Taiwan plus today um talking to Taiwan talks
