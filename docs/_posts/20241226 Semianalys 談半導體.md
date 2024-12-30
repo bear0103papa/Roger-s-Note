@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Semianalys 談半導體"
+date: 2024-12-26
+categories: [Semiconductor, AI]
+description: "探討AI半導體產業發展趨勢，包括NVIDIA的市場地位、AI模型訓練的演進以及產業未來展望。"
+---
+
 AI Semiconductor Landscape feat. Dylan Patel | BG2 w/ Bill Gurley & Brad Gerstner
 
 Brad Gerstner 一位美國投資者和對沖基金經理人

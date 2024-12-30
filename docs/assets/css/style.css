@@ -1,0 +1,49 @@
+/* 自定義滾動條 */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* 文章內容優化 */
+.prose {
+    font-size: 1.125rem;
+    line-height: 1.8;
+}
+
+.prose p {
+    margin-bottom: 1.5em;
+}
+
+.prose h2 {
+    margin-top: 2em;
+}
+
+/* 深色模式適配 */
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #e5e7eb;
+    }
+}
+
+/* 代碼塊優化 */
+pre {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+}
+
+code {
+    font-family: 'Fira Code', monospace;
+} 

@@ -1,3 +1,11 @@
+---
+layout: post
+title: "AI Semiconductor Landscape feat. Dylan Patel | BG2 w/ Bill Gurley & Brad Gerstner"
+date: 2024-12-13
+categories: [Semiconductor, AI]
+description: "SemiAnalysis創辦人Dylan Patel與Bill Gurley和Brad Gerstner討論AI半導體產業格局，探討NVIDIA的競爭優勢、AI模型訓練的發展趨勢以及產業未來展望。"
+---
+
 AI Semiconductor Landscape feat. Dylan Patel | BG2 w/ Bill Gurley & Brad Gerstner
 
 Brad Gerstner 一位美國投資者和對沖基金經理人
