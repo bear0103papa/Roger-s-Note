@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Scaling Shopify feat. Tobias Luecke"
-date: 2024-12-27
+date: 2024-12-16
 categories: [E-commerce]
 description: "Shopify聯合創始人兼CEO Tobias Luecke與A16Z聯合創始人Ben Horowitz對話，探討在競爭激烈的領域打造突破性創業公司所需要的條件、零售業的變革、如何在工作場所推動變革、如何處理個人情緒和企業文化，包括處理行動主義的呼聲，以及擁抱負面情緒的價值。"
 ---
