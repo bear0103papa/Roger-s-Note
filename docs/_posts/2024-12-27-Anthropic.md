@@ -2,6 +2,7 @@
 layout: post
 title: "AI正在推動美國數據中心用電需求的大幅增長"
 date: 2024-12-27
+categories: [Semiconductor, AI]
 description: "加州伯克利大學的研究證實了我們所有人的猜測 - AI越多意味著用電量越大。"
 ---
 
