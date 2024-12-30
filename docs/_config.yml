@@ -4,33 +4,16 @@ description: 關注半導體與 AI 產業發展的深度分析
 url: https://bear0103papa.github.io
 baseurl: /Roger-s-Note
 
-# 設定文章的永久連結格式
-permalink: /:year/:month/:day/:title/
-
-# 支援中文
-encoding: utf-8
-lang: zh-TW
-
 # Jekyll 設定
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-# 預設布局
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-
 # 排除檔案
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/ 
+  - vendor
+  - "../原文草稿" 
