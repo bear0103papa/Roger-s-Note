@@ -2,7 +2,6 @@
 layout: post
 title: "As TSMC Expands Globally, How Is Taiwan’s Semiconductor Landscape Shifting! ! Taiwan Talks EP526-transcript"
 date: 2024-12-27
-categories: [Semiconductor, AI]
 description: "探討AI半導體產業發展趨勢，包括NVIDIA的市場地位、AI模型訓練的演進以及產業未來展望。"
 ---
 
