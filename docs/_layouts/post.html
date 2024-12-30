@@ -6,5 +6,8 @@ layout: default
     <div class="text-gray-600 dark:text-gray-400 mb-8">
         <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
     </div>
-    {{ content }}
+    
+    <div class="mt-8">
+        {{ content }}
+    </div>
 </article> 
