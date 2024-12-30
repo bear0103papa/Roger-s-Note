@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ilya Sutskever: "Sequence to sequence learning with neural networks: what a decade""
+title: "Ilya Sutskever: Sequence to sequence learning with neural networks: what a decade"
 date: 2024-12-14
 categories: [AI]
 description: "Ilya Sutskever 在 2014 年 NIPS 大會上的演講，探討了深度學習在自然語言處理領域的突破性進展。"
