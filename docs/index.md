@@ -3,6 +3,11 @@ layout: default
 title: 首頁
 ---
 
+<div class="text-center mb-12">
+    <h1 class="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-4">{{ site.title }}</h1>
+    <p class="text-xl text-gray-600 dark:text-gray-400">{{ site.description }}</p>
+</div>
+
 <div class="space-y-12">
     {% for post in site.posts %}
     <article class="bg-white dark:bg-gray-800 rounded-lg shadow-sm p-6">
