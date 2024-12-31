@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "AI正在推動美國數據中心用電需求的大幅增長"
+title: "Import AI 395: AI and energy demand; distributed training via DeMo; and Phi-4"
 date: 2024-12-27
-categories: [Semiconductor, AI]
-description: "加州伯克利大學的研究證實了我們所有人的猜測 - AI越多意味著用電量越大。"
+categories: [AI]
+description: "AI正在推動美國數據中心用電需求的大幅增長; Microsoft發布其優秀的"Phi"模型第四代; 以及Nous Research的研究人員發布了Decoupled Momentum (DeMo),這是一個"融合優化器和數據並行算法,可以將加速器之間的通信需求減少幾個數量級。" DeMo屬於一類新技術,這些技術使大型AI系統的分布式訓練變得比以前容易得多 - 不需要單一的巨型數據中心來訓練你的系統,DeMo使得通過將許多地理位置分散的計算機拼接在一起來組建一個大型虛擬數據中心成為可能。"
 ---
+原文連結: [Import AI 395: AI and energy demand; distributed training via DeMo; and Phi-4](https://app.daily.dev/posts/import-ai-395-ai-and-energy-demand-distributed-training-via-demo-and-phi-4-eqwsvwwpj)
 
 AI正在推動美國數據中心用電需求的大幅增長:
 加州伯克利大學的研究證實了我們所有人的猜測 - AI越多意味著用電量越大。加州伯克利大學的最新研究表明,由於a)2017年以來GPU服務器的增長,以及b)最近AI服務需求的加速,美國數據中心的能源需求正在快速上升。研究人員寫道:"這裡呈現的結果表明,美國數據中心的用電量目前正在加速增長。"

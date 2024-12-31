@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "Scaling Shopify feat. Tobias Luecke"
+title: "Scaling Shopify: Tobias Lütke and Ben Horowitz on Building a Global Giant"
 date: 2024-12-16
 categories: [E-commerce]
 description: "Shopify聯合創始人兼CEO Tobias Luecke與A16Z聯合創始人Ben Horowitz對話，探討在競爭激烈的領域打造突破性創業公司所需要的條件、零售業的變革、如何在工作場所推動變革、如何處理個人情緒和企業文化，包括處理行動主義的呼聲，以及擁抱負面情緒的價值。"
 ---
+原文連結: [Scaling Shopify: Tobias Lütke and Ben Horowitz on Building a Global Giant](https://podcasts.apple.com/us/podcast/scaling-shopify-tobias-l%C3%BCtke-and-ben-horowitz-on/id842818711?i=1000680545177&l=zh-Hant-TW) 
+
 當Shopify在2006年成立時,距離iPhone發布僅一年之隔。不用說,智能手機當時還遠不是現在數十億人隨身攜帶的必需品。時至今日,將近20年過去了,Shopify商家可以接受加密貨幣支付、創建沉浸式的AR購物體驗,甚至使用AI生成產品描述。那麼,一家市值近千億美元的公司是如何走在這些趨勢前沿的呢?未來幾代人的購物體驗又會是什麼樣子?此外,為什麼A16Z在Shopify早期不會投資它?為什麼這家公司的CEO仍然選擇繼續編寫代碼?這些都是今天節目要討論的問題,我們邀請到了Shopify聯合創始人兼CEO Tobias Luecke和A16Z聯合創始人Ben Horowitz進行對話。
 
 這一集最初是在我們的姐妹播客Web3 with A16Z上播出的。如果你對下一代互聯網感興趣,可以在任何播客平台上收聽Web3 with A16Z。好,讓我們開始吧。歡迎收聽Web3 with A16Z,這是一個由A16Z Crypto團隊製作的關於構建下一代互聯網的節目。今天的嘉賓是電商平台Shopify的CEO兼聯合創始人Tobias Luecke,他在11月的第二屆創始人峰會上與A16Z聯合創始人Ben Horowitz進行了對話。

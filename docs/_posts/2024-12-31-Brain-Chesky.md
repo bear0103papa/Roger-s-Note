@@ -5,6 +5,7 @@ date: 2024-12-31
 categories: [Brian Chesky, Airbnb, Y Combinator, 創始人模式, 招聘]
 description: "Brian Chesky 分享了他對創始人模式和招聘的看法，以及他在 Airbnb 的經驗。"
 ---
+原文連結: [Brian Chesky - 創始人模式與招聘藝術](https://www.youtube.com/watch?v=aFOGlNL39xs)
 
 Brian Chesky - 創始人模式與招聘藝術
 
