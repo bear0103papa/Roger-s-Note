@@ -5,7 +5,7 @@ date: 2024-12-14
 categories: [AI]
 description: "Ilya Sutskever 在 2014 年 NIPS 大會上的演講，探討了深度學習在自然語言處理領域的突破性進展。"
 ---
-原文連結: [Ilya Sutskever: Sequence to sequence learning with neural networks: what a decade](https://www.youtube.com/watch?v=1yvBqasHLZs) 
+<span class="original-link">原文連結: [Ilya Sutskever: Sequence to sequence learning with neural networks: what a decade](https://www.youtube.com/watch?v=1yvBqasHLZs)</span> 
 
 首先感謝主辦方選擇這篇論文獲獎,也要感謝我出色的共同作者和合作夥伴 Oriol、Vineel 和 Quoc,他們剛才就站在你們面前。這裡展示的是 10 年前在蒙特利爾 NIPS 2014 的一個類似演講的截圖。那是一個更天真的時期,照片中展示了我們的"之前"和"之後"。現在我們有了更多經驗,希望也更明智。
 

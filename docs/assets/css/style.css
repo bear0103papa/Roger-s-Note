@@ -46,4 +46,13 @@ pre {
 
 code {
     font-family: 'Fira Code', monospace;
+}
+
+.original-link {
+  color: #0366d6; /* GitHub 風格的藍色 */
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: underline;
+  }
 } 

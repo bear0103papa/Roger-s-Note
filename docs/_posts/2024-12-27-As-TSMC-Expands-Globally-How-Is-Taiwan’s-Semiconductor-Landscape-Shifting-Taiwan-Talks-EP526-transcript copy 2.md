@@ -6,7 +6,7 @@ categories: [Semiconductor, AI]
 description: "探討AI半導體產業發展趨勢，包括NVIDIA的市場地位、AI模型訓練的演進以及產業未來展望。"
 ---
 
-原文連結: [As TSMC Expands Globally, How Is Taiwan’s Semiconductor Landscape Shifting! ! Taiwan Talks EP526-transcript](https://www.youtube.com/watch?v=hyufTF6WKKs)
+<span class="original-link">原文連結: [As TSMC Expands Globally, How Is Taiwan’s Semiconductor Landscape Shifting! ! Taiwan Talks EP526-transcript](https://www.youtube.com/watch?v=hyufTF6WKKs)</span>
 
 歡迎收看台灣講談,我是主持人余文儀。在川普準備就任之際,全世界都在關注他的半導體政策。今天我們邀請到特別來賓胡正明博士。
 

@@ -5,7 +5,7 @@ date: 2024-12-13
 categories: [Semiconductor, AI]
 description: "SemiAnalysis創辦人Dylan Patel與Bill Gurley和Brad Gerstner討論AI半導體產業格局，探討NVIDIA的競爭優勢、AI模型訓練的發展趨勢以及產業未來展望。"
 ---
-原文連結: [BG2 Podcast - AI Semiconductor Landscape feat. Dylan Patel](https://www.youtube.com/watch?v=QVcSBHhcFbg) 
+<span class="original-link">原文連結: [BG2 Podcast - AI Semiconductor Landscape feat. Dylan Patel](https://www.youtube.com/watch?v=QVcSBHhcFbg) </span>
 
 AI Semiconductor Landscape feat. Dylan Patel | BG2 w/ Bill Gurley & Brad Gerstner
 
