@@ -3,7 +3,7 @@ layout: post
 title: "Import AI 395: AI and energy demand; distributed training via DeMo; and Phi-4"
 date: 2024-12-27
 categories: [AI]
-description： "AI正在推動美國數據中心用電需求的大幅增長; Microsoft發布其優秀的Phi模型第四代; 以及Nous Research的研究人員發布了Decoupled Momentum (DeMo)，這是一個融合優化器和數據並行算法，可以將加速器之間的通信需求減少幾個數量級。"
+description: "AI正在推動美國數據中心用電需求的大幅增長; Microsoft發布其優秀的Phi模型第四代; 以及Nous Research的研究人員發布了Decoupled Momentum (DeMo)，這是一個融合優化器和數據並行算法，可以將加速器之間的通信需求減少幾個數量級。"
 ---
 
 <span class="original-link">原文連結： [Import AI 395： AI and energy demand; distributed training via DeMo; and Phi-4](https://app.daily.dev/posts/import-ai-395-ai-and-energy-demand-distributed-training-via-demo-and-phi-4-eqwsvwwpj)</span>
