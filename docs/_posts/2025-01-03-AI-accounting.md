@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AI 將如何改變會計？一個 $100B 的機會"
-date: 2025-01-03
+date: 2025-01-02
 categories: [
     # 人名相關
     Benjamin Franklin,    # 文中提到本傑明·富蘭克林的名言
