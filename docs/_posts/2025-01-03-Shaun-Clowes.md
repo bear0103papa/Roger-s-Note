@@ -23,7 +23,7 @@ categories: [
     AI,                # 人工智能
     Product Management, # 產品管理
     B2B SaaS,          # 企業軟體服務
-    Enterprise Software,# 企業軟體
+    Enterprise Software, # 企業軟體
     PLG,               # 產品主導增長
     
     # 年份
