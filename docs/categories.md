@@ -35,7 +35,7 @@ title: 文章分類
         {% endfor %}
       </ul>
     </div>
-  </div>
+  {% endfor %}
 </div>
 
 <script>
