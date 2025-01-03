@@ -10,7 +10,7 @@ description: "探討AI半導體產業發展趨勢，包括NVIDIA的市場地位�
 <div class="categories">
   分類:
   {% for category in page.categories %}
-    <a href="{{ site.baseurl }}/categories#{{ category }}">{{ category }}</a>
+    <a href="{{ site.baseurl }}/categories#{{ category | url_encode }}" class="category-link">{{ category }}</a>
     {% unless forloop.last %},{% endunless %}
   {% endfor %}
 </div>

@@ -10,7 +10,7 @@ description: "SemiAnalysis創辦人Dylan Patel與Bill Gurley和Brad Gerstner討�
 <div class="categories">
   分類:
   {% for category in page.categories %}
-    <a href="{{ site.baseurl }}/categories#{{ category }}">{{ category }}</a>
+    <a href="{{ site.baseurl }}/categories#{{ category | url_encode }}" class="category-link">{{ category }}</a>
     {% unless forloop.last %},{% endunless %}
   {% endfor %}
 </div>

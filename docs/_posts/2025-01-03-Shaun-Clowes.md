@@ -38,7 +38,7 @@ description: "這篇文章是對 Confluent 首席產品官 Shaun Clowes 的深�
 <div class="categories">
   分類:
   {% for category in page.categories %}
-    <a href="{{ site.baseurl }}/categories#{{ category }}">{{ category }}</a>
+    <a href="{{ site.baseurl }}/categories#{{ category | url_encode }}" class="category-link">{{ category }}</a>
     {% unless forloop.last %},{% endunless %}
   {% endfor %}
 </div>

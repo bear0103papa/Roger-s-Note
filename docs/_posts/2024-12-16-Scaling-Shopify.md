@@ -10,7 +10,7 @@ description: "Shopify聯合創始人兼CEO Tobias Luecke與A16Z聯合創始人Be
 <div class="categories">
   分類:
   {% for category in page.categories %}
-    <a href="{{ site.baseurl }}/categories#{{ category }}">{{ category }}</a>
+    <a href="{{ site.baseurl }}/categories#{{ category | url_encode }}" class="category-link">{{ category }}</a>
     {% unless forloop.last %},{% endunless %}
   {% endfor %}
 </div>
