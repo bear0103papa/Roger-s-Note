@@ -20,10 +20,11 @@ title: 文章分類
       {% assign all_categories = "" | split: "" %}
       {% for post in site.posts %}
         {% for category in post.categories %}
-          {% assign all_categories = all_categories | push: category %}
+          {% assign category_str = category | strip %}
+          {% assign all_categories = all_categories | push: category_str %}
         {% endfor %}
       {% endfor %}
-      {% assign unique_categories = all_categories | sort | uniq %}
+      {% assign unique_categories = all_categories | uniq %}
       
       {% for category in unique_categories %}
         {% assign category_posts = site.posts | where_exp: "post", "post.categories contains category" %}
