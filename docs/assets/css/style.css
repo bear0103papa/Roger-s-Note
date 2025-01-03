@@ -72,3 +72,65 @@ code {
 .categories a:hover {
   background: #e0e0e0;
 } 
+
+.filter-section {
+  margin-bottom: 2rem;
+}
+
+.category-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.filter-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  background: #f9fafb;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.filter-btn:hover {
+  background: #f3f4f6;
+}
+
+.filter-btn.active {
+  background: #3b82f6;
+  color: white;
+  border-color: #2563eb;
+}
+
+.filter-btn .count {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.filter-btn.active .count {
+  color: #e5e7eb;
+}
+
+.post-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+@media (prefers-color-scheme: dark) {
+  .filter-btn {
+    background: #1f2937;
+    border-color: #374151;
+    color: #e5e7eb;
+  }
+  
+  .filter-btn:hover {
+    background: #374151;
+  }
+  
+  .filter-btn .count {
+    color: #9ca3af;
+  }
+} 
