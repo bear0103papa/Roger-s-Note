@@ -34,6 +34,16 @@ description: "這篇文章是對 Confluent 首席產品官 Shaun Clowes 的深�
 
 ---
 
+{% if page.categories %}
+<div class="categories">
+  分類:
+  {% for category in page.categories %}
+    <a href="{{ site.baseurl }}/categories#{{ category }}">{{ category }}</a>
+    {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+</div>
+{% endif %}
+
 Lenny Rachitsky：
 
 我很喜歡你對這個話題有很強烈的看法，就是關於產品經理這個職業的現狀，以及大多數產品經理表現並不出色這件事。

@@ -27,6 +27,16 @@ description: "Databricks CEO Ali Ghodsi 分享公司文化、最新一輪 100 �
 
 ---
 
+{% if page.categories %}
+<div class="categories">
+  分類:
+  {% for category in page.categories %}
+    <a href="{{ site.baseurl }}/categories#{{ category }}">{{ category }}</a>
+    {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+</div>
+{% endif %}
+
 <span class="original-link">原文連結： [AI+ SF 2024： Databricks’ Ali Ghodsi & Axios’ Dan Primack](https://www.youtube.com/watch?v=rnobNYRAmkk&ab_channel=Axios)</span>
 
 雖然有很多新聞要談，而且我們會談到這些。作為一個金融迷，我可能比該關心的還要更在意這些。但讓我們先從你的故事開始 - 如果用ChatGPT來描述你的人生：你出生在伊朗，你的父母在你還是幼童時帶著你逃難到瑞典，你在那裡接受教育，最後成年後來到美國成為一名學者。這段經歷很不平凡。當你回顧童年和成長過程，你覺得學到了哪些對現在領導Databricks有幫助的經驗或技能？

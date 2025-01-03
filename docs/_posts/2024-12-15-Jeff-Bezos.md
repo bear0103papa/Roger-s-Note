@@ -6,6 +6,17 @@ categories: [Jeff Bezos, AI, Amazon]
 description: "這篇是Founders播客的第374集，寫關於他觀看 Jeff Bezos at DealBook Summit 、Jeff Bezos： The Electricity Metaphor 、Lex Fridman的訪談的心得。"
 
 ---
+
+{% if page.categories %}
+<div class="categories">
+  分類:
+  {% for category in page.categories %}
+    <a href="{{ site.baseurl }}/categories#{{ category }}">{{ category }}</a>
+    {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+</div>
+{% endif %}
+
 <span class="original-link">原文連結： [374： Rare Jeff Bezos Interview](https://www.founderspodcast.com/episodes/374-rare-jeff-bezos-interview) </span>
 
 這篇是Founders播客的第374集，寫關於他觀看 Jeff Bezos at DealBook Summit (https://youtu.be/s71nJQqzYRQ?si=J851IlP62jDWeOVr)、Jeff Bezos： The Electricity Metaphor (https://youtu.be/vMKNUylmanQ?si=8Bzfn5g_Zap7KFJc)、Lex Fridman的訪談 (https://youtu.be/DcWqzZ3I2cY?si=IpFKvbnw84ciIfk4)的心得。
