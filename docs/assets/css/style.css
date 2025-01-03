@@ -210,3 +210,26 @@ code {
     background: #374151;
   }
 } 
+
+/* 導航列樣式 */
+.nav-link {
+    display: inline-block;
+    padding: 0.5rem 0;
+    position: relative;
+    font-weight: 500;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: currentColor;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+} 
