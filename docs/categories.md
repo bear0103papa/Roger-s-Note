@@ -17,44 +17,36 @@ title: 文章分類
         全部文章
         <span class="count">({{ site.posts.size }})</span>
       </button>
-      {% assign merged_categories = site.categories | sort %}
-      {% assign unique_categories = "" | split: "" %}
-      {% for category in merged_categories %}
-        {% unless unique_categories contains category[0] %}
-          {% assign unique_categories = unique_categories | push: category[0] %}
-          <button class="filter-btn" data-category="{{ category[0] | url_encode }}">
-            {{ category[0] }}
-            <span class="count">({{ site.categories[category[0]].size }})</span>
-          </button>
-        {% endunless %}
+      {% assign categories = site.categories | map: 'first' | sort | uniq %}
+      {% for category in categories %}
+        <button class="filter-btn" data-category="{{ category | url_encode }}">
+          {{ category }}
+          <span class="count">({{ site.categories[category].size }})</span>
+        </button>
       {% endfor %}
     </div>
   </div>
 
   <!-- 文章列表區塊 -->
   <div id="posts-container" class="mt-8">
-    {% assign merged_categories = site.categories | sort %}
-    {% assign unique_categories = "" | split: "" %}
-    {% for category in merged_categories %}
-      {% unless unique_categories contains category[0] %}
-        {% assign unique_categories = unique_categories | push: category[0] %}
-        <div class="category-section mb-8" data-category="{{ category[0] | url_encode }}">
-          <h2 class="category-title" id="{{ category[0] | url_encode }}">{{ category[0] }}</h2>
-          <div class="posts-list">
-            {% for post in site.categories[category[0]] %}
-              <div class="post-item" 
-                   data-title="{{ post.title }}" 
-                   data-category="{{ category[0] | url_encode }}"
-                   data-date="{{ post.date | date: '%Y-%m-%d' }}">
-                <a href="{{ post.url | relative_url }}" class="post-title">{{ post.title }}</a>
-                <div class="post-meta">
-                  <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-                </div>
+    {% assign categories = site.categories | map: 'first' | sort | uniq %}
+    {% for category in categories %}
+      <div class="category-section mb-8" data-category="{{ category | url_encode }}">
+        <h2 class="category-title" id="{{ category | url_encode }}">{{ category }}</h2>
+        <div class="posts-list">
+          {% for post in site.categories[category] %}
+            <div class="post-item" 
+                 data-title="{{ post.title }}" 
+                 data-category="{{ category | url_encode }}"
+                 data-date="{{ post.date | date: '%Y-%m-%d' }}">
+              <a href="{{ post.url | relative_url }}" class="post-title">{{ post.title }}</a>
+              <div class="post-meta">
+                <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
               </div>
-            {% endfor %}
-          </div>
+            </div>
+          {% endfor %}
         </div>
-      {% endunless %}
+      </div>
     {% endfor %}
   </div>
 </div>
