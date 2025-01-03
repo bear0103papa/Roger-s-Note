@@ -208,3 +208,14 @@ code {
 .nav-link:hover::after {
     width: 100%;
 } 
+
+.category-link {
+  color: #3b82f6;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.category-link:hover {
+  color: #2563eb;
+  text-decoration: underline;
+} 
