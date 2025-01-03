@@ -28,13 +28,13 @@ title: 文章分類
   <!-- 文章列表區塊 -->
   <div id="posts-container" class="mt-8">
     {% for category in site.categories %}
-      <div class="category-section mb-8" data-category="{{ category[0] }}">
-        <h2 class="category-title">{{ category[0] }}</h2>
+      <div class="category-section mb-8" data-category="{{ category[0] | url_encode }}">
+        <h2 class="category-title" id="{{ category[0] | url_encode }}">{{ category[0] }}</h2>
         <div class="posts-list">
           {% for post in category[1] %}
             <div class="post-item" 
                  data-title="{{ post.title }}" 
-                 data-category="{{ category[0] }}"
+                 data-category="{{ category[0] | url_encode }}"
                  data-date="{{ post.date | date: '%Y-%m-%d' }}">
               <a href="{{ post.url | relative_url }}" class="post-title">{{ post.title }}</a>
               <div class="post-meta">
