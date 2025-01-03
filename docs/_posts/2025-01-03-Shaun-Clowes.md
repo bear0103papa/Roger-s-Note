@@ -44,6 +44,8 @@ description: "這篇文章是對 Confluent 首席產品官 Shaun Clowes 的深�
 </div>
 {% endif %}
 
+<span class="original-link">原文連結： [為什麼優秀的 AI 產品都與數據有關 | Shaun Clowes (Confluent 首席產品官) 訪談](https://www.lennysnewsletter.com/p/why-great-ai-products-are-all-about-the-data-shaun-clowes)</span>
+
 Lenny Rachitsky：
 
 我很喜歡你對這個話題有很強烈的看法，就是關於產品經理這個職業的現狀，以及大多數產品經理表現並不出色這件事。
