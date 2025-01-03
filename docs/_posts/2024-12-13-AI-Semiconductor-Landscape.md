@@ -373,3 +373,13 @@ Bill說到擔憂之牆時提到，有時候我們都在談論和尋找泡沫，�
 
 提醒所有人，這些只是我們的觀點，不構成投資建議。
 
+{% if page.categories %}
+<div class="categories">
+  分類:
+  {% for category in page.categories %}
+    <a href="{{ site.baseurl }}/categories#{{ category }}">{{ category }}</a>
+    {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+</div>
+{% endif %}
+

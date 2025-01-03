@@ -56,3 +56,19 @@ code {
     text-decoration: underline;
   }
 } 
+
+.categories {
+  margin: 1em 0;
+}
+
+.categories a {
+  color: #666;
+  text-decoration: none;
+  padding: 0.2em 0.5em;
+  border-radius: 3px;
+  background: #f0f0f0;
+}
+
+.categories a:hover {
+  background: #e0e0e0;
+} 
