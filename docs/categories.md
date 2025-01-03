@@ -11,17 +11,25 @@ title: 文章分類
            placeholder="搜尋文章..." 
            class="w-full p-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-gray-100">
     
-    <!-- 合併重複類別的過濾按鈕 -->
+    <!-- 分類過濾按鈕 -->
     <div class="category-filters mt-4">
       <button class="filter-btn active" data-category="all">
         全部文章
         <span class="count">({{ site.posts.size }})</span>
       </button>
-      {% assign categories = site.categories | map: 'first' | sort | uniq %}
-      {% for category in categories %}
+      {% assign all_categories = "" | split: "" %}
+      {% for post in site.posts %}
+        {% for category in post.categories %}
+          {% assign all_categories = all_categories | push: category %}
+        {% endfor %}
+      {% endfor %}
+      {% assign unique_categories = all_categories | sort | uniq %}
+      
+      {% for category in unique_categories %}
+        {% assign category_posts = site.posts | where_exp: "post", "post.categories contains category" %}
         <button class="filter-btn" data-category="{{ category | url_encode }}">
           {{ category }}
-          <span class="count">({{ site.categories[category].size }})</span>
+          <span class="count">({{ category_posts.size }})</span>
         </button>
       {% endfor %}
     </div>
@@ -29,12 +37,12 @@ title: 文章分類
 
   <!-- 文章列表區塊 -->
   <div id="posts-container" class="mt-8">
-    {% assign categories = site.categories | map: 'first' | sort | uniq %}
-    {% for category in categories %}
+    {% for category in unique_categories %}
+      {% assign category_posts = site.posts | where_exp: "post", "post.categories contains category" %}
       <div class="category-section mb-8" data-category="{{ category | url_encode }}">
         <h2 class="category-title" id="{{ category | url_encode }}">{{ category }}</h2>
         <div class="posts-list">
-          {% for post in site.categories[category] %}
+          {% for post in category_posts %}
             <div class="post-item" 
                  data-title="{{ post.title }}" 
                  data-category="{{ category | url_encode }}"
