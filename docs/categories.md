@@ -11,39 +11,50 @@ title: 文章分類
            placeholder="搜尋文章..." 
            class="w-full p-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-gray-100">
     
+    <!-- 合併重複類別的過濾按鈕 -->
     <div class="category-filters mt-4">
       <button class="filter-btn active" data-category="all">
         全部文章
         <span class="count">({{ site.posts.size }})</span>
       </button>
-      {% for category in site.categories %}
-        <button class="filter-btn" data-category="{{ category[0] }}">
-          {{ category[0] }}
-          <span class="count">({{ category[1].size }})</span>
-        </button>
+      {% assign merged_categories = site.categories | sort %}
+      {% assign unique_categories = "" | split: "" %}
+      {% for category in merged_categories %}
+        {% unless unique_categories contains category[0] %}
+          {% assign unique_categories = unique_categories | push: category[0] %}
+          <button class="filter-btn" data-category="{{ category[0] | url_encode }}">
+            {{ category[0] }}
+            <span class="count">({{ site.categories[category[0]].size }})</span>
+          </button>
+        {% endunless %}
       {% endfor %}
     </div>
   </div>
 
   <!-- 文章列表區塊 -->
   <div id="posts-container" class="mt-8">
-    {% for category in site.categories %}
-      <div class="category-section mb-8" data-category="{{ category[0] | url_encode }}">
-        <h2 class="category-title" id="{{ category[0] | url_encode }}">{{ category[0] }}</h2>
-        <div class="posts-list">
-          {% for post in category[1] %}
-            <div class="post-item" 
-                 data-title="{{ post.title }}" 
-                 data-category="{{ category[0] | url_encode }}"
-                 data-date="{{ post.date | date: '%Y-%m-%d' }}">
-              <a href="{{ post.url | relative_url }}" class="post-title">{{ post.title }}</a>
-              <div class="post-meta">
-                <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+    {% assign merged_categories = site.categories | sort %}
+    {% assign unique_categories = "" | split: "" %}
+    {% for category in merged_categories %}
+      {% unless unique_categories contains category[0] %}
+        {% assign unique_categories = unique_categories | push: category[0] %}
+        <div class="category-section mb-8" data-category="{{ category[0] | url_encode }}">
+          <h2 class="category-title" id="{{ category[0] | url_encode }}">{{ category[0] }}</h2>
+          <div class="posts-list">
+            {% for post in site.categories[category[0]] %}
+              <div class="post-item" 
+                   data-title="{{ post.title }}" 
+                   data-category="{{ category[0] | url_encode }}"
+                   data-date="{{ post.date | date: '%Y-%m-%d' }}">
+                <a href="{{ post.url | relative_url }}" class="post-title">{{ post.title }}</a>
+                <div class="post-meta">
+                  <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+                </div>
               </div>
-            </div>
-          {% endfor %}
+            {% endfor %}
+          </div>
         </div>
-      </div>
+      {% endunless %}
     {% endfor %}
   </div>
 </div>
