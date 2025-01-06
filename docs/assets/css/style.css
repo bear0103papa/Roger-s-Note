@@ -249,3 +249,13 @@ html {
         display: none;
     }
 } 
+
+/* 為所有標題添加滾動邊距 */
+h1, h2, h3, h4, h5, h6 {
+    scroll-margin-top: 5rem; /* 使用 rem 以保持響應式 */
+}
+
+/* 平滑滾動效果 */
+html {
+    scroll-behavior: smooth;
+} 
