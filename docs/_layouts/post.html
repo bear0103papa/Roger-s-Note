@@ -1,7 +1,13 @@
 ---
 layout: default
 ---
-<article class="prose dark:prose-invert lg:prose-lg mx-auto">
+<article class="prose dark:prose-invert lg:prose-lg mx-auto relative">
+    <!-- 添加目錄區域,固定在右側 -->
+    <div class="hidden lg:block fixed right-4 top-24 w-64 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg overflow-y-auto max-h-[calc(100vh-120px)]">
+        <h4 class="text-lg font-bold mb-2">目錄</h4>
+        <nav id="toc" class="toc"></nav>
+    </div>
+
     <h1 class="text-3xl font-bold mb-4">{{ page.title }}</h1>
     <div class="text-gray-600 dark:text-gray-400 mb-8">
         <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
@@ -10,4 +16,35 @@ layout: default
     <div class="mt-8">
         {{ content }}
     </div>
-</article> 
+</article>
+
+<!-- 添加 JavaScript 生成目錄 -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const content = document.querySelector('article');
+    const toc = document.getElementById('toc');
+    const headings = content.querySelectorAll('h1, h2, h3, h4');
+    const tocList = document.createElement('ul');
+    tocList.className = 'space-y-2 text-sm';
+
+    headings.forEach((heading, index) => {
+        // 為每個標題添加 id
+        heading.id = `heading-${index}`;
+        
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = `#heading-${index}`;
+        a.textContent = heading.textContent;
+        a.className = `block hover:text-blue-600 dark:hover:text-blue-400 ${
+            heading.tagName === 'H1' ? 'font-bold' :
+            heading.tagName === 'H2' ? 'pl-4' :
+            heading.tagName === 'H3' ? 'pl-8' : 'pl-12'
+        }`;
+        
+        li.appendChild(a);
+        tocList.appendChild(li);
+    });
+
+    toc.appendChild(tocList);
+});
+</script> 

@@ -20,6 +20,9 @@ categories: [
 ]
 description: "這是一篇與Shopify技術副總裁Farhan Thawar的訪談文章，探討了Shopify的工程文化、遠程工作政策、實習生計劃以及他的領導理念，特別強調了公司對高強度工作環境的追求、對人才招聘的獨特方法，以及如何通過實習項目和信任電池概念來建立團隊凝聚力。"
 
+# 添加目錄
+toc: true
+
 ---
 
 {% if page.categories %}
@@ -33,6 +36,50 @@ description: "這是一篇與Shopify技術副總裁Farhan Thawar的訪談文章�
 {% endif %}
 
 <span class="original-link">原文連結： [Shopify如何建立高強度文化｜Farhan Thawar（工程副總裁兼主管）](https://www.lennysnewsletter.com/p/how-shopify-builds-a-high-intensity-culture-farhan-thawar)</span>
+
+
+
+# 目錄
+{:.no_toc}
+
+* 
+{:toc}
+
+# 訪談背景介紹
+
+## 嘉賓介紹
+- Farhan Thawar 現任 Shopify 工程副總裁兼主管
+- Shopify 擁有超過一萬名遠端工作員工
+- 公司保持緊迫感、速度和原則性思維方式
+
+# 核心主題討論
+
+## 選擇困難道路的價值
+- 為什麼選擇困難道路最終會讓生活更輕鬆
+- 在多個選項中如何做出選擇
+- 實際案例分享
+
+## 結對編程的力量
+- 為什麼結對編程是未被充分利用的工具
+- 結對編程如何提高代碼質量
+- Shopify的結對編程實踐經驗
+
+## 創造組織強度
+- 如何在每小時消耗更多千焦耳
+- 演示文化的重要性
+- 通過beta標誌實現快速反饋
+
+# 實踐經驗分享
+
+## 招聘策略
+- 尋找正確的人才
+- 實習生計劃
+- 2025年招聘目標
+
+## 遠程工作文化
+- 如何維持高強度遠程工作
+- 團隊協作方式
+- 信任電池概念
 
 Shopify如何建立高強度文化｜Farhan Thawar（工程副總裁兼主管）
 

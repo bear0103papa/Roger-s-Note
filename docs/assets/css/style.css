@@ -220,3 +220,32 @@ code {
   color: #2563eb;
   text-decoration: underline;
 } 
+
+/* 目錄樣式 */
+.toc {
+    font-size: 0.9rem;
+}
+
+.toc ul {
+    list-style: none;
+    padding: 0;
+}
+
+.toc a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 2px 0;
+}
+
+/* 平滑滾動 */
+html {
+    scroll-behavior: smooth;
+}
+
+/* 響應式隱藏目錄 */
+@media (max-width: 1024px) {
+    .toc-container {
+        display: none;
+    }
+} 
