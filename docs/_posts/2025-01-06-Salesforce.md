@@ -20,9 +20,6 @@ categories: [
 ]
 description: "這篇文章是對Salesforce創始人Marc Benioff的深度訪談，內容涵蓋了他與Steve Jobs的友誼、早期購買域名的遠見、Salesforce的創業歷程、AI技術(特別是Agentforce)的發展願景，以及他在管理危機時期的經驗分享，展現了一位成功科技企業家的思維方式和領導哲學。"
 
-# 添加目錄
-toc: true
-
 ---
 
 {% if page.categories %}
