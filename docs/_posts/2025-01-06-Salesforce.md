@@ -37,8 +37,6 @@ toc: true
 
 <span class="original-link">原文連結： [創始人背後的故事：Marc Benioff](https://www.lennysnewsletter.com/p/behind-the-founder-marc-benioff)</span>
 
-# 創始人背後的故事：Marc Benioff
-
 ## 早期遠見：域名收購策略
 Lenny Rachitsky：
 
