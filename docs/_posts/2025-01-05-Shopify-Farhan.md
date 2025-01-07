@@ -629,7 +629,7 @@ Farhan Thawar：
 
 哦不，當然。再次，就像低手投籃不僅看起來很蠢，感覺也很蠢。人們不...他們覺得他們在浪費時間坐在某人旁邊，想著：「好吧，我可以在我的電腦上做這個事情。」但是一起他們正在建立一台機器。
 
-你有沒有讀過《解構項目》，是關於Amos Tversky和Daniel Kahneman，那個著名的哲學家。
+你有沒有讀過[《橡皮擦計畫》](https://www.eslite.com/product/1001143242664929)，是關於Amos Tversky和Daniel Kahneman，那個著名的哲學家。
 
 Lenny Rachitsky：
 
