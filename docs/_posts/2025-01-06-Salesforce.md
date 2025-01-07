@@ -12,8 +12,8 @@ categories: [
     
     # 產業別
     "SaaS",
-    "企業軟體",
-    "人工智能",
+    "Enterprise Software",
+    "AI",
     
     # 年份
     "2025",
