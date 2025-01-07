@@ -1143,7 +1143,7 @@ Lenny Rachitsky：
 
 Farhan Thawar：
 
-是的，我最喜歡的可能是《停止與捕獲火》。我不知道你有沒有看過。
+是的，我最喜歡的可能是《電腦狂人》。我不知道你有沒有看過。
 
 Lenny Rachitsky：
 
@@ -1151,7 +1151,7 @@ Lenny Rachitsky：
 
 Farhan Thawar：
 
-早期科技。我記得在Andreessen的播客中他說這是最接近真實創業公司的樣子。所以《停止與捕獲火》是我一直以來的推薦，每個人都必須看。
+早期科技。我記得在Andreessen的播客中他說這是最接近真實創業公司的樣子。所以《電腦狂人》是我一直以來的推薦，每個人都必須看。
 
 Lenny Rachitsky：
 
