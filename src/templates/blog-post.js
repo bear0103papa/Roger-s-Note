@@ -12,7 +12,6 @@ const BlogPostTemplate = ({ data, location }) => {
   return (
     <Layout location={location}>
       <div className="blog-post-container">
-        <TableOfContents headings={post.headings} />
         <article className="blog-post">
           <header>
             <h1>{post.frontmatter.title}</h1>
@@ -28,11 +27,8 @@ const BlogPostTemplate = ({ data, location }) => {
             dangerouslySetInnerHTML={{ __html: post.html }}
             itemProp="articleBody"
           />
-          <hr />
-          <footer>
-            {/* 其他頁腳內容 */}
-          </footer>
         </article>
+        <TableOfContents headings={post.headings} />
       </div>
     </Layout>
   )

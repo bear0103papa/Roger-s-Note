@@ -1,95 +1,96 @@
-import React, { useState, useEffect } from "react"
-import { graphql, Link } from "gatsby"
+import * as React from "react"
+import { Link, graphql, navigate } from "gatsby"
 import Layout from "../components/layout"
 
-const CategoriesPage = ({ data }) => {
-  const [searchTerm, setSearchTerm] = useState("")
-  const [activeCategory, setActiveCategory] = useState("all")
-  
-  const posts = data.allMarkdownRemark.nodes
-  const categories = Array.from(
+const Categories = ({ data, location }) => {
+  // 獲取所有唯一的分類
+  const allCategories = Array.from(
     new Set(
-      posts.flatMap(post => post.frontmatter.categories || [])
+      data.allMarkdownRemark.nodes.flatMap(
+        node => node.frontmatter.categories || []
+      )
     )
-  )
+  ).sort()
 
-  useEffect(() => {
-    const hash = window.location.hash.slice(1)
-    if (hash && categories.includes(decodeURIComponent(hash))) {
-      setActiveCategory(decodeURIComponent(hash))
-    }
-  }, [categories])
+  // 從 URL 獲取當前選中的分類
+  const currentCategory = location.hash.slice(1).replace(/%20/g, " ")
 
-  const filteredPosts = posts.filter(post => {
-    const matchesSearch = post.frontmatter.title
-      .toLowerCase()
-      .includes(searchTerm.toLowerCase())
-    const matchesCategory = 
-      activeCategory === "all" || 
-      post.frontmatter.categories?.includes(activeCategory)
-    
-    return matchesSearch && matchesCategory
-  })
+  // 處理分類點擊
+  const handleCategoryClick = (category) => {
+    navigate(`/categories/#${category.replace(/ /g, "%20")}`)
+  }
+
+  // 過濾當前分類的文章
+  const filteredPosts = currentCategory
+    ? data.allMarkdownRemark.nodes.filter(
+        node => node.frontmatter.categories?.includes(currentCategory)
+      )
+    : data.allMarkdownRemark.nodes
 
   return (
-    <Layout>
-      <div className="filter-section">
+    <Layout location={location} title="分類檢索">
+      <div className="categories-container">
+        {/* 搜索框 */}
         <input
           type="text"
           placeholder="搜尋文章..."
-          onChange={(e) => setSearchTerm(e.target.value)}
-          className="w-full p-2 border rounded-lg"
+          className="search-input"
         />
-        
-        <div className="category-filters">
+
+        {/* 分類標籤 */}
+        <div className="category-tags">
           <button
-            onClick={() => setActiveCategory("all")}
-            className={`filter-btn ${activeCategory === "all" ? "active" : ""}`}
+            className={!currentCategory ? "active" : ""}
+            onClick={() => handleCategoryClick("")}
           >
             全部文章
           </button>
-          {categories.map(category => (
+          {allCategories.map(category => (
             <button
               key={category}
-              onClick={() => setActiveCategory(category)}
-              className={`filter-btn ${activeCategory === category ? "active" : ""}`}
+              className={category === currentCategory ? "active" : ""}
+              onClick={() => handleCategoryClick(category)}
             >
               {category}
             </button>
           ))}
         </div>
-      </div>
 
-      <div className="posts-container">
-        {filteredPosts.map(post => (
-          <div key={post.id} className="post-item">
-            <Link to={post.fields.slug}>
-              {post.frontmatter.title}
-            </Link>
-            <span className="post-date">{post.frontmatter.date}</span>
-          </div>
-        ))}
+        {/* 文章列表 */}
+        <div className="posts-list">
+          {filteredPosts.map(post => (
+            <article key={post.fields.slug} className="post-list-item">
+              <Link to={post.fields.slug}>
+                <h2>{post.frontmatter.title}</h2>
+                <small>{post.frontmatter.date}</small>
+                {post.frontmatter.description && (
+                  <p>{post.frontmatter.description}</p>
+                )}
+              </Link>
+            </article>
+          ))}
+        </div>
       </div>
     </Layout>
   )
 }
 
-export const query = graphql`
+export default Categories
+
+export const pageQuery = graphql`
   query {
-    allMarkdownRemark(sort: {frontmatter: {date: DESC}}) {
+    allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
       nodes {
-        id
         fields {
           slug
         }
         frontmatter {
-          title
           date(formatString: "YYYY-MM-DD")
+          title
+          description
           categories
         }
       }
     }
   }
-`
-
-export default CategoriesPage 
+` 
