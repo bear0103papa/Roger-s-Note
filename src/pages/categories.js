@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 
 const CategoriesPage = ({ data }) => {
@@ -63,7 +63,9 @@ const CategoriesPage = ({ data }) => {
       <div className="posts-container">
         {filteredPosts.map(post => (
           <div key={post.id} className="post-item">
-            <a href={post.fields.slug}>{post.frontmatter.title}</a>
+            <Link to={post.fields.slug}>
+              {post.frontmatter.title}
+            </Link>
             <span className="post-date">{post.frontmatter.date}</span>
           </div>
         ))}

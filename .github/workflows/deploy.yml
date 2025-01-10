@@ -29,7 +29,7 @@ jobs:
         
       - name: Build
         run: |
-          npm run build
+          gatsby build --prefix-paths
         env:
           PREFIX_PATHS: true
 
