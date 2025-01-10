@@ -58,6 +58,7 @@ typings/
 .cache/
 public
 
+
 # Mac files
 .DS_Store
 
@@ -67,3 +68,5 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+原文草稿/
