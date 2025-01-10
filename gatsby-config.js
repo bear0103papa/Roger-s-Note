@@ -16,7 +16,7 @@ module.exports = {
       summary: `Investor, Operator, Philosopher`,
     },
     description: `Investor, Operator, Philosopher`,
-    siteUrl: `https://bear0103papa.github.io/Roger-s-Note`,
+    siteUrl: `https://bear0103papa.github.io`,
     social: {
       twitter: ``,
     },
