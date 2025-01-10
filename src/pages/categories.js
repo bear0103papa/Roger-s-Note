@@ -3,6 +3,8 @@ import { Link, graphql, navigate } from "gatsby"
 import Layout from "../components/layout"
 
 const Categories = ({ data, location }) => {
+  const [searchTerm, setSearchTerm] = React.useState("")
+  
   // 獲取所有唯一的分類
   const allCategories = Array.from(
     new Set(
@@ -20,22 +22,46 @@ const Categories = ({ data, location }) => {
     navigate(`/categories/#${category.replace(/ /g, "%20")}`)
   }
 
-  // 過濾當前分類的文章
-  const filteredPosts = currentCategory
-    ? data.allMarkdownRemark.nodes.filter(
-        node => node.frontmatter.categories?.includes(currentCategory)
-      )
-    : data.allMarkdownRemark.nodes
+  // 過濾文章（根據分類和搜尋詞）
+  const filteredPosts = data.allMarkdownRemark.nodes
+    .filter(node => {
+      // 先檢查分類
+      const matchesCategory = !currentCategory || 
+        node.frontmatter.categories?.includes(currentCategory)
+      
+      // 再檢查搜尋詞（包含全文搜尋）
+      const searchTermLower = searchTerm.toLowerCase()
+      const matchesSearch = !searchTerm || 
+        node.frontmatter.title.toLowerCase().includes(searchTermLower) ||
+        node.frontmatter.description?.toLowerCase().includes(searchTermLower) ||
+        node.excerpt.toLowerCase().includes(searchTermLower) ||
+        node.html.toLowerCase().includes(searchTermLower)
+      
+      return matchesCategory && matchesSearch
+    })
 
   return (
     <Layout location={location} title="分類檢索">
       <div className="categories-container">
         {/* 搜索框 */}
-        <input
-          type="text"
-          placeholder="搜尋文章..."
-          className="search-input"
-        />
+        <div className="search-box">
+          <input
+            type="text"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            placeholder="搜尋全文..."
+            className="search-input"
+          />
+          {searchTerm && (
+            <button 
+              className="clear-search"
+              onClick={() => setSearchTerm("")}
+              aria-label="清除搜尋"
+            >
+              ×
+            </button>
+          )}
+        </div>
 
         {/* 分類標籤 */}
         <div className="category-tags">
@@ -56,6 +82,11 @@ const Categories = ({ data, location }) => {
           ))}
         </div>
 
+        {/* 搜尋結果計數 */}
+        <div className="search-results-count">
+          找到 {filteredPosts.length} 篇文章
+        </div>
+
         {/* 文章列表 */}
         <div className="posts-list">
           {filteredPosts.map(post => (
@@ -65,6 +96,11 @@ const Categories = ({ data, location }) => {
                 <small>{post.frontmatter.date}</small>
                 {post.frontmatter.description && (
                   <p>{post.frontmatter.description}</p>
+                )}
+                {searchTerm && (
+                  <p className="search-excerpt">
+                    {post.excerpt}
+                  </p>
                 )}
               </Link>
             </article>
@@ -81,6 +117,8 @@ export const pageQuery = graphql`
   query {
     allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
       nodes {
+        excerpt(pruneLength: 200)
+        html
         fields {
           slug
         }

@@ -98,23 +98,27 @@ module.exports = {
                 })
               })
             },
-            query: `{
-              allMarkdownRemark(sort: {frontmatter: {date: DESC}}) {
-                nodes {
-                  excerpt
-                  html
-                  fields {
-                    slug
-                  }
-                  frontmatter {
-                    title
-                    date
+            query: `
+              {
+                allMarkdownRemark(
+                  sort: { frontmatter: { date: DESC } },
+                ) {
+                  nodes {
+                    excerpt
+                    html
+                    fields {
+                      slug
+                    }
+                    frontmatter {
+                      title
+                      date
+                    }
                   }
                 }
               }
-            }`,
+            `,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "Roger's Note RSS Feed",
           },
         ],
       },
