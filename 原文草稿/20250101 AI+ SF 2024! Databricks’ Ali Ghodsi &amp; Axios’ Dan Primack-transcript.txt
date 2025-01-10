@@ -1,0 +1,347 @@
+so there is a lot of news but let's and we will get to all of it and I'm a finance nerd so I I care more than I
+
+probably should but let let's start a little bit with with kind of with you uh the uh say the chat GPT version of your
+
+life uh would be born in Iran your parents leave with you uh when you're kind of a toddler go to Sweden as refugees you're educated there you end
+
+up coming to the us as an adult to be an academic wa that's a lot and when you
+
+think about your childhood and growing up are there lessons you feel you learned or skills you feel you learned
+
+that you've brought to leadership at data bricks yeah that's a great question
+
+um I I think the biggest the biggest challenge that most of us as human beings face is that we have all these
+
+self self-defense mechanisms that make it very hard for us to see the truth um you know I had the privilege of being
+
+moved around between lots of different environments lots of different schools lots of different you know different countries different religions different
+
+socioeconomic statuses and it what it what it kind of taught me painfully is that you can kind of
+
+simulate and put yourself in someone else's shoes and that's extremely important as a CEO because you know when
+
+you're you have you know you have your customers you have your employees um you know you have product people you have sales people you have HR people you have
+
+marketing people Finance people uh how do they think how are they going to react how how do you get them motivated to all work towards the same goal um you
+
+know the most important thing is can you simulate backwards how are they thinking how are they going to proce receive the messages you're telling them um and that I think I learned uh that's why whenever
+
+people ask me like oh I don't want to move to that City cuz you know my kids are this age I don't want them to leave school I say no no no do it to them you know you know uproot them move them
+
+between different schools make it hell for them it's awesome you've said that you feel that company cultures are reflections of the
+
+CEO's culture a company's values are reflections of the CEO's values what is the culture of data bricks as that as a
+
+reflection of you yeah I mean I think uh you know it's I think you are kind of what you grow up doing like that first
+
+job you spend a bunch of years that's who you kind of are so I grew up as a researcher you know that you know did my
+
+PhD and then I did research you know uh so I think it's it's the mindset of a researcher essentially so one of our culture principles is truth seeking um
+
+that's what you're trying to do in research you know it's not easy to get to the truth it's elusive uh and you know facts change and so on but really
+
+as a researcher you're always trying to not be so emotional and so opinionated about what your your opinions or where you are just want to find out how how does this work what is the truth behind
+
+this thing so that's an essential culture principle at data bricks uh it's it's not common in the industry in many big companies people get really good at
+
+how to manage up how to say the right stuff and you don't think that I mean it's one thing when you're a relatively small company a couple dozen people even maybe a hundred people you're thousands
+
+of people now right H how do you how how do you know if that if that's continued to trickle down all the way yeah so the
+
+the way you establish culture is you know three ways number one you interview for it so make sure that you evaluating every person that comes in based on the
+
+culture principes so truth scking is one of the things it's not actually that hard you know tell me when you screwed up last time tell me something that you really botched up you know and if there you can tell not reporting on your
+
+fundraising yesterday that's when I did it exactly well there you go see so that's you're a trth sticking guy uh so you're hired but that that's kind of like you know you can you kind of sense
+
+you know where whereas people like oh you know maybe I work too hard or something or they just open up and tell you like oh my god um so do that in the
+
+interview process if you do that right um you know you've kind of halfway there uh if you want to have plus points also make sure you promote the people that
+
+have that culture so in the promotion process you make sure that you really evaluate are they really satisfying those culture principles and that one is hard because you might have Stellar
+
+employees that have had huge impact but they're actually like you know they're not really the culture of the company they succeeded because of other reasons uh and then the third one is you know
+
+Performance Management you know you shouldn't have people in your company that don't satisfy you know maybe you made a mistake maybe you hired the wrong person maybe you promoted the wrong person but now you know that person is
+
+not the culture um can you move them out how do you you know one of the things interesting about data compared to a lot of other VCB startups and part of this is is the valuation the money you've
+
+raised you guys have done a bunch of large Acquisitions a couple Acquisitions over over a billion dollars when you're buying another company Grant smaller
+
+teams I you're not how how does how does that apply on the culture side because you might you might think you've got that with the founder but there's a bunch of other employees who didn't necessarily interview the same way that
+
+datab bricks would have interviewed to bring those people in well the culture what whoever the CEO's personality is the culture of the company so if you get the right CEO you're you're good so well
+
+is that I mean how big how big is that for you as opposed to possibly getting the technology or look most companies what they do they have these corporate
+
+development teams they look at you know iida Revenue growth finances and the value they do a lot of Finance you know excel math and they convince them we're
+
+a good idea we kind of don't we do that last we start up front with the the people uh are we going to have a cultural match this like the number one
+
+thing we look for like we we SP spent all our time looking at them like who is this person where is their background can we find anything online then we spend time with them so that's like the number one evaluation criteria because
+
+you know we're going to work together so it kind of doesn't matter what they did in the p is what we're going to do next five years together so that's number one number two we start looking into product what is this product is it an awesome
+
+product is it like what's the IP what's the Innovation and the last thing we do is we bring the finance people in who are like tabular did you even bring the finance people in had what like under 5
+
+million of ARR and you paid 1.8 billion did the finance people getting the door for that deal no we locked the doors uh no but uh you know uh tobler is an
+
+interesting one because I I kind of stayed in touch with the the founder I've been tracking him and trying to get him to work at data brakes long before he started Taber so when he was at
+
+Netflix so something that I've been staying close to for many many years so we knew what we were getting I've realized we've had we we've been talking for six or seven minutes and I haven't asked you actually what data bricks does
+
+so I'm going to ask you that I'm going to ask you to do it in the way that if you were sitting at a bar with somebody who doesn't know anything about AI or technology at all what's the uh what's
+
+the short version of what datab bricks does yeah look any large let's take 60% of the fortune 500s they have massive
+
+amounts of data that doesn't get organized by itself so the boring Plumbing behind the scenes to organize all that data and secure it which is
+
+super super important because there's cyber attacks left and right everybody's trying to hack these companies so securing it and then enabling you to do
+
+um you know get insights out of it and the insights are both backwards looking like hey how much did I sell last week how's this product doing in Japan and
+
+also forward looking so AI uh you know which customer is going to churn um you know how much should I stock up this
+
+particular product uh you know all the way to generative AI you know should I you know Jet Blue uses us to figure out
+
+um you know when there's a delay on the airplane you know what's going on which terminal should I go to so it's a gener generative AI application that you talk
+
+to or block uses us you know square but you know when you set that up you can now like the store owners can just speak in English and say hey I have five products the price point is this and
+
+it'll set everything up for you automatically using AI but all the basically data Plumbing that happens in the large organizations you know chances are if there's any large organization
+
+you know they're probably using data braks for all of that when you helped found the company there was seven of you correct am I correct saying they're all still with the company and you're the
+
+second CEO and but the for everyone's still there everyone's there that's unusual even companies with two co-founders often won by now would be
+
+gone why do you think everyone is still there and can you talk a little bit about that dynamic because it is unusual yeah I mean look I think we were again it goes back to the culture we were
+
+researchers and we were working together actually at UC Berkeley even before that doing research so you know I think that research culture has kind of continued
+
+and even though I have the CEO title it's kind of like seven CEOs you know they have a lot of power in the company
+
+and they're on whole product lines and you know they're pain in the butt for me all right let's talk about this news
+
+you guys announced this morning uh you have $10 billion in commitments uh most of this is going to be kind of an employ tender the and and there's other things
+
+you announce kind of $3 billion of ARR why raise this round instead of just go public and get the money out of the public markets and let everybody cash
+
+out that way who wants to cash out yeah I mean look uh when when we were thinking about this we were looking back and forth and we were like you know
+
+earliest time we would IPO we wanted to wait you know this year was election year and so on we want to get some stability are worried about interest rates inflation so on so forth we said
+
+look look this is it's dumb to IPO this year so we're definitely going to wait even though the companies that have IPO this year have done well well I would say that this was six months ago right you know you got a plan ahead so six
+
+months ago we were like hey it's it's just dumb to IPO this year just wait right let things settle get more data you know don't have to uh and then
+
+working backwards it was like well earliest theoretical possibility of an IPO would be next year and then you know there's a lockup per and so on so it would just be too long of a period for
+
+employees to get liquidity Frankly Speaking um so so that's kind of what started is like hey we want to just quickly fast get cash and we started
+
+small we want to get like 34 billion do is what started at but then the Press unfortunately starts leaking these
+
+things oh and then all the all the bling the press for bringing in 10 billion everyone here would like the press to
+
+give them 10 bil literally what happens the Press leaks it and then you get your phone explodes with investors that are like Ali it was like seven years ago I talked to you but I love you like you
+
+know let's talk I heard you guys have basically 25 new investors on the cap table institutional investors is that about right I have no idea I have no idea this I do not know I have a big
+
+Finance team hundred people that that take care of this I I know the top investors you know uh and I met them but yeah I mean there was like what what was
+
+shocking to us is we said like okay so we'll raise a few billion um but then suddenly we I saw this Excel sheet where they keep tally of all the people that
+
+want to invest and it was $19 billion of interest and I almost fell off the chair and we hadn't even like talked to everybody it's like oh my God that's that's you know huge amount of number so
+
+then we actually moved the price up so the price went up on where did the price start the reports were around 55 55
+
+billion is that ballpark correct um yeah we started around 80 bucks a share at
+
+you know end up at 9250 so yeah so it kept raising the price and the investors kept getting more and more unhappy so at some point you know we just stopped and
+
+we said we you know we're just going to cut back the investors and we'll just take half of the money does this mean that data bricks doesn't go public in 2025 no I I think that it's still a
+
+possibility again theoretical possibility that we go next year that would be the earliest uh but it could also very well happen the year after I
+
+do think the majority of the lifetime of data bricks will be as a public company even though we're not public yet uh but the thing that's you know really top of
+
+mind for us is can we provide liquidity to the employees and this enables us to do that and that's super super important if I'm an employee though and granted I obviously want to get some liquidity
+
+because I want to be able to pay the mortgage I've had you know the stock that keeps appreciating and value I get that but if I'm an employee am I not sitting there thinking damn if we had just gone public last week we'd probably
+
+be a hundred billion doll company and that 92 whatever you said it would probably be $130 this deal is causing me to basically leave money on the table well
+
+I what I want to do with data breaks with the investors and the employees is to get the folks that are really excited about having massive impact with data in AI over the next decade or so in the
+
+long run those are the people that we want to have and by the way there might be some people that are like hey you know put in many many years I'm done here we want to thank them you know there's no hard feelings they helped
+
+build the company but what we want to really do is focus on that long term we're not trying to time something like you know yeah the market is super hot right now might not be in a quarter you
+
+know something devastating might happen the AI bubble might burst oh my God bubble you said Bubble so I'm going to
+
+is this a bubble I mean it's Peak bubble AI bubble yes uh of course I mean it doesn't take a genius to know that a
+
+company with five people which had no product uh no uh you know uh innovation
+
+no IP just like you know recent grads are worth hundreds of million sometimes billions like you know you get billion
+
+dollar valuations on these startups that have nothing that's bubble does it worry you at all you know it's interesting when I talk to your investors people some of your investors who did this
+
+round they all say the same thing they all think they got a bargain on this deal mhm good for them good for them do you have do you have any concern though if you think this is a bubble do you have any concern that you're going to
+
+have to go back to those employees whether it be six months or a year 18 months and say we're worth less now your Shares are worth less now well no I I
+
+think we not not because the company is struggling but because the because the valuations were inflated your multiples are inflated anything can happen to anyone in fact we do this thing I'm par
+
+you started the beginning where I grew up you know I grew up in Wartime you know literally there you know they were bombing the city when I grew up so look every year we do these Skyfall plans
+
+where we think about what happens if GFC 2.0 happens which is great financial crisis 2.0 so we look through all these different scenarios so we're ready for anything that comes our way uh but I
+
+think we have a really steady business our churn is like alltime low and it's been forever and it's a recurring business so I sometimes joke that if
+
+even if you get a professional CEO who understands nothing about our business they'll be able to continue to drive
+
+this to you know say 10 billion Revenue um so I'm not too worried but yeah you know things happen in the world and sometimes things might go down and but
+
+you know if we stay focused on the long term I think data and AI is going to continue every year that goes to be slightly more important and slightly
+
+more impact on people's lives on companies if we just stay focused on that and keep doing that great things will happen to us you said you think
+
+that the majority of datab Brick's life in the end will be as a public company there are a bunch of your peers who who
+
+who've basically said there's no good reason for us to ever go public it is more pain than it is worth we will maybe do it if we are forced to but we really
+
+don't want to is there a from your perspective is there a value of eventually going public whether it's next year or the year after and if so why do it at all there's a lot of
+
+private money you could just keep flipping you could be Mars first of all it was very exhausting raising $10 billion like you know it's basically I
+
+had to facilitate this gigantic transaction between all these that's why you have 100 Finance people that's they did yeah but you know I'm I'm you know I
+
+can't just fully delegate to them right you want to make sure that you know what so it's it is a big uh logistical
+
+operation just to keep facilitating these trades so that's number one one reason not to do it second it is a massive marketing event which we haven't
+
+had yet but we're saving it for one day uh so you know that that gives you a big boost especially it's a big boost in United States of course we're
+
+International but you know the bulk of the business year in in United States so I think that's also not to be
+
+underestimated um you know that's it I think those are those are the things I do think the value of being public has reduced over the years because there's
+
+so much access to Capital you know like I think 10 15 years ago needless to say there's no reason like you had to go public you couldn't get this kind of
+
+capital at all uh so things have changed but nevertheless we will go we're running it like a public company uh and we're are going to go public one of the
+
+things interesting about this round is you are now worth more from valuation perspective I know private versus public than snowflake is uh you have uh exactly
+
+so you you have kind of said it has almost sounded like since Frank left snowflake is no longer your competition at least the way you view it so if if
+
+Frank is gone and snowflake is no longer the target who's the Target now uh look I think that you know we have it's kind of like you know you're playing a card
+
+game and somebody gives you a hand and you look at your card and you have like an amazing hand you like oh my God this is great so but what do you think when you have like that amazing hand you kind
+
+of think don't screw it up right so I think the most important thing for is don't screw it up like you know treat our employees well uh you know make sure
+
+that we're secure and that we're safe and that we continue innovating don't lose that Innovative research kind of origin uh sort of ingredient that we had
+
+if we keep doing those things I think great things will happen we don't need to obsessed with this you don't think you need if if not a Target and I don't
+
+even mean an enemy but like that that that that bigger company that bigger CEO that you're chasing cuz that's that that's been it seems from the outside
+
+part of datab Brick's DNA it it was we had a program called snow melt and we were going after snow Snowflake and you know we demonized them but you know it kind of that's behind us
+
+to be honest there's not like a Salesforce shrink or something program that you guys have at we don't have that anymore no you don't have anything like that we partner very closely with Salesforce we love them you partner with
+
+lots of you partner with lots of companies we're partner friendly Fair your partner friendly uh something else you said recently this this came up actually in the earlier conversation
+
+that that Ena had with the Sierra AI guys was you talked a bit and this kind of goes to AI bubble or AI hype uh talked a bit about how you view this a little bit like the the later stage.com
+
+boom you talked a little bit about kind of you had all these search engines and and this isn't about datab bricks per se but a lot of the partners you have yeah
+
+and when I think back to you know '96 9798 there was a lot of search engines there was a ton of them and in the end a
+
+new one came and and crushed them all when you think of all these big gen companies that you are working with their customers and quasi competitors of
+
+yours do you think a lot of them are going to go down in the dust bin like lyos and Al Vista and we're going to
+
+look at massive fundraisings of companies that truly disappear I think so uh however it's also maybe helpful to
+
+remind people that there was a little book seller called amazon.com in 1997 and back then I remember because I wrote my Master's seases about it as a young
+
+kid I remember cuz the only stock my father ever shorted there you go and and it was you know and uh and by the way just to remind people they were selling books on the internet and people said
+
+well obviously people are not going to buy buy those because what kind of idiot would put their credit card on the internet like no one will ever do that
+
+uh and here we are today so that company is still around so yeah why lios and you know alav Vista and Yahoo are not here um I just mean there seems to be some
+
+comps between them and some of the llm companies in in the sense of what they do and what the I mean I agree I I I think that people are obsessed with
+
+what's going on right now but I think that we're going to see major changes and I think there's going to be new Mega companies that are born that have not even been started yet we're going to see
+
+that in the next 10 years the big challenge is very hard to predict them because um you know who would have
+
+predicted Twitter or Airbnb or Facebook in 1999 back then we were just obsessed
+
+with routers and Cisco and it was like that's the and then it right pets.com so uh you know it's very very hard to
+
+predict these things but you can imagine like let me just throw one out that I'm kind of like uh I I think it's very
+
+plausible take Healthcare which is I think 7 % of US GDP and it's extremely important to everyone in this room and their family members and at some point
+
+in your life it will be extremely important if it's not already is uh imagine the killer apt okay that's a
+
+weird phrasing imagine the imagine that like amazing you know app that has you know you have this
+
+personalized doctor that has seen billions of patients and can give you like the best Healthcare advice how much would you pay for that a lot I think that company doesn't exist right now and
+
+I don't think it's any of the existing players going to be that uh and and there's I could go on about education how much do you care about education for
+
+your kids and so on right now education it's you know that's not an interesting hot like actually in the VC space well it's something that VCS have lost money
+
+on consistently for generations and stopped investing in yeah VCS always say do never invest in education you can never ever succeed there there's no innovation to be but I think they're
+
+actually wrong in this new era it's obvious what do we use llms for they're basically professors personal professors that you know can just sit there and
+
+teach you stuff so I think we're going to see a lot happening here but you know I I do also think some of these companies are amazing and what they've accomplished already is really amazing
+
+and maybe one of them is going to be that you know amazon.com that survives in the next 1020 years uh I want to ask you a similar question to what I asked the Gan CEO here last night I was on the
+
+stage back in May and David saaks was in that seat he is now the incoming aiar crypto Zar to uh if you were talking SX what's one thing if you were aiar you're
+
+talking to him what's the one thing you would like an aiar to do yeah I would be be a little bit careful with the
+
+regulation I think we got a little bit of it was like regulation craze last year uh you know we had these flops
+
+counts and all of that and all that there was all these executive orders and EU and you know politics you know
+
+intertwined with politics at companies with regulatory capture and all kinds of things but now it turns out that that we were worried about these scaling laws
+
+we're going to create super AGI now it turns out we hit the scaling wall yeah and you know that's that's apparently not happening so that was like so is
+
+your message just s kick your feet up and don't do anything no I mean we should pay attention I think that actually I mean and I think this is well known to look at the use cases we don't
+
+want people to do like the we should definitely make sure that it's illegal uh to have use cases that are hurtful for society but that's different from
+
+like hey don't do any research on AI or let's hold the research back or I remember when there was like hey let's have a moratorium six months don't do anything for just six months and then we
+
+can start again yeah that's kind of silly uh final question for you and when you think you talk about data bricks expanding obviously you continue to hire and you think about to kind of bring
+
+this back you think about your own experience growing up obviously as a refugee not in the United States but but in Europe what are your thoughts in terms of kind of the growth of Silicon
+
+Valley your company and other companies like yours when it comes to immigration possibly how how US immigration laws are going to change both for skilled and
+
+unskilled workers well I don't know how it's going to change but I do think that you know I I did a startup in Europe as well and I love Europe I'm kind of a
+
+European you know at heart I grew up my whole life there you cannot I could not create a data bricks there you know
+
+Silicon Valley is very very unique there's like it's it's many things come together uh it's like the perfect storm
+
+that makes it happen uh one of them is funding like good luck raising $10 billion in Europe uh so that's just one
+
+uh but the second one is that you get this extremely hungry talent that comes here and you know they we make huge sacrifices like you know working 100
+
+hours you know giving up everything in their life you know it's kind of crazy how much risk they take and how hard they work so that's the second one and then you have the universities and then
+
+you have the research Labs nearby uh it's really really unique uh so I hope that we can preserve it and continue
+
+doubling down on it uh you know it's I I think it's the I mean it's a secret kind of engine behind United States you know
+
+GDP kind of growth and motor behind the economy so I hope that we we preserve it but who knows what's going to happen with it that's all the time we have Ali thank you so much

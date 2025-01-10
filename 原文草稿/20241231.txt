@@ -1,0 +1,835 @@
+Brian Chesky - Founder Mode & The Art of Hiring
+
+https://www.youtube.com/watch?v=aFOGlNL39xs
+
+so I'm really excited to finish today's conversation about hiring with Brian uh Brian's been through it all uh literally
+
+we met 14 years ago or yeah something like 14 years ago when it was like two or three of you you were the second investor after white combinator yeah and
+
+uh you met me I think before met you were living with your co-founder and a random and phone calls 247 exactly like
+
+which was actually one of the reasons why I invested was when I asked Brian who does customer support he said we do and I was like you must get calls at
+
+3:00 a.m. 4:00 a.m. 500 a.m. he's like yep we answer them ourselves that's right we we started and by the way some people had our phone number for many
+
+years so sometime I still answer some calls well talking about a you get I grandfather in that was true founder mode yeah true founder mode U so you
+
+know Brian recently got a lot of attention I guess you gave a presentation at YC that Paul Graham summarized in a blog post that got a lot
+
+of attention and generated lot of controversy and debate um so why don't you explain like what is founder mode what led you you know to have this
+
+Epiphany and how did you how did you alter Airbnb at fairly substantial scale
+
+totally yeah so um first of all hey everyone I think most of you like I hear are founders so the fact that most of
+
+you are founders I'm going to tell a story like maybe 5 to seven minutes we'll see how long how succinct I can be
+
+um so it was maybe like a month or a month and a half ago so you know why commentator you're probably aware of why commentator maybe some of you were in
+
+why commentator and I speak to every batch and every batch I tell the story of har be started but it turns out
+
+there's like over a hundred companies that are basically like unicorn esque
+
+like market caps there's like 200 Founders that there's no thing for YC
+
+for late stage Founders to compare notes and commiserate on like all the mistakes to make and I didn't even agree to go to
+
+the talk until like the last second and Gary tan said don't worry come to this talk it's off the Record no one will
+
+ever know you did it and then I did the talk and I I was supposed to go on I was the only thing
+
+keeping people from drinks because I like the program ended at 9:00 p.m. so I go on at 900 p.m. in syoma California
+
+and I'm like in the way of drinks I only intend to go for like 20 minutes and I go on for I go for two hours just with a
+
+microphone and it wasn't all my fault they were like keep going keep going keep going and so I said all right and
+
+it felt like like like a I don't know it felt like a group therapy session
+
+because I think the takeaway was I think people in the audience thought oh my God
+
+I guess I'm not crazy I've just made to believe I'm crazy by my own
+
+employees and so I want to tell you that story you're not crazy even though people who work for you tell you you are
+
+you're not crazy so let me tell you the story so obviously I met Keith and he invested in 2009 and we were you know
+
+alongside seoa we were one of the first seoa found funding companies in that era um we went on a rocket ship you know we
+
+were one of the first unicorns for was a term and you know I did all the things that you do if the company takes off and
+
+it was amazing for a bit like 2009 10 11 12 13 14 it was awesome it was fun it
+
+was exciting and then one day it was horrible and that day went on for like six years and basically what happened
+
+was I realized you can kind of be born a good founder you don't need experience to be a good founder I think I was a pretty
+
+good founder the first day we started the company I got things wrong but I was pretty good but I'm not sure any of us
+
+are born good CEOs and all the best CEOs are horrible when they start there's something about being a CEO that is like
+
+kind of counterintuitive but the other thing is there's a lot of like startup School talks and like discussions of how to start a company everyone talks about
+
+it it's kind of intuitive you don't need a lot of experience and CEO is like totally different but the other problem
+
+with being a is I think almost all the advice in everything they teach like Harvard Business School I don't want to say
+
+everything but a lot of it is kind of wrong like for example the role of a
+
+great leader is to hire great people and Empower them to do their job and I'm not
+
+saying I disagree with that statement but that statement if you do that and you're not careful your company will be
+
+destroyed so let me tell you how that would happen we had a company where we
+
+were like a matrix organization and so like we had all these different teams and by the way there's no Governor how
+
+many teams there are so teams can create teams can create sub teams can create sub teams they people can decide how many manager levels they create like if
+
+you're not careful people do this and why do they do this because they want to have new teams they want to have job responsibility all these Scopes so let's
+
+take like a marketing or creative Department there's a team in Airbnb doing graphics and like different app
+
+different parts of the sitey graphics the advertising these graphics and when it was five teams the five teams would
+
+ask the graphics department for graphics and they'd have like five request and then pretty soon it's 20 teams and once
+
+it's 20 teams they're like the deli there's a line out the block there's a multi-month wait and then what happens
+
+is the graphics team the central service kind of like gives up and everything
+
+seems pointless and the team's waiting forever give up and they say give me my own people so now they get own Graphics team so now you have five or 10 Graphics
+
+teams and you can do the same thing with technology and product Oh you can have 10 data teams that have different
+
+metrics and like we can go down the list so now you have 10 divisions now those 10 divisions are now wanting to go in
+
+different directions and they have general managers and general managers are like little Russian Babushka dolls they want to create miniature general
+
+managers and miniature miniature general managers and so now you don't have 10 teams you've got actually a hundred teams because you got these little
+
+babushkas running around around and they're going in a hundred directions with different technology and though it
+
+seems faster like we can be like a startup it's a lot easier to spin stuff up you end up with a lot of bureaucracy you end up with a company where there's
+
+meetings about meetings where metrics and strategic priorities the only thing that bind the company together there is no cohesive product road map everything
+
+is a different time Horizon it's all short-term oriented and the biggest problem of all is the CEO um gets
+
+separated from their own product like your core asset was you built the
+
+product you every CEO I think with only a few exceptions should be the chief product officer of their company because isn't the most important thing of a
+
+company to make a product and shouldn't the person who knows the most about the product be the CEO and yet you are told
+
+to be separate from your product and I noticed this thing where there was more bureaucracy there were these divisions
+
+the divisions then they have to advocate for resources the advoc advocacy creates politics and then you have a situation
+
+where it's hard to track what everyone's doing so you have this like free-for-all there's not a lot of accountability that
+
+leads to complacency the complacency means that like the bad people and the good people are indistinguishable so the
+
+good people tend to move on they say the companies change the company slows down and one day you wake up oh and by the
+
+way you have leaders that are quote managers I don't like managers we don't have a single manager in airb and I put
+
+in error quotes a manager that doesn't know how to do the job they're managing is like a Cavalry General who can't run
+
+a ride a horse and a lot of companies do that so we only allowed managers that
+
+were experts but for a long time we had managers and one day I woke up and I realized I had 50 year olds managing 40 year olds managing 30-year-olds managing
+
+interns doing the job with all these layers that weren't adding any value and I woke up in 2019 10 years in and it was
+
+just kind of Soul crushing I didn't know what to do I meet two people that changed my life one was Johnny I he was head of industrial design at Apple the
+
+other was a guy named heroki asai who was a creative director at Apple and they taught me about how Steve Jobs ran
+
+apple and it was opposite of everything I described but the problem was we were
+
+about to file to go public and that is a really it turns out horrible time to
+
+blow up your company and so I'm like [ __ ] I have this whole new vision of a company and I don't know how to change
+
+it and then this thing called the coron virus hit and we lost 80% of our
+
+business in 8 weeks and we went from the hottest IPO since Uber and Alibaba to
+
+people asking is this the end of Airbnb will Airbnb exist and as the old saying
+
+goes a crisis is a terrible opportunity to waste and I use that crisis as an opportunity to rebuild every for ground
+
+up so what did I do and this this will I'll wrap it up in a second the first thing I did is I went from a divisional structure to a functional organization
+
+functional organization is what most of you are you have of design and engineering and product management or product marketing and sales so we went
+
+back to a functional organization we our goal was to have as few employees as possible Steve Jobs said that like he didn't use these words
+
+but he thought of the team as a special forces we said were're the Navy Seals not the Navy we want a small lean Elite
+
+highly skilled team not a team of kind of mid-level Battalion type people and
+
+the reason why is every person brings at them a communication tax the reason there's to many meetings in a company isn't because they don't have meeting no
+
+meeting Wednesdays it's because they have too many people people create meetings and the best way to get rid of meetings is to not have so many people
+
+there's no other better way to do that so you end up with this situation where non worldclass people you know the old
+
+saying a players hire a players b players hire C players I would like to amend it B players hire lots of C
+
+players not just a few but a lot because those are the kind of people that like building Empires but they're also the
+
+people if you can't capably do your job you don't hire people better than you and a person less capable to you can't do the job so you need like three
+
+incapable people because one incapable person can't actually do all the work but now three incapable people are just going in three different directions
+
+creating all these meetings and all this administrative tax so we removed the layers of management I got rid of layers
+
+of management I went back to functional I got rid of all Quote managers or we you know they they left the company and
+
+we said you can only manage the function if you're an expert so like the head of design has to actually manage the work
+
+first you don't manage people you manage people through the work I learned this from Johnny I because most heads of design at most tech companies don't
+
+actually manage design they manage the people I'm like how can you manage the people separ from the design Johnny I would say no my main job is to manage
+
+the work and I build a team and we design together but I'm mostly looking at the work I'm not like having career
+
+conversations all day long that's crazy and so we went to a functional org we had as few employees as possible we
+
+created this function called product marketing which is basically product management plus outbound marketing we took all of our product managers we either made them product marketers or
+
+program managers so there's no product marketers in the company for part we made sure that design was elevated and I
+
+made sure that engineering and Mar the health of an organization I think is the relation between engineering and marketing or an Enterprise relationship
+
+with engineering and sales the people making the product the people selling the product in most companies it's like restaurants and the waiter is yelled at
+
+if they go in the kitchen by the chefs and that is very dysfunctional so we
+
+decided to just totally change how we run the company um founder mode at its
+
+core though is about the single principle to be in the
+
+details great leadership is presence not absence so to go back to my lesson it is
+
+not good for you to hire great people and trust them to do their job how do you know that they're doing a good job
+
+if you're not in the details and by the way I'll use a golf analogy not that I play golf but I've taken a couple
+
+lessons once and the instructor and I suck at it but the instructor like they watch your golf swing and over time the
+
+ideas you built muscle memory and the golf instructors need to be there all day and that's what it should be like at a company you should start in the
+
+details and no one does this everyone hires Executives and they let them do their thing and then they find out a year later the whole thing has been
+
+wrong they've hired people they shouldn't have hired and now you got to get in the details and of course now their confidence goes down they always inevitably leave the
+
+company and what we should actually do is start in the details develop trust
+
+develop musle memory and then let go so great leadership is presence not absence
+
+great so perfect perfect setup so now that you fixed all the problems you're like three years in four years in four
+
+years into fixing all the problems how do you actually operate as CEO and dig into the details in a very practical tangible way
+
+like what okay I one time just not to keep going back to Steve Jobs but he was the
+
+root of my inspiration for this so-called founder mode I remember be uh I remember an executive of Apple that
+
+you would know not Johnny I but another one he told me he used to spend 35 hours
+
+a week with Steve Jobs not not one onone but in meetings and I'm like how the hell do you spend 30 and maybe he was
+
+exaggerating but I'm like how I think he was exagger not I'm like how do you spend 35 hours a week with the CEO and
+
+he goes because all Steve did all day was review work and I'm like oh wow I'm
+
+like there was a t period of time where I wasn't allowed to review the work because in some of you might be not
+
+allowed by your own team to see the work right or Engineers telling you like why are you looking at everything and there
+
+was this Paradox of CEO involvement the more involved the less involved I got in a project the more dysfunctional it got
+
+the more dysfunctional got the more people assumed the dysfunction came from leadership and then it was like an intervention reverse intervention where I had to get even less involved and then
+
+it would get so screwed up then I would get involved but now I'm involved in a totally dysfunctional project so I'm now associated with dysfunction there you go
+
+Brian's always involved and all this most functional things as a company so it was crazy so what I ended up doing I
+
+took a Playbook off Steve Jobs Elon mus does this uh Jensen Wong does this Walt Disney does this all them do this if the
+
+CEO is the chief product officer in the company then CE should review all of the work so I review every single thing in
+
+the company if I don't review it it doesn't ship I review everything on a Cadence the Cadence is every week every two weeks every four weeks every eight
+
+weeks every 12 weeks some like customer service I might review quarterly I'm not reviewing that every week um now I don't review everything I don't review like
+
+our accounting systems unless it's like screwed up or something but anything of customer experiences I see I also do that with marketing and so I have this
+
+Cadence I call them kind of like Co reviews and I'm not saying everyone in this room should do what I do I think
+
+80% of you should though the only reason you shouldn't is if you have a horrible product sensibility if you think you're actually not good at product you don't
+
+have good judgment and you're not a super skilled product leader then maybe you shouldn't run the company that way but then maybe I hate to say it you
+
+shouldn't be the CEO of the company I don't know so assuming let's assume you're actually good at what you do then I think you should review all the work
+
+that's the first thing I do and everything we don't ship software like other people similar to Apple we do
+
+product releases said differently we develop software like people develop hardware and the reason why is because I
+
+thought well data is ubiquitous everyone can go different directions they can ship continuously and the problem is there's no cohesive product Vision
+
+there's no Central editing of quality and standards that 20 teams don't work together that actually a lot of projects
+
+require 20 teams to collaborate and if you don't have like a ing function there's no mechanism to drive change
+
+Steve Jobs had a concept he called stacking the bricks he said if you have a pile of bricks and you lay them on the ground no one will notice the ground but
+
+if you stack them vertically you create a tower and everyone notices the tower and that was the theory behind launches it was a coordination mechanism and it
+
+was a marketing moment for the company to ship products so what I do is we have a big launch the launch is a deadline
+
+and then we review work frequently if you want people to work harder I don't don't think you need to tell them to be in the office I don't think you need to check their badges I don't think you
+
+need them to come in nights or weekends you can do that if you want people work hard have a launch deadline make the
+
+thing crazy ambitious and check every week that is the way to make people work harder and you work as hard as the goal
+
+is ambitious in the frequency or check-ins the only other thing I do is I kind of do deep dives into every
+
+function of the company every year or two so beyond checking work I might do a really deep dive into customer service
+
+and it might be a 2 to four week audit where I say hey no one's going to get fired um just show me all the good and
+
+bad of the of the department and very few people ever get fired although sometimes you have to take action but not usually because you want people to
+
+feel safe to be honest with you not to cover their ass and you do a deep dive and then we say okay how could we
+
+fundamentally rethink this group and be more efficient and I find every a couple
+
+years you need to do a really deep dive on a group because it just needs to be rethought and you can't defer to
+
+managers alone so that would be maybe the answer to that question cool so now you're going to hire some people
+
+externally how do you detect and assess whether someone can thrive in a ma in a man well would have thrived in a manager
+
+mode but would fail in founder mode how do you know when you bring in external
+
+people that they can actually tolerate this that's a great question um
+
+probably the number one reason executive hiring fails is because you hire somebody at the wrong stage and they
+
+were managing instead of building and you didn't know that and so you built you brought in a manager who is an
+
+expert or not so expert but comfortable in of Highly political bureaucracy and now they have to do things themselves
+
+and they can't they also have the wrong stage Instinct right maybe a CMO is used to like $500 million marketing budgets now they have $50 million or $5 million
+
+budget and they don't want to do and they can't do anything themselves so how do you prevent against this the first thing there was an old saying um that
+
+Steve said he said start with the results and work backwards to the people most people start with the resumés they start with the brands oh this person
+
+worked at Google but you should actually ask yourself what products do I admire and then who built those products and
+
+who actually built them it's like a detective novel to actually find out who actually did the thing and it wasn't
+
+enough that they worked on a thing who like you know the number of marketers that said they came up with just do it
+
+so the best way to find out who actually did it was to ask the people back then who actually did it and whatever everyone says is a good person so you
+
+start with the results you work backwards to the people um interviewing I think Keith has a lot of tips on
+
+interviewing um I have only a couple tips on interviewing my first tip is you ask follow-up questions you ask them how
+
+to explain how they did something and the key is to ask two follow-ups you never want to get the first answer you always want the third answer and if
+
+people don't know what they're talking about they struggle they might be able to follow up but the second fall they
+
+actually become absent of details um but the biggest lesson of all I've learned from hiring and I I know Keith is really
+
+good at interviewing I don't know if I am as good at interviewing I think I've gotten pretty good at it but I actually prioritize references over interviewing
+
+because interviewing especially here's the thing you can become good at interviewing but what do you do until
+
+you're good at interviewing you are fooled and many of you will hire people
+
+and unfortunately the executives have more experience bullshitting you than you have experienced detecting their
+
+[ __ ] so it's like an asymmetric game where like you're a white belt fighting a black belt and they're going to just
+
+punch you in the face repeatedly so you kind of want to do the references I remember Andre and horz would tell me
+
+you should do eight hours of reference checks per employee which is probably over the top but you should probably
+
+spend as much time referencing as you do hiring and you basically the way to find good people is ask any one person who
+
+the best people in they are then ask those people then ask those people and build a talent Network in other words I think you should be recruiting outside
+
+of job openings if you only recruit for a job opening then you are going to create like a sales Pipeline and I think
+
+hiring is too much like a sales Pipeline and hiring should be more like a network building than a sales pipeline do you
+
+believe the CEO should interview every candidate I interviewed the first 400 people and I wish I interviewed longer
+
+maybe my biggest regret is not interviewing the first thousand I think you should interview every candidate until the recruiting team stages
+
+intervention once they stage intervention you should interview for two more years after that until everyone threatens to
+
+resign so wait till an intervention and then an add two years post intervention and then you should step away I kind of
+
+am joking but I'm kind of not can I give you an example what do today that no one else not no one but maybe 95% of public
+
+com cosos don't do so I have an executive team right those are like C Level or scvp or whatever and almost
+
+every silk and Valley company has an executive team and my Executives have direct reports so two layers for me
+
+let's call them VPS so maybe I have like seven execs and 40 or 50 VPS here's
+
+something I do that Steve did I think a few Elon esque does it J that the
+
+Hands-On people do all the directs to my directs do a report to me I am the
+
+co-hire manager of all the directs to my directs and so we meet and I often tell my directs I don't want somebody that
+
+you could hire without me if they would come to work for you they're not good enough they're only good enough if they come to work for me and by the way
+
+they'll eventually probably work for me if I want to promote from within so if you can hire them without my help they're not good enough and there are
+
+some rare exceptions but like I like to say things you can disagree with if your team can bring in people without your
+
+help they aren't reaching high enough most the time you they they should be over hiring overreaching now not over
+
+hiring as in Big bureaucracy people that have no details people that never saw growth oh that's another thing have they seen growth did they build anything if
+
+they were a big company the company was big old and didn't change old companies big old companies that haven't grown have people that are typically very
+
+comfortable in politics and bureaucracy and those are the wrong skills for a startup they need to be earlyer stage people that built things they have
+
+specifics they have details but I would recommend being the co-hire manager I would recommend interviewing as much as
+
+possible I would recommend doing the references yourself never Outsource the references oh and the other thing about
+
+references is one time I hired a candidate um they weren't they turned out not to be good but all the references are great and I looked back
+
+I'm like wait how could there be 10 positive references and it turned out the 10 people that gave me references weren't any
+
+good right so like in other words B players say other B players are awesome
+
+so you have to qualify the references any other techniques you use in
+
+references a lot of people don't want to like say somebody sucks that sucks or is
+
+not good so one thing to ask is not to only ask disqualifying questions about
+
+the person but ask them who the best people are say Okay separate from this topic I just want to know who's the best
+
+person you ever worked with do they say the person's name you just asked about they usually tell the truth and if they don't say that person's name they're not one of the best right so I think you
+
+want to do like there I don't want to say these are tricks but like a lot of people are polite they're afraid of the feedback getting back so I guess the first thing I'd say is when you start
+
+the call say everything is off the record I mean and it should be off the Record and it should never be attributed to them the more it's unattributed to them the more honest they're going to be
+
+then I think you should ask them for specifics of what the person did they said they're amazing well why are they amazing like what would you point to they if they have no specifics they
+
+maybe don't know they were really good they just think they were good or they're bsing you then you ask questions
+
+like okay like what do I need to watch out for if I were to hire them like what what is the what's the one area of development you would give them if you
+
+say that they have to tell you something because they feel like they're like not thoughtful enough if they see they they they're going to give you something and
+
+then you ask well who's the best you ever worked with and see if they say that person so those are and then you ask him at the end who else should I
+
+talk to you can you give me two more names and then you use set to build a network so let me switch gears back to something you mentioned about the CEO
+
+needs to be the chief product officer you have to have taste products the key aperture that you're competing on in the world how do you get what do you hire
+
+for when you're the CEO Chief product officer to get some leverage in that role like what's the what what would you
+
+hire to help you do that job I mean I generally think most companies should
+
+have three like key functions and they should all report the CEO a technology person or engineering person person
+
+sometimes people have multiple technology person people sometimes they separate VP engineering from CTO which is more of like a technical architect
+
+but let's assume there's one person there's a tech person there's a product person um most companies call product
+
+management we probably take 20 seconds to define the difference we have product marketing we shamelessly copied it and stole it from Apple it's technically not
+
+product marketing it's technically product marketing SL product management it's just called product marketing but what it is is take the product manager
+
+take a bunch of the program management Administration out of it put that into a central program management function and
+
+then add outbound marketing into one role they call it outbound inbound and that is product marketing so the first
+
+leg of the stool is engineering the second leg of the stool is product marketing again they're product managers
+
+with taste in storytelling ability and the third is AE of design I have a controversial view that the head of
+
+design should never ever ever report to the head of product I mean maybe never ever ever but like nine out of 10 times
+
+they shouldn't the head of design should report to the CEO of the company I mean the head of design not apped CEOs like they had a technology appointed CEO
+
+you're not a tech company and that would be crazy so I think hiring incredible people and those three functions are
+
+critical the other thing I do that almost nobody does I think I might be the first CEO to do this is we don't use
+
+an external creative agency of record like wi and Kenny and Shai day we built our own h house team and I don't know if
+
+you all should do that but I generally like to not Outsource creativity the reason we did it and apple didn't even do this apple had a duel they had a
+
+marcom group and they used shy at day it turned out to be called media arts lab it was like bespoke group for them but I heard the guy who built all of it named
+
+heroi from Apple and he said I always had this dream of building an internal Creative Group it was one of the best things we ever did just like you when
+
+it's outsourc technology why Outsource creativity so these are the people that
+
+I rely on and I try to make sure they have in some ways better taste than I do the other thing is you learn from the
+
+people so your taste gets better you're as good as the people you hire because hopefully you learn from them when you're hiring for a role that
+
+you don't know naturally so you don't design naturally but let's say you were hiring Finance how do you develop taste in who to
+
+hire that's a such a good question my first answer is assume you cannot assess their um technical
+
+competency in areas that you are not more competent than they are at and that will be almost every function so how do you know a lawyer is a good lawyer how
+
+do you know a finance person is a good Finance person I think there are ways to know if people are generally smart and
+
+intelligent um for senior people start with the results and work backwards the
+
+people for junior people look at energy passion and like intelligence SL
+
+learning agility right anyone that's got a lot of energy is really passionate is courageous Fearless bold um their hands
+
+on and they have a lot of learning agility it's going to grow really really quickly as senior people I don't know if it really matters because by then they
+
+should have results every potential hire is guilty until proven innocent it is the opposite of our justice system most
+
+people when they interview they look for absence of weaknesses and that is innocent the presumption of innocence
+
+there's a presumption someone's good you should always presume somebody is not good I'm not to not to be overly crass
+
+about it but the proof they don't work for you so you need evidence to hire
+
+them not evidence to eliminate them as a candidate in almost every company gets
+
+this wrong and when they end up doing is hiring mediocre people that absence of weaknesses not people that have a prous
+
+evidence of being really good and spiky in a few areas and they might be pains in the ass to work with um by the way I find the biggest pains in the ass to
+
+work with historically are people that aren't able to do their job that actually the high performers have the most respect because high performance and respect an organization they
+
+actually go hand inand you got to be disciplined you got to like appreciate other really high people so I would say
+
+that's the first thing to look at but the second thing is again I've done this in the
+
+past let's say you need a CFO I found like former CFOs to interview them maybe
+
+they could be an adviser I've had technical advisors interview the CTO so
+
+I think you could find friends advisors if you maybe a board members that did
+
+the function and they can interview the people the third again is references and
+
+the fourth is again just have them show you what they did they were the CTO no
+
+maybe no design because most of you probably aren't designers do they have tell them to show
+
+you their design process and what they designed does it make sense to you even if you don't understand design do you like the work um and show them have them
+
+show you what they actually designed now here's a cautionary R tale if they're a giant company it's really hard to know
+
+if they did that themselves right I was a designer at Apple well there were a thousand designers at Apple what did you
+
+do were you the good one or the like the lowest performer in the organization so again that's kind of where you need them
+
+to talk in specifics about what they did and you also need references ideally you find out it's like a detective novel
+
+remember guilty until proven innocent in a sense maybe those words are a little crash but they need evidence how do you
+
+decide when to hire internally versus promote someone internally you used to have a fund called University Ventures
+
+and one of your um Partners was Kevin hars and Kevin Harts who started a Vite he was an early investor in rvnb he used
+
+to tell me something a pitcher never takes them off the mound and I found that I assume that when people stop
+
+scaling and they can't do their job they'll come to you and they'll tell you turns out in my career I don't know if it's ever happened in like thousands of
+
+instances people are not going to come to you telling you they can't do their
+
+job also they're not going to take any hints I had this slightly cruel um I had
+
+this slight now I believe it's kind of mildly cruel but I would kind of avoid people I think I was conflict averse I think by the way I bet you most of you
+
+are probably confli Converse because it it develops it requires um a lot of experience to get comfortable conflict
+
+we tend to want to like avoid conflict and find the path of least resistance and telling people they're not scaling
+
+them holding accountable is conflict and so you tend to avoid it everyone always says I waited too long to fire someone
+
+but I never did it too fast I mean why that's like crazy that everyone says
+
+that over and over again so there's a number of proxies for are people scaling if people aren't scaling they're doing
+
+things today they should have done six months ago if people are kind of scaling they're doing things today they should be doing and if they're really scaling they're doing things they don't even
+
+need to be doing for six months they're seeing around corners they're bringing you problems and a lot of people people if they're not scaling what they're
+
+going to do is just like oh my God you're right I should have done this but now I've learned and the question is well what else are you not doing that
+
+we're going to find out six months from now so are you six months ahead of your job are you on track your job or are you six months behind another way to look at
+
+it is the quality of the people people never hire people better than them so there might be people that are good at
+
+their job but it's not enough to be good at your job in most large companies if you are the best in the world your job but you can't hire really great people
+
+then you're not going to be the best in the world cuz your team isn't really good so you actually have to be a talent
+
+magnet so you have to ask yourself how good are my how good is my team um and by the way I would trust your instincts
+
+if somebody's frustrating you you should listen to that instinct that's probably giving you a sign and if people stop
+
+scaling nine out of 10 times the trend never reverses every so often the trend
+
+reverses but it usually happens when you narrow their role so dialing back to when before Airbnb was like famous Super
+
+Famous how did you attract really talented people when you were small or unknown or
+
+controversial very controversial um this a great question
+
+um so we would leverage networks so for
+
+example um we were in ycombinator we weren't able to hire like
+
+the big All-Star Engineers from Google or or meta or apple we couldn't hire
+
+Apple designers so we started a YC combinator I remember and we used the YC Network and we found some former YC
+
+Founders that were engineers and they became like some of our first engineers and that was I think fairly successful
+
+um and of course that was also like you know I think you said like people Market
+
+or people job fit Eric said product problem fit product problem fit I think networks bias towards that because
+
+you'll hire the right people the right stage I was constantly networking you know I don't like agnostic networking
+
+like I don't like going to conferences I wouldn't go to a conference it's like what I kind of think a lot of people call like fake work it feels like work but doesn't actually move the ball
+
+forward but a version of work that is incredibly valuable is being around a
+
+density of talent especially Engineers designers product people or the like I don't know if networking of Finance
+
+people is a good idea but um networking Engineers I think is a good idea because you need the work of talent I would be the keeper of the story I'd be
+
+constantly telling the story of the company constantly hiring I mean I think in a hypergrowth company it could even be 50% of your time is hiring and the
+
+reason why is you're constantly prosing the company you're networking you're
+
+hiring I I would also um you know leverage your investors I would I just
+
+it's just like a thousand things a thousand times what about closing a candidate um you must be amazing at
+
+closing a candidate I'm better now what any anything you learned you know along the way I have so many different tips
+
+and tricks one counter two of tip is at the very end of the process try to talk him out of the job that actually solves
+
+two problems I mean not I'm not saying playing mind games but like if you try to sell somebody they're naturally
+
+skeptical and they think they're being sold to and they're going to take the counter position the counter position is not doing it have you ever been on a
+
+date with somebody and they're like trying too hard to pursue you and it kind of like turns you off a a little bit or maybe you've been on the other
+
+side of that and you were a little too eager and like so you got to be careful the other thing is people trust you more when at the end of the process say
+
+here's all the reasons you shouldn't work here and I'll say and usually I'll say here are all the reasons you work here it's going to be the longest hours You' ever had I'm going to hold you to higher standards it's going to be day
+
+and night it's going to be this it's going to be that now if it is that way see recruiters want to sell their
+
+company often as a country club we have great benefits we have great this we that and it creates this manage expectations when it comes in but the
+
+second thing is then it's like a reverse psychology like no I want everyone to do it you know like there was an old um there was an old job ad by Ernest
+
+Shackleton are you aware this job ad let me if I can find it um Ernest Ernest Shackleton sorry my eyes aren't great
+
+without glasses Ernest Shackleton was an expeditionary like a hundred years ago um and his and he he had this giant
+
+shipwreck and he famously um all the guys like survived and there's a very
+
+famous job posting and here's the job posting it says men wanted for hazardous Mission uh sorry men wanted for
+
+hazardous Journey small wages bitter cold long months of complete darkness
+
+constant danger safe return doubtful honor and recognition in case of success probably the best job out
+
+ever and that's I think one thing you should do is just like don't sell a Rosy
+
+picture of the experience of working in the really good people like why do like the most fit people in the world want to be Navy Seals because they want the
+
+challenge now the average person doesn't want to a want a challenge but the best people want to challenge and so that
+
+will turn off mediocre people but will turn on great people the next thing is
+
+spend a lot of time with a candidate I remember when um when Mark andreon was one of my First Investors he was
+
+competing for a deal he won the deal over someone else because he just called me more and it worked he would call me
+
+he would text me he would visit me he'd check in with me and he just wanted it more and I think
+
+FaceTime makes a difference so that's number two number three have people they
+
+trust call them Mark andreon had me do a zoom with I think like pidar who was a founder of eBay back when like that was
+
+a big deal because we called ourselves the EB space and I'm like oh my God pure midar and then I think he had Mark
+
+Zuckerberg called me and I was like oh my God I I like this is crazy so I try to get like and I probably have I've had
+
+you I think call candidates in the past in the early days probably a lot so I
+
+think the the following sell the dream tell them like what it's going to be
+
+like there but talk them out of the job at the end um try to um you know have
+
+people that you trust sell them on the job and a couple other things I just say is like tell them like the kind of
+
+vision you have for them I like to tell people like my job is to see potential in you that you don't see in yourself
+
+and I'm going to tell you something's not good enough all the time but when I say that I'm not saying you're not good enough what I'm telling you is I see potential in you you don't see in
+
+yourself and people like that they're like oh wow this person's going to believe in me and then if you can keep the promise be very Hands-On with them
+
+be very engaged ask them what their goals are what their Ambitions are and show them how this job is a stepping
+
+stone to the to the Ambitions and then I would try to make sure oh the other thing is interview panels can either
+
+close candidates or turn candidates off and a lot of times interview panels they inadvertently maybe they feel threatened
+
+or there's a problem so you want to meet with the interview panel ahead of time one ofone or as a group and you should
+
+pre-sell the candidate so that they have a general selling kind of experience and then I would kind of overpay the really
+
+good people I think that most HR and compensation guidelines revert to a mean and I think the low performers are under overpaid and the high performers are
+
+underpaid so these are just some tactical things do you overrule interview pels why or why not always um
+
+not always that sounds not always that
+
+would be ridiculous but I do
+
+um not often now because we have an extremely high dens density uh of high
+
+performers and it's kind of like a flywheel but until you get there you're
+
+going to have situations where maybe you have an in panel of eight people but let's be honest three of them aren't
+
+scaling and they're struggling and maybe two of them worry about this person and this person joining what it means for their job and I don't mean to be
+
+skeptical but I'm just saying this is human nature like if I were in the position I I'm not a perfect person I
+
+might have these concerns as well people might look for an absence of weakness
+
+rather than strengths people bias towards perceived Harmony they bias
+
+towards um charm kind of perceived Charisma attractivness like kind of like
+
+that aren't really the job right it's just you know oh and they also panels sometimes all ask the same question so
+
+no one goes deep often there's too many people interviewing for too short of time not going deep enough your interview panel should be as few people
+
+as possible going as deep as possible more like a detective novel three four people going really deep is better than eight or 10 people giving you their like
+
+first impression but they don't really know and they're actually mostly thinking about what this means for them one other question that comes up as
+
+companies are scaling it's get this bound advice you know the manager model the HBS model whatever uh fortunately I
+
+grew up at PayPal was organized the way you know sort of you are now but um what do you recommend when you have a board
+
+member you have a VC you know Etc who's telling you to do X Y and Z and you know in your heart just as you pointed out
+
+the founder knows in their heart that this is stupid but how do you navigate that until you have the credibility that
+
+you now have oh that's a tough one can I can I give you an analogy um before I
+
+say that like the Perils of some VCS on boards giving you advice so I'm not like
+
+giant of sports but I have a season take as a Golden State Warriors and being now a successful Tech founder I got to AFF to have courtside seats and I don't
+
+indulge in a lot of things by indulge in courtside seats so I have what you might call a front row seat for all the
+
+Warriors championship games but just because I had a front row seat at championships doesn't mean I can coach
+
+an NBA team and that's true of venture capitalist just because you at a front row see it
+
+at a bunch of companies doesn't mean you now know how to run a company or advise other people to run a company see
+
+Keith's started companies Keith ran companies Keith was a COO or a head of ebat companies and that's where you're
+
+most valuable now you do have some pattern recognition as a VC but I think the most valuable experience is your
+
+operating experience so number one my first thing is I would try to always bias towards hiring raising money from
+
+investors that have started a run companies or been the C or an executive at a company um I would also be very
+
+wary of Junior Partners joining your board because they tend to be the most risk averse and will be least likely to
+
+potentially not always but often have your back when times go bad and the senior Partners will just say get rid of them or do something and they're not
+
+going to have the moral authority to stand up for them so the first thing is make sure you have the right board
+
+member because board members are kind of people you can't fire and so you know you're you're going to be at their mercy
+
+and I would also say that the average board member is kind of like a zero or a 0.1 in other words they're not going to build your company the executiv going to
+
+build your company a few board members could be transformationally helpful and more likely some board members going to distract a lot of value so board members
+
+can't make companies but they can destroy companies I saw that with open a ey or almost destroyed companies and so
+
+I think they there you you have to be very careful about that as far as um to answer your question directly what do
+
+you do with um a board member where your intuition is telling you something and the board member is telling you
+
+something conflicting but they're like you know 30 20 years in Tech they've seen everything they say and you can't
+
+tell them oh you've never played basketball you that will offend them don't do that I've tried I've tried that
+
+don't do that does it doesn't actually work not it won't work
+
+um I think it helps first of all to have ideally like I've had issues where I've had to
+
+disagree with the board member and the people that would often have my back would be other competent board members so I would call the other competent
+
+board member and I'd say hey I'm having a real problem can you weigh in what would you do and I'd say well do you
+
+think you could talk to them and that often helps now let's say you have no board member that is competent or is willing to stick their neck out I mean
+
+first of all that's a problem but let's say you don't have that because you
+
+might not then I would um God what would
+
+I do then I would um I guess I would
+
+just dig in and not dig in in an argumen way but so often times when people are
+
+giving you bad advice they're like doing misappropriate pattern recognition so I take them into the details say I totally
+
+hear you but can I just walk you through the details of the problem and the more you walk them through the details of the problem the more you're likely to take
+
+them on a journey and that Journey first of all they might just defer to you because they realize wow like they feel very strongly the act of them
+
+writing up an argument if you write up a long argument they're going to let no 80% time they're just going to back off
+
+the other 20% they're going to keep going but at least now walk through the Journey with them and very rarely will they be obstinate and if they are then
+
+you have to make a decision do you listen to them or not and even so my argument
+
+is you're if you listen to a v here's the unfortunate thing often times if you take advice from a GC and it doesn't work you don't have traction you're
+
+still he responsible so the only thing that matters is you're successful not if you listen to them or not they'll they'll
+
+people sometimes forget and they're like well you shouldn't have listened to me um they don't say it that way but that's kind of the way it happens so I would
+
+just know that like you own the alcome no matter what great well why don't we
+
+close with that that was perfect thank you much thank you so much
