@@ -27,13 +27,13 @@
   --spacing-20: 5rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
-  --fontFamily-sans: "MontserratVariable", system-ui, -apple-system,
+  --fontFamily-sans: "Noto Sans TC", "MontserratVariable", system-ui, -apple-system,
     BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
     "Noto Color Emoji";
-  --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
+  --fontFamily-serif: "Noto Sans TC", "Merriweather", "Georgia", Cambria, "Times New Roman",
     Times, serif;
-  --font-body: var(--fontFamily-serif);
+  --font-body: var(--fontFamily-sans);
   --font-heading: var(--fontFamily-sans);
   --fontWeight-normal: 400;
   --fontWeight-bold: 700;
@@ -239,9 +239,10 @@ a:focus {
 /* Custom classes */
 
 .global-wrapper {
-  margin: var(--spacing-0) auto;
-  max-width: var(--maxWidth-wrapper);
-  padding: var(--spacing-10) var(--spacing-5);
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1600px;
+  padding: 0 var(--spacing-16);
 }
 
 .global-wrapper[data-is-root-path="true"] .bio {
@@ -259,7 +260,7 @@ a:focus {
 
 .post-list-item {
   margin-bottom: var(--spacing-8);
-  margin-top: var(--spacing-8);
+  padding: var(--spacing-4);
 }
 
 .post-list-item p {
@@ -381,6 +382,9 @@ a:focus {
   margin: 0;
   border-bottom: 1px solid var(--color-accent);
   padding-bottom: 1rem;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-16);
 }
 
 .nav-links li {
@@ -493,6 +497,9 @@ a:focus {
   margin: 0;
   border-bottom: 1px solid var(--color-accent);
   padding-bottom: 1rem;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-16);
 }
 
 .nav-links li {
@@ -523,21 +530,24 @@ a:focus {
   position: relative;
   margin: 0 auto;
   width: 100%;
+  max-width: 1600px;
+  padding: 0 var(--spacing-16);
+  grid-template-columns: minmax(auto, 1fr) 250px;
 }
 
 /* 桌面版寬屏布局 */
 @media (min-width: 1280px) {
   .blog-post-container {
-    grid-template-columns: 250px minmax(auto, 900px);
-    max-width: 1200px;
+    grid-template-columns: minmax(auto, 1fr) 250px;
+    padding: 0 var(--spacing-8);
   }
 }
 
 /* 中等屏幕布局 */
 @media (min-width: 768px) and (max-width: 1279px) {
   .blog-post-container {
-    grid-template-columns: 200px minmax(auto, 700px);
-    max-width: 960px;
+    grid-template-columns: minmax(auto, 1fr) 200px;
+    padding: 0 var(--spacing-4);
   }
 }
 
@@ -547,9 +557,10 @@ a:focus {
   top: var(--spacing-8);
   height: fit-content;
   padding: var(--spacing-4);
-  border-right: 1px solid var(--color-border);
+  border-left: 1px solid var(--color-border);
   overflow-y: auto;
   max-height: calc(100vh - 100px);
+  margin-top: var(--spacing-8);
 }
 
 /* 移動端目錄樣式 */
@@ -566,6 +577,7 @@ a:focus {
     border-radius: var(--spacing-2);
     margin-bottom: var(--spacing-4);
     max-height: none;
+    border-left: none;
   }
 
   /* 可折疊的移動端目錄 */
@@ -605,6 +617,14 @@ a:focus {
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
+  padding: var(--spacing-8);
+}
+
+/* 確保文章內容可以自適應 */
+.blog-post article {
+  width: 100%;
+  max-width: none;
+  margin: 0;
 }
 
 /* 目錄標題和列表樣式 */
@@ -646,4 +666,117 @@ a:focus {
 
 .toc-item.depth-3 {
   padding-left: var(--spacing-8);
+}
+
+/* 響應式布局調整 */
+@media (max-width: 1280px) {
+  .blog-post-container {
+    padding: 0 var(--spacing-8);
+  }
+}
+
+@media (max-width: 767px) {
+  .blog-post-container {
+    padding: 0 var(--spacing-4);
+  }
+  
+  .blog-post {
+    padding: var(--spacing-4);
+  }
+}
+
+/* 首頁、文章歸檔、分類檢索頁面的共同樣式 */
+.blog-list,
+.archive-container,
+.categories-container {
+  width: 100%;
+  max-width: 100%;
+  padding: var(--spacing-8);
+}
+
+/* 響應式布局調整 */
+@media (max-width: 1280px) {
+  .global-wrapper {
+    padding: 0 var(--spacing-8);
+  }
+}
+
+@media (max-width: 767px) {
+  .global-wrapper {
+    padding: 0 var(--spacing-4);
+  }
+  
+  .blog-list,
+  .archive-container,
+  .categories-container {
+    padding: var(--spacing-4);
+  }
+  
+  .post-list-item {
+    padding: var(--spacing-2);
+  }
+}
+
+/* 確保導航欄與內容對齊 */
+.nav-links {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-16);
+}
+
+@media (max-width: 1280px) {
+  .nav-links {
+    padding: 0 var(--spacing-8);
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-links {
+    padding: 0 var(--spacing-4);
+  }
+}
+
+/* 分類頁面樣式 */
+.category-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-2);
+  margin: var(--spacing-4) 0;
+}
+
+.category-tags button {
+  padding: var(--spacing-2) var(--spacing-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--spacing-2);
+  background: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.category-tags button:hover {
+  background: var(--color-accent);
+  color: white;
+}
+
+.category-tags button.active {
+  background: var(--color-primary);
+  color: white;
+  border-color: var(--color-primary);
+}
+
+.search-input {
+  width: 100%;
+  padding: var(--spacing-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--spacing-2);
+  margin-bottom: var(--spacing-4);
+}
+
+/* 添加副標題樣式 */
+.site-subtitle {
+  font-size: var(--fontSize-2);
+  color: var(--color-text-light);
+  margin-top: var(--spacing-2);
+  font-family: var(--font-heading);
+  font-weight: var(--fontWeight-normal);
 }

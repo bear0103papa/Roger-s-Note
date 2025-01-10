@@ -11,14 +11,13 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">
         <div className="site-title">
           <Link to="/">Roger's Note</Link>
+          <div className="site-subtitle">Investor, Operator, Philosopher</div>
         </div>
         <Navigation />
       </header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+        © {new Date().getFullYear()}
       </footer>
     </div>
   )
