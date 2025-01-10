@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import { Link } from "gatsby"
 
 const ArchivePage = ({ data }) => {
   const [searchTerm, setSearchTerm] = useState("")
@@ -41,7 +42,9 @@ const ArchivePage = ({ data }) => {
               <tr key={post.id}>
                 <td>{post.frontmatter.date}</td>
                 <td>
-                  <a href={post.fields.slug}>{post.frontmatter.title}</a>
+                  <Link to={post.fields.slug}>
+                    {post.frontmatter.title}
+                  </Link>
                 </td>
                 <td>
                   {post.frontmatter.categories?.map(category => (
