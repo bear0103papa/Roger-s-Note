@@ -2,7 +2,7 @@ name: Deploy Gatsby site to Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]
 
 jobs:
   build-and-deploy:
