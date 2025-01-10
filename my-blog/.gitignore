@@ -70,3 +70,4 @@ yarn-error.log
 .yarn-integrity
 
 原文草稿/
+.DS_Store
