@@ -130,9 +130,9 @@ module.exports = {
         short_name: `Roger's Note`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#005b99`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`,
+        icon: `src/images/gatsby-icon.jpg`,
       },
     },
     {
@@ -184,10 +184,10 @@ module.exports = {
     },
     `gatsby-plugin-sitemap`,
     {
-      resolve: `gatsby-plugin-robots-txt`,
+      resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://bear0103papa.github.io',
-        sitemap: 'https://bear0103papa.github.io/sitemap.xml',
+        host: 'https://bear0103papa.github.io/Roger-s-Note',
+        sitemap: 'https://bear0103papa.github.io/Roger-s-Note/sitemap/sitemap-index.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
     }
