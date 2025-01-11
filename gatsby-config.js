@@ -132,7 +132,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.jpg`,
+        icon: `src/images/gatsby-icon.png`,
       },
     },
     {
@@ -180,6 +180,15 @@ module.exports = {
           `Noto Sans TC\:400,700`
         ],
         display: 'swap'
+      }
+    },
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        host: 'https://bear0103papa.github.io',
+        sitemap: 'https://bear0103papa.github.io/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
       }
     }
   ],
