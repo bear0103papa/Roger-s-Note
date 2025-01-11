@@ -2,12 +2,17 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
+import Seo from "../components/seo"
 
 const ArchivePage = ({ data }) => {
   const posts = data.allMarkdownRemark.nodes
 
   return (
     <Layout>
+      <Seo 
+        title="文章歸檔" 
+        description="Roger's Notes所有文章列表"
+      />
       <div className="archive-container">
         <div className="table-responsive">
           <table className="archive-table">
