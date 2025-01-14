@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "創始人背後的故事：Marc Benioff"
+title: "Blackstone總裁兼營運長：投資決策、創業精神與公司文化"
 date: 2025-01-15
 categories: [
     # 人名
@@ -435,7 +435,7 @@ John Gray（續）：
 
 
 ## 房地產市場的新機遇
-
+git
 Nicola Tangen：
 
 你已經退出或避開辦公樓和購物中心一段時間了。你認為現在是時候重新進入嗎？
