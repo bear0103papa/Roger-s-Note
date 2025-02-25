@@ -17,7 +17,7 @@ toc: true  # 啟用目錄功能
 
 ---
 
-<span class="original-link">原文連結： [AI Agent, 律師和 LLM](https://a16z.com/podcast/agents-lawyers-and-llms/)</span>
+<span class="original-link">原文連結： [MongoDB 的 Sahir Azam：向量資料庫和 AI 的資料結構](https://www.sequoiacap.com/podcast/training-data-sahir-azam/)</span>
 
 **Sahir Azam**  在一個充滿概率性軟體的世界裡，品質的衡量標準就是那最後一哩。你如何達到 99.99X 這種品質呢？那麼，通常我們與製造業相關聯的品質工程領域，是否會應用於軟體？這真的讓我開始思考，因為你無法像傳統應用程式與傳統數據庫交互那樣，獲得確定性的結果。因此，嵌入模型的品質、如何構建你的 RAG 架構、以及將其與業務中發生的交易的實時視圖結合，這些才是達成高品質檢索和結果的關鍵。而在這個充滿概率的世界裡，除非它是高品質的，我看不到它能夠進軍保守企業中的關鍵任務應用領域。而這正是我們目前非常關注的問題空間。
 
