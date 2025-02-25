@@ -4,7 +4,7 @@ title: "AI Agent, 律師和 LLM"
 date: 2025-02-24
 categories: [
         "Atish Nayak",
-        "**Kimberly Tan** ",
+        "Kimberly Tan ",
         "法律科技",
         "人工智慧",
         "企業軟體",
