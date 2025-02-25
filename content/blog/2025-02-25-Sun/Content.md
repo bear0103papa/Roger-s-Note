@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "軟銀創辦人孫正義與Richard Attias共同探討AI未來發展以及 5,000 億美元的投資競賽"
-date: 2025-02-25
+date: 2025-02-24
 categories: [
         "孫正義", 
         "Donald Trump",
