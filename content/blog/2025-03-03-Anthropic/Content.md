@@ -1,22 +1,24 @@
 ---
 layout: post
-title: "Mastercard 如何利用人工智慧改變支付方式"
+title: "Anthropic 執行長 Dario Amodei 談如何在人工智慧末日中生存"
 date: 2025-03-03
 categories: [
-        "Greg Ulrich", 
-        "Marc Andrusko",
-        "金融科技",
-        "人工智慧",
-        "支付產業",
-        "數據安全",
+        "Dario Amodei", 
+        "Kevin Roose",
+        "Casey Newton",
+        "人工智能",
+        "Anthropic",
+        "Claude",
         "2025"
 ]
-description: "Mastercard首席AI與數據長Greg Ulrich分享該公司如何運用傳統AI與生成式AI技術提升支付安全、優化交易流程、個人化客戶體驗並強化內部營運效率，同時維持嚴格的數據安全標準與信任原則。"
+description: "這篇文章主要介紹了Anthropic公司的Claude 3.7 Sonnet模型，重點討論了其推理能力的提升、與競爭對手的差異，以及AI安全風險評估。Dario Amodei解釋了Claude 3.7如何專注於現實世界任務而非僅限於數學和競賽編程，並討論了AI發展的全球競爭格局，特別是與中國的技術競賽。文章還探討了AI安全問題、未來潛在風險，以及AI如何在醫療診斷等領域帶來積極變革。"
 toc: true  # 啟用目錄功能
 
 ---
 
-<span class="original-link">原文連結： [Mastercard 如何利用人工智慧改變支付方式](https://a16z.com/podcast/in-the-vault-how-ai-is-powering-payments-with-greg-ulrich-mastercard)</span>
+<span class="original-link">原文連結： [Anthropic 執行長 Dario Amodei 談如何在人工智慧末日中生存](https://www.youtube.com/watch?v=YhGUSIvsn_Y&ab_channel=HardFork)</span>
+
+## Claude 3.7 Sonnet：推理與思考的新境界
 
 **Kevin Roose**: 那麼，告訴我們有關 Claude 3.7 的信息吧，這個新模型是怎麼樣的？
 
@@ -114,6 +116,8 @@ toc: true  # 啟用目錄功能
 
 **Casey Newton**: 一段較短的時間。我會把這個記在日曆上。幾個時間單位後提醒我檢查一下，Kevin。
 
+## AI安全與風險評估：從中等風險到潛在危機
+
 **Kevin Roose**: 我知道你們 Anthropic 團隊非常關注 AI 安全以及你們推出的模型的安全性。我知道你們花了很多時間來思考這些問題，並且會內部進行紅隊測試。那麼，Claude 3.7 Sonnet 是否有任何新功能是危險的，或者可能會讓關心 AI 安全的人擔憂的呢？
 
 **Dario Amodei**: 所以並不會說是“危險”本身。我總是想要澄清這一點，因為我覺得現在有一種常見的誤解，就是把當前的風險和未來的風險混淆了。不是說當前沒有風險，當然有，而且總有一些正常的技術風險和技術政策問題。我更擔心的是，當模型變得更強大時，我們可能會看到的風險。
@@ -165,6 +169,8 @@ toc: true  # 啟用目錄功能
 **Casey Newton**: 我的意思是，我聽到的意思是，如果你們開發出一個，假設說，一個非常出色的個人助理，那麼首先能做到的公司將會擁有很大的優勢，因為其他實驗室將更難複製它？他們怎麼復制會變得不那麼明顯。
 
 **Dario Amodei**: 他們會更難複製它。即使他們能夠複製，它們也不會完全一樣。他們會以自己的方式復制，按照他們自己的風格，並且會適合不同的群體。所以我想我在說的是，市場其實比你想像的更細分。它看起來像是一個大市場，但實際上它比你想的要更細分。
+
+## 全球AI競爭與未來展望：與中國的技術競賽
 
 **Casey Newton**: 明白了。那麼讓我問一下有關競爭的問題，這也把我們帶到了安全問題。你最近寫了一篇非常有趣的文章，關於DeepSeek，這篇文章發表的時候DeepSeek正處於風頭最勁的時期。你在文中提到，部分原因是他們已經找到的成本降低方法，基本上與——這些方法基本上與成本下降的趨勢一致。但你同時也表示，DeepSeek應該是一個警鐘，因為它顯示出中國在保持與前沿實驗室同步方面，做到了之前未曾做到的事。所以，對你來說，這有何特別之處？我們應該如何應對這一點？
 
