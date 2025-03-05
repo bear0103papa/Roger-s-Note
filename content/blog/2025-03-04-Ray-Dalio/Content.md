@@ -18,7 +18,7 @@ toc: true  # 啟用目錄功能
 
 <span class="original-link">原文連結： [Ray Dalio：美國隱藏的內戰，以及在科技、經濟和學術領域中擊敗中國的競賽](https://podcasts.apple.com/us/podcast/ray-dalio-americas-hidden-civil-war-and-the-race-to/id1719657632?i=1000694874091&l=zh-Hant-TW)</span>
 
-##美國內戰的隱喻與社會分歧
+## 美國內戰的隱喻與社會分歧
 
 **Tucker Carlson**
 我聽你說過，美國正在經歷一場內戰，但我認為大多數美國人並沒有這樣的感知。
@@ -81,7 +81,7 @@ toc: true  # 啟用目錄功能
 **Tucker Carlson**
 當然同意。而且每種衡量方式都顯示相同的結果。問題是，究竟是什麼導致了這種35年前難以想像的極化現象？
 
-##科技進步與財富差距的影響
+## 科技進步與財富差距的影響
 
 **Ray Dalio**
 這種變化的原因，是因為系統曾經能夠讓大多數人受益，但現在卻無法再讓大多數人保持生產力。生產力等於收入。
@@ -128,7 +128,7 @@ toc: true  # 啟用目錄功能
 **Ray Dalio**
 還有宗教和信仰體系，這些因素也很重要。
 
-##人工智慧革命的挑戰與機遇
+## 人工智慧革命的挑戰與機遇
 
 **Tucker Carlson**
 當然。
