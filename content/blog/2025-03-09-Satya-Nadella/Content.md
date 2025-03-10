@@ -17,7 +17,7 @@ toc: true  # 啟用目錄功能
 
 ---
 
-<span class="original-link">原文連結： [Satya Nadella談未來的科技業|SXSW LIVE](https://www.youtube.com/watch?v=ZUPJ1ZnIZvE&ab_channel=SouthParkCommons)</span>
+<span class="original-link">原文連結： [Satya Nadella談未來的科技業](https://www.youtube.com/watch?v=ZUPJ1ZnIZvE&ab_channel=SouthParkCommons)</span>
 
 ## 成功的挑戰：忘記成功的關鍵
 
