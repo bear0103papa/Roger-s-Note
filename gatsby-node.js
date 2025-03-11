@@ -118,5 +118,21 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Fields {
       slug: String
     }
+
+    type Mdx implements Node {
+      frontmatter: Frontmatter
+      fields: MdxFields
+    }
+
+    type Frontmatter {
+      title: String
+      date: Date @dateformat
+      description: String
+      categories: [String]
+    }
+
+    type MdxFields {
+      slug: String
+    }
   `)
 }

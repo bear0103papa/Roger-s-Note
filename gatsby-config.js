@@ -206,6 +206,6 @@ module.exports = {
         sitemap: 'https://bear0103papa.github.io/Roger-s-Note/sitemap/sitemap-index.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
-    }
+    },
   ],
 }

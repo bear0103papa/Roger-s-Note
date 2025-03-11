@@ -560,7 +560,7 @@ a:focus {
   grid-template-columns: minmax(auto, 1fr) 250px;
 }
 
-/* 桌面版寬屏布局 */
+/* 桌面版宽屏布局 */
 @media (min-width: 1280px) {
   .blog-post-container {
     grid-template-columns: minmax(auto, 1fr) 250px;
@@ -576,7 +576,7 @@ a:focus {
   }
 }
 
-/* 目錄容器樣式 */
+/* 目录容器样式 */
 .toc-container {
   position: sticky;
   top: var(--spacing-8);
@@ -588,7 +588,7 @@ a:focus {
   margin-top: var(--spacing-8);
 }
 
-/* 移動端目錄樣式 */
+/* 移动端目录样式 */
 @media (max-width: 767px) {
   .blog-post-container {
     grid-template-columns: 1fr;
@@ -605,7 +605,7 @@ a:focus {
     border-left: none;
   }
 
-  /* 可折疊的移動端目錄 */
+  /* 可折叠的移动端目录 */
   .toc-container {
     transition: max-height 0.3s ease-in-out;
     overflow: hidden;
@@ -637,7 +637,7 @@ a:focus {
   }
 }
 
-/* 文章內容區域樣式 */
+/* 文章内容区域样式 */
 .blog-post {
   width: 100%;
   max-width: 100%;
@@ -645,14 +645,14 @@ a:focus {
   padding: var(--spacing-8);
 }
 
-/* 確保文章內容可以自適應 */
+/* 确保文章内容可以自适应 */
 .blog-post article {
   width: 100%;
   max-width: none;
   margin: 0;
 }
 
-/* 目錄標題和列表樣式 */
+/* 目录标题和列表样式 */
 .toc-title {
   font-weight: var(--fontWeight-bold);
   margin-bottom: var(--spacing-4);
@@ -684,7 +684,7 @@ a:focus {
   color: var(--color-primary);
 }
 
-/* 標題深度縮進 */
+/* 标题深度缩进 */
 .toc-item.depth-2 {
   padding-left: var(--spacing-4);
 }
@@ -693,7 +693,7 @@ a:focus {
   padding-left: var(--spacing-8);
 }
 
-/* 響應式布局調整 */
+/* 响应式布局调整 */
 @media (max-width: 1280px) {
   .blog-post-container {
     padding: 0 var(--spacing-8);
@@ -710,7 +710,7 @@ a:focus {
   }
 }
 
-/* 首頁、文章歸檔、分類檢索頁面的共同樣式 */
+/* 首页、文章归档、分类检索页面的共同样式 */
 .blog-list,
 .archive-container,
 .categories-container {
@@ -719,7 +719,7 @@ a:focus {
   padding: var(--spacing-8);
 }
 
-/* 響應式布局調整 */
+/* 响应式布局调整 */
 @media (max-width: 1280px) {
   .global-wrapper {
     padding: 0 var(--spacing-8);
@@ -742,7 +742,7 @@ a:focus {
   }
 }
 
-/* 確保導航欄與內容對齊 */
+/* 确保导航栏与内容对齐 */
 .nav-links {
   max-width: 1600px;
   margin: 0 auto;
@@ -761,7 +761,7 @@ a:focus {
   }
 }
 
-/* 分類頁面樣式 */
+/* 分类页面样式 */
 .category-tags {
   display: flex;
   flex-wrap: wrap;
@@ -797,7 +797,7 @@ a:focus {
   margin-bottom: var(--spacing-4);
 }
 
-/* 添加副標題樣式 */
+/* 添加副标题样式 */
 .site-subtitle {
   font-size: var(--fontSize-2);
   color: var(--color-text-light);
@@ -806,7 +806,7 @@ a:focus {
   font-weight: var(--fontWeight-normal);
 }
 
-/* RSS 訂閱按鈕樣式 */
+/* RSS 订阅按钮样式 */
 .subscribe-container {
   text-align: center;
   margin: var(--spacing-4) 0;
@@ -834,7 +834,7 @@ a:focus {
   height: 16px;
 }
 
-/* 導航欄樣式 */
+/* 导航栏样式 */
 .nav-links {
   display: flex;
   list-style: none;
@@ -852,9 +852,9 @@ a:focus {
   margin-right: var(--spacing-4);
 }
 
-/* RSS 按鈕樣式 */
+/* RSS 按钮样式 */
 .rss-link {
-  margin-left: auto; /* 這會把 RSS 按鈕推到最右邊 */
+  margin-left: auto; /* 这会把 RSS 按钮推到最右边 */
 }
 
 .rss-button {
@@ -879,7 +879,7 @@ a:focus {
   height: 16px;
 }
 
-/* 響應式調整 */
+/* 响应式调整 */
 @media (max-width: 767px) {
   .nav-links {
     flex-wrap: wrap;
@@ -892,7 +892,7 @@ a:focus {
   }
 }
 
-/* 響應式調整 */
+/* 响应式调整 */
 @media (max-width: 767px) {
   .nav-links {
     flex-direction: column;
@@ -962,7 +962,7 @@ a:focus {
   font-size: var(--fontSize-1);
 }
 
-/* 文章歸檔表格樣式 */
+/* 文章归档表格样式 */
 .archive-container {
   max-width: 1600px;
   margin: 0 auto;
@@ -999,7 +999,7 @@ a:focus {
   background-color: #f8f9fa;
 }
 
-/* 列寬控制 */
+/* 列宽控制 */
 .date-column {
   width: 120px;
   white-space: nowrap;
@@ -1013,7 +1013,7 @@ a:focus {
   width: 300px;
 }
 
-/* 文章連結樣式 */
+/* 文章连结样式 */
 .post-link {
   color: var(--color-primary);
   text-decoration: none;
@@ -1024,7 +1024,7 @@ a:focus {
   color: var(--color-text);
 }
 
-/* 分類標籤樣式 */
+/* 分类标签样式 */
 .category-tag {
   display: inline-block;
   padding: var(--spacing-1) var(--spacing-2);
@@ -1035,7 +1035,7 @@ a:focus {
   white-space: nowrap;
 }
 
-/* 響應式調整 */
+/* 响应式调整 */
 @media (max-width: 767px) {
   .archive-container {
     padding: 0 var(--spacing-2);
@@ -1051,31 +1051,30 @@ a:focus {
   }
 }
 
-/* 雙語對照樣式 */
+/* 雙語容器 */
 .bilingual-container {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  transition: all 0.3s ease;
 }
 
 .bilingual-column {
-  flex: 1;
-  padding: 10px;
+  padding: 1rem;
+  background-color: #f8f8f8;
   border-radius: 5px;
+  transition: all 0.3s ease;
 }
 
-.chinese-column {
-  background-color: rgba(240, 240, 240, 0.3);
-}
 
-.english-column {
-  background-color: rgba(230, 230, 250, 0.3);
-}
-
-/* 在小螢幕上改為上下排列 */
+/* 響應式設計 */
 @media (max-width: 768px) {
   .bilingual-container {
-    flex-direction: column;
+    grid-template-columns: 1fr;
+  }
+  
+  .bilingual-column {
+    margin-bottom: 1rem;
   }
 }
