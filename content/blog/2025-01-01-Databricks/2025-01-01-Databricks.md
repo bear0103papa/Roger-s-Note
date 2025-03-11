@@ -21,7 +21,7 @@ categories: [
     Enterprise Software,
     
     # 年份
-    2024
+    "2024"
 ]
 description: "Databricks CEO Ali Ghodsi 分享公司文化、最新一輪 100 億美元融資、AI 產業觀點及未來發展方向"
 

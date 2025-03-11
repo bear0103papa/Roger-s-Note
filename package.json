@@ -36,6 +36,8 @@
     "rehype-react": "^8.0.0"
   },
   "devDependencies": {
+    "ajv": "^8.12.0",
+    "ajv-keywords": "^5.1.0",
     "npm-force-resolutions": "^0.0.10",
     "path-to-regexp": "0.1.12",
     "prettier": "^2.8.8"

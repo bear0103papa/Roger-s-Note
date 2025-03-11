@@ -27,8 +27,8 @@ categories: [
     PLG,               # 產品主導增長
     
     # 年份
-    2012,              # 文中提到 Atlassian 開始 B2B 增長團隊的時間
-    2024               # 當前年份
+    "2012",              # 文中提到 Atlassian 開始 B2B 增長團隊的時間
+    "2024"               # 當前年份
 ]
 description: "這篇文章是對 Confluent 首席產品官 Shaun Clowes 的深度訪談，主要探討了 AI 與數據的關係、B2B SaaS 產品的發展趨勢，以及產品主導增長(PLG)的重要性。Shaun 分享了他在 Atlassian、Salesforce、Metromile 等公司的經驗，強調了數據在產品決策中的關鍵作用，以及如何平衡數據驅動與直覺判斷。他特別指出，在 AI 時代，擁有正確的數據和理解數據的能力將成為產品成功的關鍵因素。"
 

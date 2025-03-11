@@ -65,22 +65,22 @@ module.exports = {
               className: "table-of-contents"
             },
           },
-          {
-            resolve: `gatsby-remark-custom-blocks`,
-            options: {
-              blocks: {
-                bilingual: {
-                  classes: `bilingual`,
-                },
-                chinese: {
-                  classes: `chinese`,
-                },
-                english: {
-                  classes: `english`,
-                },
-              },
-            },
-          },
+          // {
+          //   resolve: `gatsby-remark-custom-blocks`,
+          //   options: {
+          //     blocks: {
+          //       bilingual: {
+          //         classes: `bilingual`,
+          //       },
+          //       chinese: {
+          //         classes: `chinese`,
+          //       },
+          //       english: {
+          //         classes: `english`,
+          //       },
+          //     },
+          //   },
+          // },
         ],
       },
     },

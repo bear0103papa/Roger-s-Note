@@ -16,7 +16,7 @@ categories: [
     Software Development,
     
     # 年份
-    2025,
+    "2025",
 ]
 description: "這是一篇與Shopify技術副總裁Farhan Thawar的訪談文章，探討了Shopify的工程文化、遠程工作政策、實習生計劃以及他的領導理念，特別強調了公司對高強度工作環境的追求、對人才招聘的獨特方法，以及如何通過實習項目和信任電池概念來建立團隊凝聚力。"
 
