@@ -1050,3 +1050,32 @@ a:focus {
     display: none;
   }
 }
+
+/* 雙語對照樣式 */
+.bilingual-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.bilingual-column {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.chinese-column {
+  background-color: rgba(240, 240, 240, 0.3);
+}
+
+.english-column {
+  background-color: rgba(230, 230, 250, 0.3);
+}
+
+/* 在小螢幕上改為上下排列 */
+@media (max-width: 768px) {
+  .bilingual-container {
+    flex-direction: column;
+  }
+}
