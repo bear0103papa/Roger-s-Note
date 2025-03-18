@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CNBC蔡崇信（Joe Tsai）的深度對談"
-date: 2025-03-1ㄉ
+date: 2025-03-10
 categories: [
   "蔡崇信", 
   "David Faber",
