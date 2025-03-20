@@ -25,7 +25,7 @@ toc: true  # 啟用目錄功能
 
 ---
 
-<span class="original-link">原文連結： [Alphabet 總裁暨首席投資長：推動 AI、量子運算與自駕車](https://podcasts.apple.com/tw/podcast/alphabet-president-and-cio-advancing-ai-quantum/id1614211565?i=1000698829889)</span>
+<span class="original-link">原文連結： [NVDA GTC- Jesen Huang演講](https://www.youtube.com/watch?v=_waPvOwL9Z8)</span>
 
 歡迎大家，請歡迎Nvidia的創辦人兼CEO Jensen Wong上台 [音樂] 歡迎來到GTC，這真是令人驚豔的一年。我們希望在Nvidia做這件事，所以透過人工智慧的魔法，我們將帶你到Nvidia的總部。我想我帶你來到Nvidia的總部，你覺得怎麼樣？這就是我們工作的地方，這就是我們工作的地方。真是令人驚豔的一年，我們有許多令人難以置信的事情要談。我只想讓你知道，我站在這裡沒有保護網，沒有劇本，沒有提詞機，我有很多事情要講，所以我們開始吧。
 
