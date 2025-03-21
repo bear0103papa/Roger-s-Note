@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "人工智慧之父：人工智慧需要物理學才能進化 | Yann LeCun"
-date: 2025-03-20
+date: 2025-03-19
 categories: [
   '楊立昆(Yann LeCun)',
   '馬斯克(Elon Musk)',
