@@ -14,7 +14,7 @@ toc: true  # 啟用目錄功能
 
 ---
 
-<span class="original-link">原文連結： [NVDA GTC- Jesen Huang演講](https://www.youtube.com/watch?v=_waPvOwL9Z8)</span>
+<span class="original-link">原文連結： [人工智慧之父：人工智慧需要物理學才能進化 | Yann LeCun](https://www.youtube.com/watch?v=RUnFgu8kH-4)</span>
 
 
 目前的 AI 系統在許多方面仍然非常愚蠢。我們之所以誤以為它們很聰明，是因為它們能夠非常出色地操控語言。
