@@ -3,7 +3,7 @@ layout: post
 title: "Jack談AI歷史"
 date: 2025-03-25
 categories: [
-'Turing', 'John McCarthy', 'Marvin Minsky', 'Jeffrey Hinton', '李飛飛'
+'Turing', 'John McCarthy', 'Marvin Minsky', 'Jeffrey Hinton', '李飛飛',
 '人工智慧', '深度學習', '大語言模型',
   '2025'
 ]
