@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bridgewater’s AIA Labs Chief Scientist Jas Sekhon: AI Today and Tomorrow"
-date: 2025-03-27
+date: 2025-03-26
 categories: [
   'Jas Sekhon',
   'Bill Gates',
