@@ -43,8 +43,17 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 630,
+              maxWidth: 800,
+              linkImagesToOriginal: false,
+              withWebp: true,
+              quality: 80,
             },
+          },
+          {
+            resolve: `gatsby-remark-images-zoom`,
+            options: {
+              background: 'rgba(0,0,0,0.9)',
+            }
           },
           {
             resolve: `gatsby-remark-responsive-iframe`,
