@@ -35,11 +35,17 @@ const ArchivePage = ({ data }) => {
                     </Link>
                   </td>
                   <td className="category-column">
-                    {post.frontmatter.categories?.map(category => (
-                      <span key={category} className="category-tag">
-                        {category}
-                      </span>
-                    ))}
+                    <div className="archive-tags">
+                      {post.frontmatter.categories?.map(category => (
+                        <Link 
+                          key={category} 
+                          to={`/categories#${encodeURIComponent(category)}`}
+                          className="category-tag"
+                        >
+                          {category}
+                        </Link>
+                      ))}
+                    </div>
                   </td>
                 </tr>
               ))}

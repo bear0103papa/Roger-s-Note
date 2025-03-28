@@ -42,15 +42,13 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             {categories && categories.length > 0 && (
               <div className="post-tags">
                 {categories.map((category, index) => (
-                  <React.Fragment key={category}>
-                    <Link 
-                      to={`/categories#${encodeURIComponent(category)}`}
-                      className="post-tag"
-                    >
-                      {category}
-                    </Link>
-                    {index < categories.length - 1 && " "} {/* 移除逗號，改用空格 */}
-                  </React.Fragment>
+                  <Link 
+                    key={category}
+                    to={`/categories#${encodeURIComponent(category)}`}
+                    className="post-tag"
+                  >
+                    {category}
+                  </Link>
                 ))}
               </div>
             )}
