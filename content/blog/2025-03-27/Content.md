@@ -26,9 +26,8 @@ categories: [
   '廣告技術',
   '2025'
 ]
-description: "這篇文章探討AI發展的現狀與未來方向：Bridgewater的AIA Labs首席科學家Jas Sekhon闡述了AI目前面臨的矛盾——投資者對商業應用失望但科學界卻對突破性進展感到驚喜；他解釋了連結主義與符號主義兩大AI學派之間的角力，分析了大型語言模型在各專業領域測試中的驚人表現，並指出AI未來發展有兩種路徑：通過規模擴張與改進算法來實現"代理行為"的樂觀情境，或如歷史上其他通用技術一樣經歷漫長整合期的基本情境。"
+description:  '這篇文章探討AI發展的現狀與未來方向：Bridgewater的AIA Labs首席科學家Jas Sekhon闡述了AI目前面臨的矛盾——投資者對商業應用失望但科學界卻對突破性進展感到驚喜；他解釋了連結主義與符號主義兩大AI學派之間的角力，分析了大型語言模型在各專業領域測試中的驚人表現，並指出AI未來發展有兩種路徑：通過規模擴張與改進算法來實現"代理行為"的樂觀情境，或如歷史上其他通用技術一樣經歷漫長整合期的基本情境。'
 toc: true  # 啟用目錄功能
-
 ---
 <span class="original-link">原文連結： [Bridgewater’s AIA Labs Chief Scientist Jas Sekhon: AI Today and Tomorrow](https://www.youtube.com/watch?v=b8K7royre1U&ab_channel=BridgewaterAssociates)</span>
 
