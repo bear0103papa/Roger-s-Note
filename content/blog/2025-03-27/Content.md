@@ -38,7 +38,7 @@ toc: true  # 啟用目錄功能
 <span class="original-link">原文連結： [Bridgewater’s AIA Labs Chief Scientist Jas Sekhon: AI Today and Tomorrow](https://www.youtube.com/watch?v=b8K7royre1U&ab_channel=BridgewaterAssociates)</span>
 
 
-## # AI 發展的現狀矛盾
+## AI 發展的現狀矛盾
 
 我將討論當前 AI 的發展狀況，並提供一個框架，希望能幫助大家理解 AI 在不久的將來將走向何方。我也希望這個框架能夠幫助解決目前存在的一個矛盾，因為現在有兩件事情同時在發生。
 
