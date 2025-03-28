@@ -15,11 +15,23 @@ const Categories = ({ data, location }) => {
   ).sort()
 
   // 從 URL 獲取當前選中的分類
-  const currentCategory = location.hash.slice(1).replace(/%20/g, " ")
+  const currentCategory = React.useMemo(() => {
+    if (!location.hash) return ""
+    try {
+      return decodeURIComponent(location.hash.slice(1))
+    } catch (e) {
+      console.error("解碼分類失敗:", e)
+      return ""
+    }
+  }, [location.hash])
 
   // 處理分類點擊
   const handleCategoryClick = (category) => {
-    navigate(`/categories/#${category.replace(/ /g, "%20")}`)
+    if (!category) {
+      navigate(`/categories`)
+    } else {
+      navigate(`/categories#${encodeURIComponent(category)}`)
+    }
   }
 
   // 過濾文章（根據分類和搜尋詞）
@@ -27,7 +39,9 @@ const Categories = ({ data, location }) => {
     .filter(node => {
       // 先檢查分類
       const matchesCategory = !currentCategory || 
-        node.frontmatter.categories?.includes(currentCategory)
+        (node.frontmatter.categories || []).some(cat => 
+          cat === currentCategory
+        )
       
       // 再檢查搜尋詞（包含全文搜尋）
       const searchTermLower = searchTerm.toLowerCase()

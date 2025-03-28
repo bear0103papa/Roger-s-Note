@@ -15,7 +15,7 @@ const CategoryTags = ({ categories }) => {
           >
             {category}
           </Link>
-          {index < categories.length - 1 && ", "}
+          {index < categories.length - 1 && " "}
         </React.Fragment>
       ))}
     </div>

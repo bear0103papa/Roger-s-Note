@@ -1078,3 +1078,49 @@ a:focus {
     margin-bottom: 1rem;
   }
 }
+
+/* 改進分類標籤樣式 */
+.category-link, .post-tag {
+  display: inline-block;
+  background-color: #f0f0f0;
+  border-radius: 3px;
+  padding: 2px 8px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  color: #333;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: background-color 0.2s;
+}
+
+.category-link:hover, .post-tag:hover {
+  background-color: #e0e0e0;
+  text-decoration: none;
+}
+
+.categories {
+  margin-bottom: 1rem;
+  line-height: 1.8;
+}
+
+/* 改進分類頁面的標籤按鈕 */
+.category-tags button {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.category-tags button.active {
+  background-color: #007acc;
+  color: white;
+  border-color: #007acc;
+}
+
+.category-tags button:hover:not(.active) {
+  background-color: #f0f0f0;
+}
