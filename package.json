@@ -25,6 +25,7 @@
     "gatsby-remark-copy-linked-files": "^6.14.0",
     "gatsby-remark-custom-blocks": "^5.14.0",
     "gatsby-remark-images": "^7.14.0",
+    "gatsby-remark-images-zoom": "^1.1.0",
     "gatsby-remark-prismjs": "^7.14.0",
     "gatsby-remark-responsive-iframe": "^6.14.0",
     "gatsby-remark-smartypants": "^6.14.0",
@@ -62,5 +63,9 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
+  "resolutions": {
+    "cookie": "0.7.0",
+    "path-to-regexp": "0.1.12"
   }
 }
