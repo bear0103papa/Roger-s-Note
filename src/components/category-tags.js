@@ -6,17 +6,15 @@ const CategoryTags = ({ categories }) => {
   
   return (
     <div className="categories">
-      分類：
-      {categories.map((category, index) => (
-        <React.Fragment key={category}>
-          <Link 
-            to={`/categories#${encodeURIComponent(category)}`} 
-            className="category-link"
-          >
-            {category}
-          </Link>
-          {index < categories.length - 1 && " "}
-        </React.Fragment>
+      <span className="categories-label">分類：</span>
+      {categories.map(category => (
+        <Link 
+          key={category}
+          to={`/categories#${encodeURIComponent(category)}`} 
+          className="category-link"
+        >
+          {category}
+        </Link>
       ))}
     </div>
   )
