@@ -3,8 +3,6 @@ layout: post
 title: "Bridgewater’s AIA Labs Chief Scientist Jas Sekhon: AI Today and Tomorrow"
 date: 2025-03-27
 categories: [
-
-  # 人物
   'Jas Sekhon',
   'Bill Gates',
   'Albert Einstein', 
@@ -14,8 +12,6 @@ categories: [
   'Guildenstern,
   'Von Neumann',
   'Elon Musk',
-  
-  # 產業與技術
   '人工智能',
   '深度學習',
   '醫療',
@@ -28,7 +24,6 @@ categories: [
   '社交媒體',
   '數據中心',
   '廣告技術',
-  
   '2025'
 ]
 description: "這篇文章探討AI發展的現狀與未來方向：Bridgewater的AIA Labs首席科學家Jas Sekhon闡述了AI目前面臨的矛盾——投資者對商業應用失望但科學界卻對突破性進展感到驚喜；他解釋了連結主義與符號主義兩大AI學派之間的角力，分析了大型語言模型在各專業領域測試中的驚人表現，並指出AI未來發展有兩種路徑：通過規模擴張與改進算法來實現"代理行為"的樂觀情境，或如歷史上其他通用技術一樣經歷漫長整合期的基本情境。"
