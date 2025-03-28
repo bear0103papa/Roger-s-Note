@@ -49,12 +49,12 @@ module.exports = {
               quality: 80,
             },
           },
-          {
-            resolve: `gatsby-remark-images-zoom`,
-            options: {
-              background: 'rgba(0,0,0,0.9)',
-            }
-          },
+          // {
+          //   resolve: `gatsby-remark-images-zoom`,
+          //   options: {
+          //     background: 'rgba(0,0,0,0.9)',
+          //   }
+          // },
           {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
