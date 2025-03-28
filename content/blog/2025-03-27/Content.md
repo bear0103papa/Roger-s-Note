@@ -9,7 +9,7 @@ categories: [
   'Terry Tao',
   'Fei-Fei Li',
   'Rosencrantz',
-  'Guildenstern,
+  'Guildenstern',
   'Von Neumann',
   'Elon Musk',
   '人工智能',
