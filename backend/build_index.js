@@ -5,7 +5,7 @@ const glob = require('glob');
 const matter = require('gray-matter'); // 解析 Markdown Front Matter
 const { GoogleGenerativeAI, TaskType } = require('@google/generative-ai');
 const { remark } = require('remark');
-const stripMarkdown = require('strip-markdown');
+const { toString: mdastUtilToString } = require('mdast-util-to-string');
 
 // --- 設定 ---
 const contentDir = path.join(__dirname, '..', 'content', 'blog'); // 部落格內容相對路徑
@@ -24,10 +24,15 @@ if (!apiKey) {
 const genAI = new GoogleGenerativeAI(apiKey);
 const embeddingModel = genAI.getGenerativeModel({ model: embeddingModelName });
 
-// 將 Markdown 轉為純文字的函數
+// 將 Markdown 轉為純文字的函數 (更新版)
 async function markdownToText(markdownContent) {
-  const file = await remark().use(stripMarkdown).process(markdownContent);
-  return String(file);
+  // 建立 remark 處理器 (remark-parse 是預設 parser)
+  const processor = remark();
+  // 解析 Markdown 成語法樹 (AST)
+  const tree = processor.parse(markdownContent);
+  // 從語法樹提取純文字
+  const text = mdastUtilToString(tree);
+  return text;
 }
 
 // 將文字切分成區塊的函數
