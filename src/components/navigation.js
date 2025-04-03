@@ -9,7 +9,6 @@ const Navigation = () => {
         <li><Link to="/" activeClassName="active">首頁</Link></li>
         <li><Link to="/archive" activeClassName="active">文章歸檔</Link></li>
         <li><Link to="/categories" activeClassName="active">分類檢索</Link></li>
-        <li><Link to="/ask" activeClassName="active" className="ask-ai-link">Ask AI</Link></li>
         <li className="rss-link">
           <a
             href="/rss.xml"
