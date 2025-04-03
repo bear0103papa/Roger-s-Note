@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import Layout from '../components/layout'
-import '../styles/ask.css'
+import '../ask.css'
 
 const AskPage = () => {
   const [question, setQuestion] = useState('')
