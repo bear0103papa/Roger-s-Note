@@ -1,0 +1,13 @@
+# Gatsby
+public/
+.cache/
+node_modules/
+.env.*
+
+# OS
+.DS_Store
+原文草稿/
+
+# IDE
+.idea/
+.vscode/
