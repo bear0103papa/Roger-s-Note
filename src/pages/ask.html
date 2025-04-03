@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>詢問部落格</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: auto; }
+        #question-input { width: 100%; padding: 10px; margin-bottom: 10px; box-sizing: border-box; }
+        #submit-button { padding: 10px 15px; cursor: pointer; }
+        #loading { display: none; margin: 10px 0; }
+        #result-area { margin-top: 20px; border-top: 1px solid #ccc; padding-top: 20px; }
+        #answer { white-space: pre-wrap; /* 保留換行 */ background-color: #f9f9f9; padding: 15px; border-radius: 5px; margin-bottom: 15px;}
+        #sources ul { list-style: none; padding-left: 0; }
+        #sources li { margin-bottom: 5px; }
+        #sources a { text-decoration: none; color: #007bff; }
+        #sources a:hover { text-decoration: underline; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+
+    <h1>詢問部落格內容</h1>
+    <p>輸入你想了解關於本部落格內容的問題，AI 會嘗試根據相關文章回答。</p>
+
+    <textarea id="question-input" rows="4" placeholder="請輸入你的問題..."></textarea>
+    <button id="submit-button">送出問題</button>
+
+    <div id="loading">正在思考中，請稍候...</div>
+
+    <div id="result-area" style="display: none;">
+        <h2>回答：</h2>
+        <div id="answer"></div>
+        <div id="sources">
+            <h3>相關來源：</h3>
+            <ul></ul>
+        </div>
+         <div id="error-message" class="error"></div>
+    </div>
+
+    <!-- 引入 JavaScript -->
+    <script src="ask_script.js"></script>
+</body>
+</html>
