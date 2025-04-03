@@ -13,7 +13,7 @@ const port = process.env.PORT || 3000; // Render 會自動設定 PORT 環境變�
 // --- 安全性設定 ---
 // 取得你的 GitHub Pages 網址 (或是先用 '*' 允許所有來源，之後再限縮)
 const allowedOrigins = [
-    'https://bear0103papa.github.io/Roger-s-Note/ask', // 例如: 'https://your-username.github.io'
+    'https://bear0103papa.github.io', // 例如: 'https://your-username.github.io'
     'http://localhost:8000' // 如果你在本地端測試前端，也加入本地的來源
 ];
 
@@ -52,11 +52,19 @@ async function loadIndex() {
         console.log(`嘗試載入索引檔: ${indexFilePath}`);
         const indexJson = await fs.readFile(indexFilePath, 'utf-8');
         blogIndex = JSON.parse(indexJson);
-        // 將 embedding 轉換為 ndarray 以便計算 (如果需要)
-        // 注意：cosine-similarity-node 可能直接接受陣列
-        // blogIndex.forEach(item => {
-        //     item.embeddingVector = ndarray(item.embedding);
-        // });
+        
+        // 添加 URL 檢查和修正
+        blogIndex = blogIndex.map(item => {
+            if (item.url) {
+                // 確保 URL 格式正確
+                item.url = item.url.replace('/ask/', '/');
+                if (!item.url.startsWith('https://')) {
+                    item.url = `https://bear0103papa.github.io/Roger-s-Note${item.url}`;
+                }
+            }
+            return item;
+        });
+        
         console.log(`成功載入 ${blogIndex.length} 個內容區塊到記憶體索引。`);
     } catch (error) {
         console.error("錯誤：無法載入部落格索引檔 blog_index.json。", error);
@@ -173,6 +181,14 @@ ${question}
     const answer = await response.text();
 
     console.log('Google AI 回應:', answer);
+
+    // 處理來源 URL
+    const sources = relevantChunks.map(chunk => ({
+        title: chunk.title,
+        url: chunk.url.startsWith('https://') 
+            ? chunk.url 
+            : `https://bear0103papa.github.io/Roger-s-Note${chunk.url}`
+    }));
 
     // 4. 回傳結果給前端
     res.json({
