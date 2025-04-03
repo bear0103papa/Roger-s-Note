@@ -7,7 +7,6 @@ node_modules/
 # OS
 .DS_Store
 原文草稿/
-backend/
 
 # IDE
 .idea/
