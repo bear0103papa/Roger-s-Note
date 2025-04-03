@@ -39,7 +39,7 @@ if (!apiKey) {
   // process.exit(1); // 在本地開發時可以取消註解，強制需要 API Key
 }
 const genAI = new GoogleGenerativeAI(apiKey);
-const generativeModel = genAI.getGenerativeModel({ model: "gemini-pro" }); // 用於生成回答
+const generativeModel = genAI.getGenerativeModel({ model: "gemini-2.5-pro-exp-03-25" }); // 用於生成回答
 const embeddingModelName = "models/embedding-001"; // 用於查詢 Embedding
 const embeddingModel = genAI.getGenerativeModel({ model: embeddingModelName });
 
