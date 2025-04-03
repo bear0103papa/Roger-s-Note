@@ -16,6 +16,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           persist-credentials: false
+          submodules: false # 明確禁用子模組處理
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
