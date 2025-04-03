@@ -14,19 +14,11 @@ const Layout = ({ location, title, children }) => {
           <Link to="/">Roger's Note</Link>
           <div className="site-subtitle">Investor, Operator, Philosopher</div>
         </div>
-        <nav className="site-nav">
-          <ul>
-            <li><Link to="/">首頁</Link></li>
-            <li><Link to="/archive">文章歸檔</Link></li>
-            <li><Link to="/categories">分類檢索</Link></li>
-            <li><Link to="/ask">Ask AI</Link></li>
-            <li><Link to="/rss.xml">訂閱 RSS</Link></li>
-          </ul>
-        </nav>
+        <Navigation />
       </header>
       <main>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}
+      <footer className="site-footer">
+        © {new Date().getFullYear()} Roger's Note
       </footer>
     </div>
   )

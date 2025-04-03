@@ -1,0 +1,119 @@
+/* src/components/navigation.css */
+
+.site-navigation {
+    margin-top: 1rem; /* 調整與標題的間距 */
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* 使用 Flexbox 排列 */
+    flex-wrap: wrap; /* 允許換行 */
+    gap: 0.5rem 1.5rem; /* 設置間距 */
+    border-bottom: 1px solid #333; /* 底部線條，科技感 */
+    padding-bottom: 0.75rem;
+  }
+  
+  .nav-links li {
+    position: relative; /* 為了 active 狀態的下劃線 */
+  }
+  
+  .nav-links a {
+    color: #ccc; /* 預設文字顏色，淺灰色 */
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    padding: 0.5rem 0.25rem; /* 增加點擊區域 */
+    transition: color 0.3s ease, border-bottom-color 0.3s ease;
+    display: inline-block; /* 讓下劃線效果更好 */
+    border-bottom: 2px solid transparent; /* 預留底部空間 */
+  }
+  
+  .nav-links a:hover,
+  .nav-links a.active {
+    color: #fff; /* Hover 和 Active 狀態變白色 */
+    border-bottom-color: #00aaff; /* 科技藍下劃線 */
+  }
+  
+  /* Ask AI 特殊樣式 */
+  .nav-links a.ask-ai-link {
+    color: #00e6e6; /* 青色，更醒目 */
+  }
+  .nav-links a.ask-ai-link:hover,
+  .nav-links a.ask-ai-link.active {
+    color: #fff;
+    border-bottom-color: #00e6e6;
+  }
+  
+  
+  /* RSS 按鈕樣式 */
+  .rss-link {
+    margin-left: auto; /* 將 RSS 推到最右邊 */
+  }
+  
+  .rss-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    border: 1px solid #555;
+    border-radius: 4px;
+    color: #ccc;
+    background-color: transparent;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .rss-button:hover {
+    background-color: #333;
+    border-color: #777;
+    color: #fff;
+    border-bottom-color: transparent; /* 取消繼承的下劃線 */
+  }
+  
+  .rss-icon {
+    width: 16px; /* 調整圖示大小 */
+    height: 16px;
+    stroke: currentColor; /* 圖示顏色繼承文字顏色 */
+  }
+  
+  /* 可以考慮在全局 style.css 或 layout.css 中添加一些基礎樣式 */
+  body {
+    background-color: #1a1a1a; /* 深色背景 */
+    color: #eee; /* 預設文字顏色 */
+  }
+  
+  .global-header {
+    padding: 1.5rem 0; /* 調整 Header 內邊距 */
+    border-bottom: 1px solid #444; /* Header 底部分隔線 */
+    margin-bottom: 2rem;
+  }
+  
+  .site-title a {
+    color: #fff; /* 標題顏色 */
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .site-subtitle {
+    color: #aaa; /* 副標題顏色 */
+    font-size: 0.9rem;
+    margin-top: 0.2rem;
+  }
+  
+  .site-footer {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1.5rem 0;
+    border-top: 1px solid #444;
+    color: #888;
+    font-size: 0.85rem;
+  }
+  
+  /* 確保 .global-wrapper 有寬度限制和居中 */
+  .global-wrapper {
+    max-width: 960px; /* 或其他你喜歡的寬度 */
+    margin: 0 auto;
+    padding: 0 1rem; /* 左右留白 */
+  }
