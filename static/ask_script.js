@@ -8,7 +8,7 @@ const sourcesUl = document.querySelector('#sources ul');
 const errorMessageDiv = document.getElementById('error-message');
 
 // !! 重要 !! 將 'YOUR_RENDER_APP_URL' 換成你的 Render 服務 URL
-const backendAskUrl = 'https://roger-letter-back.onrender.com/api/ask-blog'; // 例如: 'https://your-app-name.onrender.com/api/ask-blog'
+const backendAskUrl = 'https://roger-letter-back.onrender.com/api/ask-blog';
 
 submitButton.addEventListener('click', async () => {
     const question = questionInput.value.trim();
