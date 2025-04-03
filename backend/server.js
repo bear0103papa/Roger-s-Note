@@ -56,10 +56,20 @@ async function loadIndex() {
         // 添加 URL 檢查和修正
         blogIndex = blogIndex.map(item => {
             if (item.url) {
-                // 確保 URL 格式正確
+                // 1. 移除 /ask/
                 item.url = item.url.replace('/ask/', '/');
+                
+                // 2. 確保基礎 URL 正確
                 if (!item.url.startsWith('https://')) {
                     item.url = `https://bear0103papa.github.io/Roger-s-Note${item.url}`;
+                }
+                
+                // 3. 處理 Content 路徑
+                if (!item.url.endsWith('/Content/')) {
+                    // 移除可能的結尾斜線
+                    item.url = item.url.replace(/\/$/, '');
+                    // 添加 /Content/
+                    item.url = `${item.url}/Content/`;
                 }
             }
             return item;
@@ -69,8 +79,7 @@ async function loadIndex() {
     } catch (error) {
         console.error("錯誤：無法載入部落格索引檔 blog_index.json。", error);
         console.error("請確保在部署前執行了索引建立腳本 (npm run build:index 或 node build_index.js)。");
-        // 根據你的策略，這裡可以選擇讓伺服器無法啟動或繼續運行但 RAG 功能失效
-        blogIndex = []; // 保持為空陣列，讓 API 端點能回報錯誤
+        blogIndex = [];
     }
 }
 
