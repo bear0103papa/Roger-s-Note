@@ -1,0 +1,88 @@
+/* src/styles/ask.css */
+.ask-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  .ask-form {
+    margin: 2rem 0;
+  }
+  
+  .ask-form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: inherit;
+    resize: vertical;
+  }
+  
+  .ask-form button {
+    padding: 0.75rem 1.5rem;
+    background: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .ask-form button:hover {
+    background: #0052a3;
+  }
+  
+  .ask-form button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    margin: 1rem 0;
+    padding: 1rem;
+    background: #fff3f3;
+    border-radius: 4px;
+  }
+  
+  .answer-section {
+    margin-top: 2rem;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .answer {
+    white-space: pre-wrap;
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .sources {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+  }
+  
+  .sources ol {
+    padding-left: 1.5rem;
+  }
+  
+  .sources li {
+    margin: 0.5rem 0;
+  }
+  
+  .sources a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .sources a:hover {
+    text-decoration: underline;
+  }
