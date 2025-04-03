@@ -131,7 +131,7 @@ app.post('/api/ask-blog', async (req, res) => {
 
   try {
     // 1. 尋找相關內容區塊
-    const relevantChunks = await findRelevantChunks(question, 3); // 尋找最相關的 3 個區塊
+    const relevantChunks = await findRelevantChunks(question, 30); // 尋找最相關的 3 個區塊
 
     // 2. 建構 Prompt
     let context = "提供的部落格內容：\n";
