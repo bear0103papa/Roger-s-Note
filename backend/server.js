@@ -123,41 +123,47 @@ async function findRelevantChunks(query, topN = 3) {
 
 // --- API 端點：處理部落格問答 ---
 app.post('/api/ask-blog', async (req, res) => {
-  if (!apiKey) {
-      return res.status(500).json({ error: '伺服器 API 金鑰未設定' });
-  }
-   if (blogIndex.length === 0) {
+    if (!apiKey) {
+        return res.status(500).json({ error: '伺服器 API 金鑰未設定' });
+    }
+    if (blogIndex.length === 0) {
         return res.status(503).json({ error: '部落格索引尚未準備好，請稍後再試。' });
-   }
-
-  const { question } = req.body;
-  if (!question) {
-    return res.status(400).json({ error: '缺少 question 欄位' });
-  }
-
-  console.log('收到部落格問題:', question);
-
-  try {
-    // 1. 尋找相關內容區塊
-    const relevantChunks = await findRelevantChunks(question, 30); // 尋找最相關的 3 個區塊
-
-    // 2. 建構 Prompt
-    let context = "提供的部落格內容：\n";
-    const sources = []; // 收集來源資訊
-    if (relevantChunks.length > 0) {
-        relevantChunks.forEach((chunk, i) => {
-            context += `--- [來源 ${i+1}: ${chunk.title}] ---\n`;
-            context += `${chunk.content}\n`;
-            // 收集不重複的來源連結和標題
-            if (!sources.some(s => s.url === chunk.url)) {
-                sources.push({ title: chunk.title, url: chunk.url });
-            }
-        });
-    } else {
-        context = "沒有找到直接相關的部落格內容。\n";
     }
 
-    const prompt = `
+    const { question } = req.body;
+    if (!question) {
+        return res.status(400).json({ error: '缺少 question 欄位' });
+    }
+
+    console.log('收到部落格問題:', question);
+
+    try {
+        // 1. 尋找相關內容區塊
+        const relevantChunks = await findRelevantChunks(question, 30);
+
+        // 2. 建構 Prompt
+        let context = "提供的部落格內容：\n";
+        let sourceUrls = []; // 改名為 sourceUrls
+
+        if (relevantChunks.length > 0) {
+            relevantChunks.forEach((chunk, i) => {
+                context += `--- [來源 ${i+1}: ${chunk.title}] ---\n`;
+                context += `${chunk.content}\n`;
+                // 收集不重複的來源連結和標題
+                if (!sourceUrls.some(s => s.url === chunk.url)) {
+                    sourceUrls.push({ 
+                        title: chunk.title, 
+                        url: chunk.url.startsWith('https://') 
+                            ? chunk.url 
+                            : `https://bear0103papa.github.io/Roger-s-Note${chunk.url}`
+                    });
+                }
+            });
+        } else {
+            context = "沒有找到直接相關的部落格內容。\n";
+        }
+
+        const prompt = `
 請根據以下提供的部落格文章內容來回答使用者的問題。
 請優先使用提供的內容進行回答。
 如果提供的內容無法回答問題，請委婉地告知使用者，在提供的部落格文章中找不到相關資訊。
@@ -171,35 +177,27 @@ ${question}
 回答：
 `;
 
-    console.log("--- 生成的 Prompt ---");
-    console.log(prompt.substring(0, 500) + "..."); // 只顯示部分 Prompt
-    console.log("--- ---");
+        console.log("--- 生成的 Prompt ---");
+        console.log(prompt.substring(0, 500) + "..."); // 只顯示部分 Prompt
+        console.log("--- ---");
 
-    // 3. 呼叫 Google AI 生成回答
-    const result = await generativeModel.generateContent(prompt);
-    const response = await result.response;
-    const answer = await response.text();
+        // 3. 呼叫 Google AI 生成回答
+        const result = await generativeModel.generateContent(prompt);
+        const response = await result.response;
+        const answer = await response.text();
 
-    console.log('Google AI 回應:', answer);
+        console.log('Google AI 回應:', answer);
 
-    // 處理來源 URL
-    const sources = relevantChunks.map(chunk => ({
-        title: chunk.title,
-        url: chunk.url.startsWith('https://') 
-            ? chunk.url 
-            : `https://bear0103papa.github.io/Roger-s-Note${chunk.url}`
-    }));
+        // 4. 回傳結果給前端
+        res.json({
+            answer: answer,
+            sources: sourceUrls // 使用已處理過的 sourceUrls
+        });
 
-    // 4. 回傳結果給前端
-    res.json({
-        answer: answer,
-        sources: sources // 將找到的來源連結一併回傳
-    });
-
-  } catch (error) {
-    console.error("處理 /api/ask-blog 時發生錯誤:", error);
-    res.status(500).json({ error: '處理請求時發生內部錯誤' });
-  }
+    } catch (error) {
+        console.error("處理 /api/ask-blog 時發生錯誤:", error);
+        res.status(500).json({ error: '處理請求時發生內部錯誤' });
+    }
 });
 
 // --- 原有的 /api/generate 端點 (保持不變) ---
