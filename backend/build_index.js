@@ -11,7 +11,7 @@ const { toString: mdastUtilToString } = require('mdast-util-to-string');
 const contentDir = path.join(__dirname, '..', 'content', 'blog'); // 部落格內容相對路徑
 const outputIndexFile = path.join(__dirname, 'blog_index.json'); // 輸出的索引檔
 // !!重要!! 請換成你的部落格實際的基礎 URL
-const blogBaseUrl = 'https://bear0103papa.github.io/Roger-s-Note/'; // 例如: https://rogerchen.github.io/my-blog
+const blogBaseUrl = 'https://bear0103papa.github.io/Roger-s-Note/ask'; // 例如: https://rogerchen.github.io/my-blog
 const maxChunkSize = 500; // 將文章切分成大約多少字符的區塊 (可調整)
 const embeddingModelName = "models/embedding-001"; // Google AI 的 Embedding 模型
 // --- ---
