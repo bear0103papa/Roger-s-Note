@@ -76,9 +76,10 @@ html {
 }
 
 body {
-  font-family: var(--font-body);
-  font-size: var(--fontSize-1);
-  color: var(--color-text);
+  background-color: #ffffff;
+  color: #212529;
+  font-family: sans-serif;
+  line-height: 1.6;
 }
 
 footer {
@@ -239,10 +240,9 @@ a:focus {
 /* Custom classes */
 
 .global-wrapper {
+  max-width: 960px;
   margin: 0 auto;
-  width: 100%;
-  max-width: 1600px;
-  padding: 0 var(--spacing-16);
+  padding: 1rem 2rem;
 }
 
 .global-wrapper[data-is-root-path="true"] .bio {
@@ -250,7 +250,8 @@ a:focus {
 }
 
 .global-header {
-  margin-bottom: var(--spacing-12);
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .main-heading {
@@ -481,11 +482,10 @@ a:focus {
 }
 
 .site-title a {
-  font-size: var(--fontSize-7);
-  font-weight: var(--fontWeight-black);
-  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #212529;
   text-decoration: none;
-  color: var(--color-heading-black);
 }
 
 .site-title a:hover {
@@ -798,11 +798,9 @@ a:focus {
 
 /* 添加副标题样式 */
 .site-subtitle {
-  font-size: var(--fontSize-2);
-  color: var(--color-text-light);
-  margin-top: var(--spacing-2);
-  font-family: var(--font-heading);
-  font-weight: var(--fontWeight-normal);
+  color: #6c757d;
+  font-size: 1rem;
+  margin-top: 0.1rem;
 }
 
 /* RSS 订阅按钮样式 */
