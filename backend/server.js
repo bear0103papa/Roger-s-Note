@@ -13,7 +13,7 @@ const port = process.env.PORT || 3000; // Render 會自動設定 PORT 環境變�
 // --- 安全性設定 ---
 // 取得你的 GitHub Pages 網址 (或是先用 '*' 允許所有來源，之後再限縮)
 const allowedOrigins = [
-    'https://bear0103papa.github.io/Roger-s-Note/', // 例如: 'https://your-username.github.io'
+    'https://bear0103papa.github.io/Roger-s-Note/ask', // 例如: 'https://your-username.github.io'
     'http://localhost:8000' // 如果你在本地端測試前端，也加入本地的來源
 ];
 
