@@ -3,13 +3,13 @@ layout: post
 title: "Ilya Sutskever:走向AGI的激動人心而又危險的旅程"
 date: 2024-04-04
 categories: [
-'Ilya Sutskever',
-'2023',
-'AI',
+  'Ilya Sutskever',
+  '2023',
+  'AI',
 ]
-description:"Ilya Sutskever 在此演講中探討了通用人工智慧（AGI）令人興奮的前景與潛在的危險。他解釋了 AI 的基本原理，分享了個人投身 AI 的原因，並以醫療保健為例說明 AGI 的巨大變革潛力。同時，他也指出了 AGI 可能被濫用以及其自我改進特性帶來的挑戰。儘管如此，Sutskever 樂觀地認為，隨著 AI 能力的增強與普及，人們將意識到合作的必要性，共同努力確保 AGI 朝著有益的方向發展。"
+description: "Ilya Sutskever 在此演講中探討了通用人工智慧（AGI）令人興奮的前景與潛在的危險。他解釋了 AI 的基本原理，分享了個人投身 AI 的原因，並以醫療保健為例說明 AGI 的巨大變革潛力。同時，他也指出了 AGI 可能被濫用以及其自我改進特性帶來的挑戰。儘管如此，Sutskever 樂觀地認為，隨著 AI 能力的增強與普及，人們將意識到合作的必要性，共同努力確保 AGI 朝著有益的方向發展。"
 
-toc: true #啟用目錄功能
+toc: true # 啟用目錄功能
 
 ---
 
