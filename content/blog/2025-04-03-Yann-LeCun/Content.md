@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Yann LeCun 訪談：大型語言模型觸及瓶頸？JEPA 與 AI 的下一步"
-date: 2024-04-03
+date: 2025-04-03
 categories: [
 '2025',
 '人工智慧',

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ilya Sutskever 與 Jensen Huang對談: AI Today & Vision of the Future"
-date: 2024-04-04
+date: 2025-04-04
 categories: [
   'Ilya Sutskever',
   'Jensen Huang',
