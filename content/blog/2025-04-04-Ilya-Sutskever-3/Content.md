@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "IlyaSutskever:走向AGI的激動人心而又危險的旅程"
+title: "Ilya Sutskever:走向AGI的激動人心而又危險的旅程"
 date: 2024-04-04
-categories:[
-'IlyaSutskever',
+categories: [
+'Ilya Sutskever',
 '2023',
 'AI',
 ]
