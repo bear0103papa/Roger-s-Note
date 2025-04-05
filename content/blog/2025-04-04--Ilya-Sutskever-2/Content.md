@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ilya Sutskever: 建構 AGI、對齊、未來模式、間諜、微軟、台灣與啟蒙"
-date: 2024-04-04
+date: 2025-04-04
 categories: [
   'Ilya Sutskever',
   '人工智慧',

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "John McCarthy 回顧人工智慧的普遍性 (1971 圖靈獎演講)"
-date: 2024-04-04
+date: 2025-04-04
 categories: [
   'John McCarthy',
   'Artificial Intelligence',

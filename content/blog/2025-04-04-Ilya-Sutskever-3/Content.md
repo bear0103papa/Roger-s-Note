@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ilya Sutskever:走向AGI的激動人心而又危險的旅程"
-date: 2024-04-04
+date: 2025-04-04
 categories: [
   'Ilya Sutskever',
   '2023',
